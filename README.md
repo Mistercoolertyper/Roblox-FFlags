@@ -1,4 +1,4 @@
-All Roblox FFlags I could dump.\
+All Roblox FFlags I was able to dump.\
 Types may not be accurate(for example DFInt may actually be FInt etc.)\
 All types i know of for FFlags:\
 &emsp;&emsp;FFlag\
