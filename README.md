@@ -8,4 +8,5 @@ All types i know of for FFlags:\
 &emsp;&emsp;DFInt\
 &emsp;&emsp;FString\
 &emsp;&emsp;DFString\
-I will update this repo every Roblox update(if i dont forget).
+I will update this repo every Roblox update(if i dont forget).\
+Credit to [Roblox Client Tracker](https://github.com/MaximumADHD/RCT-Source) for the new method used to dump FFlags
