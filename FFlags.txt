@@ -5,6 +5,7 @@ SFFlagBodyColorsColor3PropertyReplicationEnabled True
 DFFlagStreamJobUpdatedSetIterator True
 FIntPercentReportingLeaveGameAnalytics 10
 DFIntGameTransactionsMigrationRolloutPercentage 100
+FFlagVignetteEffectEnabled False
 FFlagUnifiedCookieProtocolEnabledSticky False
 FFlagIMESupportHighlight False
 DFFlagMemoryStoreHashMapListItemsFixClientApiNames True
@@ -27,8 +28,12 @@ DFIntEagerTrackingReportMissingMRDPerMyriad 10000
 DFFlagSendPerfDataFromRccIgnoringPlaceFilter False
 FFlagPlaystationAvoidClusterSwitches2 False
 DFIntIsPremiumRequestTimeoutMilliseconds 2000
-DFFlagDebugGameServerHeaderBypass False
-DFFlagUseNewBuildEquation False
+DFIntMinimumRadiusCoefficientForPauseHundredths 50
+DFFlagEnableSocketPortSharding True
+DFIntTextScraperReportMatchedExpiredSourceHundredthsPercent 100
+FFlagCOLLAB3769FixStudioHang True
+FFlagInstancedClusterUseExtentsCFrameWorld2 True
+DFFlagEnableTerminatedInvocationTelemetry False
 DFIntSimContactFilteringEpsilon 1
 DFIntErrorEstimationArbiterThreshold2dtThou 7000
 FFlagUserHandleFriendJoinNotifierOnClient True
@@ -38,7 +43,6 @@ DFIntBatchLogMessageEventHundredthsPercent 10000
 FFlagVoiceChatV2EnableSignalRKickUser3 True
 DFIntjoinGameSuccessEventThrottleHundrethsPercent 10000
 FFlagSimCountFrequencyBucketSize True
-DFFlagHttpStringViewFixes True
 DFFlagSimLimitAssemblyCount2 False
 FFlagVideoFixTempPlacePermissionRequest True
 FStringLuauDCRBetaFeatureUrl 
@@ -73,6 +77,7 @@ DFIntPercentileTelemetryHundredPercent 10000
 DFIntBatchThumbnailLimit 100
 FStringRbxAnalyticsSessionsAllowlist screenLoaded
 DFFlagIkControlConstraintSupportProperty True
+FIntFasterPlaySoloBetaFeatureRoleSet 4
 FIntDebugConstantBufferPageSizeD3D11 1048576
 FIntDebugStudioDraftsServiceHostUnitTest 0
 FFlagDebugLocalRccTicketTesting False
@@ -80,7 +85,7 @@ DFIntSignalRHeartbeatIntervalSeconds 60
 DFIntVideoTimeOffsetToVideoPTSMs 0
 DFFlagFixClosingBugForMappedFile True
 DFStringLuobuWhitelistedAllow Approved
-FFlagTerrainVoxelChannelNewApi False
+FFlagTerrainVoxelChannelNewApi True
 FFlagAICOBetaFeature True
 DFFlagTaskLibExclusiveReport True
 FFlagUseCanvasMaxSizeForNonGuiObjectToo False
@@ -97,6 +102,15 @@ FIntStudioBootstrapperVersionNumber 52886
 DFIntSignalRCoreHubMaxBackoffMs 30000
 DFIntAnimationLodThrottlerAnimationTimeMsMin 1
 DFFlagThrottleDeveloperConsoleEvents False
+DFIntTaskSchedulerJobResetTime 15000
+FFlagDraggerImprovementsCallout True
+FIntUITextureMaxRenderTextureSize 2048
+FFlagDualWriteFlowDurationToV2Stats True
+FFlagUserAddBetterConsoleCheckForLegacyChat True
+DFIntAnimationLodFacsDistanceMax 70
+FFlagFixShorthandUDim2 True
+DFFlagUseNewBuildEquation2 True
+FFlagEnableStylingEverywhere False
 FIntMultilayerWrapFixBetaFeatureRoleSet 4
 DFIntChatFloodCheckLimit 5
 FFlagSignalRLogMessageDeliveryByPlatform False
@@ -116,6 +130,8 @@ FFlagSimCSGV3SeparateDetachedCoplanarGraphs2 False
 DFFlagMemoryStoreUpdateAsyncRetryUseExpBackoff False
 FFlagTouchInputActivatedChangedLockWeakPtr True
 DFFlagDebugAssertTelemetry_ReportUserName False
+DFIntMaximumUnstickForceInGs 4
+FFlagInferOOMWithPossibleOOM False
 DFIntReportFrequencyBucketSizePercent 0
 DFFlagDSTelemetryIncludeScopeAndDataModel True
 FIntPGSMinBodyCountForSolveBatchTask 50
@@ -124,12 +140,11 @@ DFIntThrottlingMaxElapsedTime -1
 FFlagDefaultScreenOrientationToPhoneSensor False
 DFIntFontProvider_FaceLoadSucceeded_HundredthsPercent 0
 FFlagDebugBypassClipEvaluatorRetargeting False
-FFlagOpenGLES2DeprecationDetection False
+FFlagOpenGLES2DeprecationDetection True
 DFIntFlagRolloutTestDynamicInt9 9
 FFlagReduceGuiStateGfxGuiInvalidation False
 FFlagDebugHangDetectionReportByAlternativeCheck False
 DFFlagDebugAssertTelemetry_ReportTrace False
-FFlagLiveScriptingEnableWarning True
 FIntLuaErrorsInfluxThrottling 10000
 FIntTPoseAdjusterDefaultVersion 2
 FFlagLatencyLogging1 False
@@ -140,6 +155,7 @@ DFIntMicroprofileResetFrames 4
 FFlagDebugGraphicsVulkanEnableMSAAPVR False
 FFlagDebugAudioWatchForHangOnOpen False
 FStringWebView2RuntimeMinimumRequiredVersion 108.0.1462.37
+DFIntSessionReportAppSuccessEventIngestThrottleHundredthsPercent 0
 FIntMaxUserIdsPerUserInfoRequest 100
 FFlagEnableFeatureTracking False
 DFStringSendAvatarLoadTimeStatsHundPrecCountryOverride 
@@ -155,14 +171,6 @@ DFIntStreamingJoinStatsHundredths 100
 FFlagCSGv2SnapPlanes False
 DFIntDebugRomarkNumHeadlessBots -1
 DFIntUserIdPlayerNameCacheLifetimeSeconds 60
-FFlagToolboxSetMarketplaceModelsAsPackagesForIXP2 False
-FIntVideoCompleteMinimumIntervalMs 240000
-FFlagRenderMTLoadShaderVulkan2 True
-DFIntCSGv2LodLevel4Count 5
-DFFlagLogSystemSinkSupport2 True
-DFFlagHlsAbrFixedVariantCompatible True
-DFIntLinearToVSquaredVelocityThresholdMinTenths 20
-DFIntSlowDnsExternalRequestThresholdMs 500
 DFIntSlowDnsInfluxHundrethsPercentage 0
 DFIntUserIdPlayerNameCacheSize 20
 FStringFlagRolloutTestStaticString3 static_str_3
@@ -211,7 +219,9 @@ FFlagFlagRolloutTestStaticBool9 True
 DFIntWsClientIdleSleepMs 1
 DFIntCSGPendingMigrationDataHundredthsPercent 10
 DFIntRemoteEventSingleInvocationSizeLimit 0
-DFFlagFixSphereSizeInBuoyancy False
+DFFlagFixSphereSizeInBuoyancy True
+DFIntNetworkReportContentIdLimitPerMyriad 1000
+FFlagVRServiceStudioExplorer False
 DFFlagUIMigrateCanManage True
 FIntRelayoutRecursionLimit 0
 DFFlagEnableLogMessageTruncate True
@@ -230,6 +240,16 @@ DFFlagChatFloodCheckEnableEventCounters True
 DFIntUserHttpRequestsPerMinuteLimitM 0
 FFlagDebugSimPrimalHybridStiffness True
 FFlagVoiceInputUseNewAudioApi5 False
+FStringLuaAppOmniSearchLayer UserConnection.UserSearch
+DFFlagDSTelemetryV2IncludeUniverseIdAndPlaceId True
+FFlagDebugLanguageServiceRcConfigLookupForceEnable False
+DFIntScreenGuiSafeAreaPropertiesAnalyticsEventIngest_ReportHundredthsPercent 5000
+DFIntTattletaleFlushIfNotUpdatedForSeconds 60
+FFlagSupportCommandService2 False
+DFFlagDebugRomarkPhaseMemory False
+DFIntAnalyticsDeferredEventIngestReportBatchFullHundredthsPercentage 1000
+FFlagVRFixMissingCursor True
+FFlagStudioLoadsCoreScriptTranslationsFromPatch False
 FIntTaskSchedulerMaxNumOfJobs 128
 DFIntGlobalThrottleFirstBackoffMilliseconds 0
 DFFlagMemoryStoreHandleEmptyThrottleResponses True
@@ -255,9 +275,17 @@ DFIntDataStoreRequestEventThrottleHundredthsPercentage 10000
 FIntStreamingLowMemWatermarkMB 30
 FFlagDevFrameworkTextBoxAllowEnter True
 DFFlagIdempotentRejectionReporting True
+FFlagDiffTreeTelemetry True
 DFIntDEPRECATED_GetProductInfoSubscriptionCacheSecs 0
 DFFlagMeshCompressionTelemetry False
-DFIntDataStoreErrorThrottleHundredthsPercentage 10
+DFIntDataStoreErrorThrottleHundredthsPercentage 2
+DFIntMaxViscousForceGravityTimesMult 100
+DFIntAnalyticsServiceFiredEventsBudgetMax 10000
+DFIntBatchLogEntryMapMaxSize 1000
+DFFlagDSTelemetryEnableV2Counter True
+FFlagDebugIgnoreVolumeIsZeroAssert False
+DFIntHttpExponetialRetryBaseInterval 3
+DFFlagDebugForceUseProductionForAssetFetching False
 DFIntAnalyticsServiceFiredEventsBudgetRefreshInSeconds 1
 DFFlagEnableTeleportVIPBlackList False
 FFlagUIListLayoutShowHorizontalVerticalPaddingProps False
@@ -266,9 +294,6 @@ DFIntDebugPerformanceControlAbsoluteMemoryLimitMB 4096
 FIntUserInfoRequestTimeoutMilliSecond 10000
 DFFlagDSTelemetryIncludeScopeAndDmForListingApis2 True
 DFFlagReportInterpolationThrottlingUse2 False
-DFIntMaxViscousForceGravityTimesMult 100
-DFIntAnalyticsServiceFiredEventsBudgetMax 10000
-DFIntBatchLogEntryMapMaxSize 1000
 FFlagInGameChromeSignalAPIAnalytics True
 FFlagUserRemoveTheCameraApi True
 DFIntReplicationDataCacheNumParallelTasks 0
@@ -276,6 +301,7 @@ DFFlagRemovePerfInfluxProfileDataTypeEnum True
 DFFlagSolverModelRemovedUnderSetFix True
 DFIntBatchLogMaxEntryValue 50000
 DFStringDeveloperProductPurchasePath marketplace/submitpurchase
+FFlagDotMatrixProduct True
 DFFlagDisableDPIScale False
 FFlagFixSurfaceGuisBreakingAfterRespawn False
 DFIntPurchaseProductUrlV2GCSResponseHandlingRollout 0
@@ -307,7 +333,7 @@ FFlagPerformanceControlEnableIXPHoldoutExperiment False
 FIntExtendInitialExpiryTest 0
 DFIntHttpPointsReporterMaxBufferSize 1048576
 DFFlagDebugEnableRomarkService False
-FFlagFixConstraintVerbsIsEnabled False
+FFlagFixConstraintVerbsIsEnabled True
 FFlagVRDisableAutomaticScalingOnHeadscale2 True
 FFlagGetNoCollisionConstraints False
 FFlagUIOcclusionMetricsReportInteractiveCount True
@@ -349,13 +375,9 @@ DFIntMaxCageDistance 10000
 DFIntHttpParallelLimit_RequestWebSocket 0
 DFIntReportPercentileIntervalSec 120
 DFStringDefaultLuobuWhitelistedValue Rejected
-DFFlagEnableRetryForSubscribeOnReconnect True
-DFFlagSimCSG3DCDEnableAero False
-DFFlagCLI91563 False
-FFlagStreamingSolverDenseSet2 True
-FFlagTextChatServiceIncludesColon True
-FFlagCodeSnippetEditFlow False
-DFFlagTaskSchedulerBlockingShutdownInClients False
+FFlagVoiceChatEnableIrisMuteStateFix True
+DFFlagCLI91563v3 True
+DFIntPerformanceControlEventBasedTelemetryEffectPredictionEventRateEventIngest 0
 DFIntSimLevitationBalancingTractionScalingFactor 25
 DFIntDataStoreGetVersionFixedRequestLimit 5
 DFIntUnmoderatedAssetFallbackRetryDelay 20
@@ -374,6 +396,14 @@ DFIntImmersiveAdImpressionEventThrottleHundrethsPercent 10000
 FFlagKeepTrackOfFSMStates False
 DFIntRakNetDetectRecvThreadOverloadReportInfluxHundredthsPercentage 0
 DFFlagSimBodyPositionPDFix True
+FFlagToolboxSetMarketplaceModelsAsPackagesForIXP2 False
+FIntVideoCompleteMinimumIntervalMs 240000
+FFlagRenderMTLoadShaderVulkan2 True
+DFIntCSGv2LodLevel4Count 5
+DFFlagLogSystemSinkSupport2 True
+DFFlagHlsAbrFixedVariantCompatible True
+DFIntLinearToVSquaredVelocityThresholdMinTenths 20
+DFIntSlowDnsExternalRequestThresholdMs 500
 DFIntLocalizationTableAnalyticsSenderServerToHttpSampleRateHundrethsPercent 100
 FFlagSimCSGAllowLocalOperations False
 FIntShoeFalloffEnd 100
@@ -408,6 +438,7 @@ DFIntParallelAdaptiveInterpolationCutoff 100
 FStringNewDockingBetaFeatureUrl https://devforum.roblox.com/t/docking-updates-studio-beta/2729762
 DFIntOpenCloudHttpRequestFailedEventThrottleHundredthPercent 0
 DFIntDowngradeCurveAnimationSampleRate 30
+FFlagDiffToolTelemetryDrafts True
 FFlagReportOTAPluginVersionToBacktrace2 False
 DFIntSchemaNetworkStreamSize 204800
 DFStringOpenCloudSupportedMethodNamesCsv 
@@ -423,7 +454,7 @@ FFlagDebugSimPrimalBoxFriction False
 FFlagDebugCinImporterSettingsV2 False
 DFIntDataStoreServiceThrottleFirstBackoffMilliseconds 100
 DFIntVideoStreamHighMemMinBufferMs 1000
-DFIntCLI46794SendInputTelemetryHundredthsPercentage 0
+DFIntCLI46794SendInputTelemetryHundredthsPercentage 1
 DFIntTestThrottleFirstBackoffMilliseconds 100
 DFIntServerBandwidthPlayerSampleRateFacsOverride 1000
 DFIntInExpAvatarCreationEventsThrottleHundredthPercent 0
@@ -450,18 +481,17 @@ DFFlagDebugEnableDisconnectionLabel False
 DFIntParallelLuaHybridQueueMultiSubmitBatchSize 1
 DFIntPackageAnalyticsHundredthsPercentage 10000
 DFIntParallelLuaHybridQueueMaxAnonymousActors 200
-FFlagConcurrentMaterialMapsRequests True
 FFlagSimAdaptiveCapMaxTimestepMultiplier3 True
 DFFlagAddMultToEventIngest True
 FFlagScopedFlagOverriderAllowUnknownForLua True
 DFFlagRuppTokenOneBeeRcc False
-FFlagPlatformCloudStorageService False
+FFlagPlatformCloudStorageService True
 DFFlagAnalyticsPointsReportDebugInfo False
 DFFlagUseTighterConvexExtents False
 DFStringAllowedToGrantAssetTypes Sound
 DFFlagFastVisuallyMovingCounters4 True
 DFFlagDebugSimAdaptiveIslandBucketingFix False
-FFlagPlatformFriendsServiceGetPartyMembers False
+FFlagPlatformFriendsServiceGetPartyMembers True
 FFlagGraphicsGLFixTextureNPOTCheck2 False
 DFIntHttpMinimumIndividualResponseTimeoutMs 0
 FIntStudioAutoReconnectCountdownBackoffIncrementSeconds 5
@@ -486,27 +516,34 @@ FIntEventStudioANRResolvedThrottling 100
 DFFlagEnablePerfDataReportThermals False
 DFIntTrackerthermalStatusUpperBoundAndroid 4
 FFlagReadHSRAlwaysVisibleData False
-DFStringLatestConfigName 
-DFIntDisableSignalrHundredthsPercentageWindows 0
-DFIntRegionDeltaBeforeCalculatingPerRegionStats 50
-FFlagDragDetectorJointType True
 FIntExplorerFilterAnalyticsDelayMs 3000
 DFIntAvatarChatSubsessionStatsEventThrottleHundrethsPercentV2 10000
 FFlagScriptAnalysisHorizontalScrollbarEnabled False
 FStringDebugStorybookPlatformList Default,Console,Desktop
 DFIntCheckSubscriptionStatusDelay 1
+DFStringLatestConfigName 
+FFlagStreamingSolverDenseSet2 True
+FFlagTextChatServiceIncludesColon True
+FFlagCodeSnippetEditFlow False
+DFFlagTaskSchedulerBlockingShutdownInClients False
 FFlagFaceAnimatorFixMemoryOrder False
 DFStringWorkspaceMessageLink http://www.roblox.com
-FFlagSTFSMDisableLateCrashEvaluation True
-FIntSubscriptionPaymentHistoryCacheSize 100
 FIntTaskSchedulerTasksDefaultMaxTimeMsPerCycle 10
 FStringGraphicsVulkanMaliFutureDeviceBlacklist 
 DFFlagDualWriteEphemeralStatToV2 False
 DFIntHttpParallelLimit_RequestFriendService 0
 DFStringWorkspaceMessageText Test Me - Please Remove
+DFFlagSkipSomeProperties True
+FFlagVideoRecordDeadlockFix True
+DFIntTattletaleReportUnfilteredJobMaxReportsPerTick 64
+DFFlagAnalyticsDeferredEventIngestReportHttpRequestSuccess3 True
+FStringGameLocaleIdName GameLocale
+FFlagDiffToolTelemetryVersionHistory True
+DFIntHttpServiceAggregateBandwidthReportThrottleHundredthsPercentage 1
+FFlagDebugAssertOnServiceProviderLockViolation False
 FIntSmoothMouseSpringFrequencyTenths 45
 DFFlagMemoryStoreUseCustomPollingQueueRead True
-DFIntSimSepConcernThreshold 10
+DFIntSimSepConcernThreshold 100
 DFFlagUseRbxFilesystemSpace True
 DFIntScriptVersionHistoryEventThrottleHundredthPercent 10000
 FFlagEnableNewMaterialGenerationServiceApi False
@@ -521,7 +558,7 @@ FFlagEnableChatInputBarConfigurationPropertyIsFocused True
 FFlagDebugStudioForceSystemDeprecationNotification False
 DFFlagAddStreamingEnabledTagEventIngest True
 DFIntHttpParallelLimit_RequestMarketplaceService 0
-DFFlagSimDebrisServicePartRemovalCrashDebugAllowRBXCrash True
+DFFlagSimDebrisServicePartRemovalCrashDebugAllowRBXCrash False
 FIntCameraFarZPlane 100000
 DFIntPerformanceControlPredictedOOMAbsLimitExtraBufferMB 0
 DFFlagDebugCrashOnShutdown1 False
@@ -538,6 +575,17 @@ DFIntHttpParallelLimit_RequestPlayers 0
 FFlagVoiceChatTrackDefaultVoice False
 DFIntStudioPluginPermissionsRequestPageSize 100
 FFlagSimShowDisableCSGV3PluginBox True
+DFFlagSiblingAnalytic True
+FFlagEnableVRRenderingResReporting True
+FFlagChangeBetaFeatureAutoEnrollmentLabel False
+DFIntTeleportInsightsMethodSuccessCounterThrottleHundredthsPercentage 50
+FFlagAdornRenderDrawPolygonsAsUi False
+DFIntGAThrottlingEventThresholdHundredthCat3 50
+DFFlagEnableProfilingForDefaultAsyncFlush True
+DFIntCSGv2LodsToGenerate 3
+FIntTeleportMethodAnalyticsHundredthPct 100
+DFIntErrorEstimationArbiterThreshold4dtThou 10000
+DFIntJSONOverflowDepth 200
 FFlagStudioInsertObjectTrackClickedObject True
 DFIntTeleportTimeClientLoadedFilteredMs 120000
 FFlagFixSaveAndReloadDebuggableAction True
@@ -566,23 +614,13 @@ DFFlagInstanceSanitization False
 DFIntVideoStreamHighMemMaxBufferMs 2000
 DFIntExpectedEmotePublishPriceRobux 750
 DFIntScriptEditorAutoCompleteAcceptedThrottleHundredthPercent 10000
-FFlagCLI46794Enable False
+FFlagCLI46794Enable True
 FFlagEnableTagsTelemetry True
 DFIntMinSoundStreamSizeBytes 512000
 FFlagAddPerfControlExperimentNameToBacktraceReports True
 DFFlagSimSolverFixSphereAndCylinderExtent False
 DFFlagHttpCacheCleanScheduleBasedOnBytes False
 DFIntStudioOpenRbxpHundredthsPercentage 10000
-FFlagBuildKDTreeFromCSGMesh False
-FFlagDebugSkyGray False
-DFIntHttpParallelLimit_RequestHttpService 3
-DFIntServerMaxJoinsInBatch 2
-FFlagRestartFmodRecordingOnError True
-DFIntPerformanceControlEventBasedTelemetryEffectPredictionEventNumReportsPerSecond 0
-DFIntBouncingScriptPermyriad 10000
-FFlagGImageHandleAllocateFailureBetter True
-DFIntPerformanceControlIXPQueueSizeUtilityExponentTenThousandths 30000
-DFFlagSecondaryMetricsShouldOverwriteByDefault2 True
 FFlagDoNotSetupVTShaders True
 FFlagUIOcclusionMetricsDrawQueryRegions False
 DFIntVideoStreamMaxImageLongSide 1280
@@ -594,14 +632,14 @@ FFlagDebugVersionHistoryHttpCompressData True
 DFIntHttpCacheCleanTriggerAvailableSpaceMiB 512
 FFlagEnableLuaCharacterController False
 FFlagMiniDumpIncludeHandles True
-DFFlagSimGroundControllerTurningLogicFix2 False
+DFFlagSimGroundControllerTurningLogicFix2 True
 FFlagDebugReportCrashesForLocalVersion False
 DFIntAnalyticsCDNProbeInfluxPermyriad 100
 FFlagInitUIQuadTreeRework True
 DFIntSimRadiusShrinkFactorHudredthsPercent 10000
-FFlagVideoCMCDReportSessionId False
 DFIntDeveloperEventIngestSendBatchAtMaxSizePeriodMilliSeconds 5000
 DFIntVideoServiceHeartBeatFlushIntervalMilliseconds 3000
+FFlagEnableTextureGenerator False
 FFlagFixResettingNonStickyMetrics True
 DFIntSubsequentClientCrashWindowsTelemetryThrottle 10000
 DFFlagSetClientCrashSubsequentReportingToBlocking False
@@ -621,9 +659,10 @@ DFIntStudioReportLuauTimeoutInfluxHundredthsPercentage 10000
 DFIntCanHideGuiGroupId 4358041
 DFIntCSGv2LodLevel1Percentage 50
 DFIntCrashUploadArchiveAfterErrorsDelaySeconds 86400
+DFFlagPerfDataUniverseId False
+FFlagRemoteSaveValidatorTeamCreateUserSaveRollout False
 FFlagHeapProfilerNameModuleTables True
 DFFlagMemoryStoreGetRangeAsyncEnableSortKey True
-DFFlagPerfDataUniverseId False
 DFIntCrashUploadHttpResponseDefaultTimeoutMillis 80000
 FFlagConvAIPreventDoubleEndRequest True
 DFIntOcclusionMaxAttenuationDb 50
@@ -632,7 +671,8 @@ FFlagVideoServiceCollectVisibilityMetrics2 True
 FFlagUIGridStyleAndListLayoutMovePropsToAlignmentCategory False
 FFlagSystemErrorMessageLocalize False
 DFIntDebugAudioSpreadPanningThrowPercentage 4000
-DFFlagEnableThumbnailTextureLoadTimeout False
+FStringFasterPlaySoloBetaFeatureUrl 
+DFFlagEnableThumbnailTextureLoadTimeout True
 FFlagWriteFileMeshToChunks False
 DFIntCrashUploadErrorInfluxHundredthsPercentage 1000
 FFlagEnableWinGetNetworkType True
@@ -644,11 +684,14 @@ DFStringPerfFilterOS
 DFFlagDebugMockFormatSimulateBusyRead False
 FFlagSmoothClusterVTTextureRafactor True
 DFIntRCCInfluxHundredthsPercentage 1000
-DFFlagSkipSomeProperties True
-FFlagVideoRecordDeadlockFix True
-DFIntTattletaleReportUnfilteredJobMaxReportsPerTick 64
-DFFlagAnalyticsDeferredEventIngestReportHttpRequestSuccess3 True
 FIntPGSBallInSocketCorrectionDamping 10
+FFlagTurnOffNPPThrottling True
+FFlagCanvasGroupEnableBackgroundExtension False
+DFIntTelemetryProfilerHundredthsPercentage 1
+FIntLuaAppRenderTransparentPageMaxCount 1
+FFlagImmHandlerFixJapaneseAndKorean3 False
+FFlagValidateVertexLayouts False
+DFFlagNewFlagRolloutReportEnrollmentMap False
 DFStringNewFlagRolloutFlagsWhitelist DFFlagFlagRolloutTestDynamicBool0;DFFlagFlagRolloutTestDynamicBool1;DFFlagFlagRolloutTestDynamicBool2;FFlagFlagRolloutTestStaticBool0;FFlagFlagRolloutTestStaticBool1;FFlagFlagRolloutTestStaticBool2
 DFIntPredictedOOMTriggerAmount 5000000
 FFlagPerformanceControlRecordPredictedEffectsInPlanner2 False
@@ -691,17 +734,6 @@ FFlagDevFrameworkSliderFixes True
 FFlagAudioAnalyzerForceMono True
 DFIntPerformanceControlPointsHundredthPercentageSent 21
 DFFlagJSONOverflowAbort False
-DFFlagSiblingAnalytic True
-FFlagEnableVRRenderingResReporting True
-DFIntTeleportInsightsMethodSuccessCounterThrottleHundredthsPercentage 50
-FFlagAdornRenderDrawPolygonsAsUi False
-DFIntGAThrottlingEventThresholdHundredthCat3 50
-DFFlagEnableProfilingForDefaultAsyncFlush True
-DFIntCSGv2LodsToGenerate 3
-DFFlagEnableMessagingServiceInChannels False
-FIntTeleportMethodAnalyticsHundredthPct 100
-DFIntErrorEstimationArbiterThreshold4dtThou 10000
-DFIntJSONOverflowDepth 200
 DFIntSimExpAveFactorMultiplierHundredth 100
 DFIntReportRaknetDeferredTimeMsHundredthsPercentage 1
 DFFlagMutexWaitInstrumentationInfra True
@@ -722,7 +754,7 @@ DFFlagStoreUniqueIdInferredCrashSystem False
 FIntSpeedTestPeriodMillis 1000
 DFIntLogReportingStatsHundredthsPercent 500
 DFIntInferredReportThrottleHundredthsPercent 10000
-FFlagRemoveEnvMapLightgridCPUDependency3 False
+FFlagRemoveEnvMapLightgridCPUDependency3 True
 FFlagRefactorGuiRTCacheImpl2 False
 FIntPromptLengthCharLimit 4000
 FIntNumFramesToCaptureCallStack 10
@@ -749,6 +781,8 @@ DFIntLuaGcStatsNonDefaultInfluxHundrethsPercentage 1
 DFIntNavigationJobRunsPerSecond 10
 FFlagNavigationFixAVBURST12965 True
 FIntNetworkStatRefreshRate 1
+FIntAntiSpamSpamLimit 1000
+FFlagDebugCheckRenderThreading False
 FIntTaskSchedulerAsyncTasksMinimumThreadCount 3
 FFlagDebugRunLuaSourceGuidsIntegrityCheck False
 DFFlagDebugMechanismInterpolationWorldSpace False
@@ -779,12 +813,14 @@ DFFlagMemoryCategoryChangeEnabled False
 DFFlagSimDontResetImpulseAccumulator True
 DFFlagCheckSendTypeBeforeSetupTimerInHttpPointsReporter False
 DFFlagEnableDynamicHeadByDefault True
-FFlagSimEditableMeshFixMemoryLeak True
-DFIntCSGV3NodeOperationMetricsHundredthsPercentage 100
 FFlagEnableCancelInputEvent False
 DFIntAndroidApplicationExitReasonTimeDeltaSec 3600
+FFlagDraggerImprovements2BetaFeature True
+FFlagDebugShowMinMaxSize2 False
+FFlagSimEditableMeshFixMemoryLeak True
+DFIntCSGV3NodeOperationMetricsHundredthsPercentage 100
 FIntRuntimeMaxNumOfThreads 2400
-DFFlagRayAABBRefactor False
+DFFlagRayAABBRefactor True
 FFlagFixChatWidgetDisconnectCrash False
 FFlagDebugForceFSMCPULightCulling False
 DFIntPerformanceControlSingleSurfaceAppReduceMemoryUtility -100
@@ -792,18 +828,16 @@ DFFlagESGamePerfMonitorEnabled True
 FIntRuntimeMaxNumOfSemaphores 64
 DFIntTeleportInsightsTrustedCounterThrottleHundredthsPercentage 50
 FIntRuntimeMaxNumOfSchedulers 2400
-FFlagFixCullingShadowObject False
 DFFlagSameMd5HashAsInLoadSettings False
 FFlagUseConstantBufferViewsVulkan False
 FIntRuntimeMaxNumOfMutexes 2400
 DFIntMeshSimplificationLoggingHundredthPercentage 100
-FFlagEnableRobloxGuiFocusedChangedEvent2 False
+FFlagEnableRobloxGuiFocusedChangedEvent2 True
 FIntInitialMmapSizeForMemProfStorageKB 100
 DFFlagMaxDataPayloadSizePreciseCh False
 FIntRuntimeMaxNumOfConditions 2400
-FFlagCapsEngine True
-DFFlagSimAdaptiveCofmCleanupFix True
 DFFlagDebugSimShapecastStats False
+FFlagDebugOctreeDisableSpatialHashSet False
 DFIntSendReplicatorStatsFacsOverrideES 500
 DFFlagServerProcessorSendPlaceId True
 DFFlagEnableRemoteProfiling True
@@ -811,16 +845,9 @@ DFIntGameNetCompressionLodByteBudgetThresholdPct 50
 DFIntAvatarFaceChatHeadRollLimitDegrees 45
 DFIntRuntimeConcurrency 2
 DFIntGuiClassUsageAnalytics_ReportHundredthsPercent 1
-DFFlagSimClimbingControllerUpdate False
 FFlagAdsHideCustomUIInFullscreen False
 FFlagFixAssetFetchStatusStuckLoading True
 FIntDebugFakeTotalMemoryAvailableMB 0
-FFlagTTIDelayExperimentReportFullTelemetryEnabled False
-FFlagHttpWrapperAddTimedOutErrorMessage False
-DFIntRobloxTelemetryAvatarMetricsTrackSingularAssetRequestThrottleHundredthsPercent 100
-DFIntTaskLibReportBadDeferDelayWaitCallHundrethsPercentage 100
-DFIntVideoMetricsClientFlushIntervalMilliseconds 6000
-DFIntReportDropPktStatsToInflux_HundredthsPercentage 1000
 DFFlagHigherPriorityAnimationClipProviderLoading True
 DFIntPredictedOOMPercent 5
 DFIntDataStoreOrderedSetFixedRequestLimit 30
@@ -829,13 +856,13 @@ FFlagStreamSoundsCompressedInMemory3 False
 DFIntCSGv2LodLevel1Count 50
 FFlagUpgradeShorelinesBetaFeature True
 DFFlagDebugSimulateHangAtShutdown False
+DFFlagRemoveHumanoidActivePhysics False
 DFIntWorldStepMax 30
 DFIntMappedFileThrottleHundrethPercent 200
 DFFlagAddAbilityToConfigureTheStreamingGCTimeForTunable True
 DFIntMovingAndCallbackParallelBatchSize 4
 FIntPackageUploadThrottleTimeMin 2
 FStringAndroidVfsLowspecHwCondition {"and":[ {"=":["app_bitness()",32]}, {"not":[ {"is_any_of":["manufacturer()","samsung","amazon","lge","lg","lg electronics","vivo"]} ]} ]}
-FFlagFixIgnoredReportsNotBeingPurged False
 DFFlagHttpServerAllowEmptyPost True
 DFIntVRPointerFilterBetaMillionth 30000
 FFlagVfsAutoSelectEnabled True
@@ -859,7 +886,6 @@ FFlagDebugEnableOctreeValidation False
 FIntStreamingCriticalLowMemWatermarkMB 15
 DFIntPredictedOOMAbsLimitFreeMB 125
 DFIntVideoHighCpuThresholdMHz 1000000
-FFlagStudioCleanOgreEvents2 False
 DFIntHttpGAFailureReportPercent 1
 FFlagWrapDispatcherTickLimit False
 FIntMaquettesMinMSAALevel 3
@@ -889,14 +915,6 @@ FFlagEnableQuickGameLaunch False
 DFIntMemoryPressureTriggerLowMB 20
 FFlagVRMouseMoveOptimization True
 DFIntMemoryPressureTriggerCriticalMB 10
-FFlagDebugLanguageServiceRcConfigLookupForceEnable False
-DFIntScreenGuiSafeAreaPropertiesAnalyticsEventIngest_ReportHundredthsPercent 5000
-DFIntTattletaleFlushIfNotUpdatedForSeconds 60
-FFlagSupportCommandService2 False
-DFFlagDebugRomarkPhaseMemory False
-DFIntAnalyticsDeferredEventIngestReportBatchFullHundredthsPercentage 1000
-FFlagVRFixMissingCursor True
-FFlagStudioLoadsCoreScriptTranslationsFromPatch False
 FFlagDebugAvatarTracking False
 DFIntMiddleTeardownTimeoutSeconds 30
 DFFlagRealtimeClientAnalyticsPipelineConnectionsSendsSubscriptionStatus True
@@ -940,15 +958,15 @@ FStringAICOBetaFeatureUrl https://devforum.roblox.com/t/code-assist-beta-ai-powe
 FIntLogReportingMaxLogCount -1
 DFIntStatsGatherDurationSec 1200
 DFFlagCLI61964 True
-FFlagSessionHistoryMinorFix True
 DFFlagReportBadUIGameLayouts False
-FFlagRefactorRemoveIndex False
 FFlagEnableAccountSwitchFeature False
 DFFlagGatherStatsPerFrame False
 FFlagVRMoreComfortSettings True
 DFIntNetworkFilterPlayerParentFilterExceptionHundredthsPercentage 10000
 FFlagUserVRFollowCamera False
 DFFlagKeyRingRevert False
+FFlagTTIDelayExperimentReportFullTelemetryEnabled False
+FFlagHttpWrapperAddTimedOutErrorMessage False
 DFIntRASBodyConstructionMeasurementHundredths 0
 DFFlagAvatarChatServiceUniverseSettingsMock False
 FFlagWindowsIMEDynamicAnchor False
@@ -963,6 +981,12 @@ DFFlagUseWSTraceError True
 FFlagNLSMPeriodicallyLogMetrics False
 FFlagSimCSGV3LogCSGTreeForCrashNewOperator False
 FStringTTIDelayExperimentBucketSettings 5;2
+DFFlagCheckAllForAnimation True
+DFIntSubscriptionsPerPlayer 8
+DFIntPhysicsNOUCountHundredth 5
+FIntStudioAutoReconnectCountdownMinDurationSeconds 5
+FFlagInferSuccessOOMWithOOMExited False
+DFIntLDLProgramOpsReportingMinOpCount 1000
 DFIntCriticalBatteryLevelPercentage 5
 FFlagStudioOnboardingStartPageCTA True
 FFlagDUARPassVREnabled False
@@ -1042,6 +1066,7 @@ DFIntGameNetPVHeaderTranslationZeroCutoffExponent -2
 DFFlagDebugRomarkDisconnect False
 FStringHttpRequestImplType 
 DFIntAnalyticsServiceCustomDataBudgetRefreshSeconds 60
+FFlagReportStreamingObserverStats2 False
 FIntAnimationParallelMinParallelSize 4
 FFlagStudioVREnabledSetting True
 DFFlagVisuallyMovingWakeOnAdd False
@@ -1141,6 +1166,8 @@ DFIntReportInterpolationPerformanceNWideBuckets 10
 FFlagVirtualInputManagerEnableStudioPlayback True
 DFStringPerfFilterPlatform 
 DFFlagFixMapFieldContainerMergeWith True
+DFStringNetworkInDeserializeLimitGameplayMsRccPer100 
+DFFlagDualWriteEphemeralCounterToV2 False
 DFFlagDebugRuppTokenLogService False
 DFIntSimToInterBufferClearFactorTenths 3
 FFlagSTFSMMoreLocks True
@@ -1156,6 +1183,9 @@ FFlagEnableSTFSMTeardown True
 DFFlagAudioEnableVolumetricPanningForPolys False
 DFFlagStreamJobCountNoBudget False
 FFlagSTFSMEnableAppSessionSuccess False
+DFFlagGenericOversizedUnreliableItems True
+DFIntPerformanceControlTextureQualityHardcodeWeight 100
+FFlagAppSessionHiveThrottle True
 DFFlagEnablePerfDataCoreCategoryTimersCollection2 True
 DFFlagApiDumperUseEngineContext True
 DFFlagEnablePerfDataCoreTimersCollection2 True
@@ -1176,57 +1206,20 @@ DFIntTattletaleShuffleCount 500
 FIntInferredOOMVersion 1
 DFIntInferredOOMFreeMemThresholdMB 130
 DFIntHttpCacheCleanTriggerTotalSpaceMiB 1024
+FFlagMoveToSTFSM True
+FFlagRecordAutoRotateSwaps False
+DFIntMotor6DDeltaAngleThreshold 10
+DFIntTaskSchedulerBlockingShutdownTimeoutInMs 1000
 DFIntUnreliableRemoteEventRateLimitMilliseconds 10000
 DFFlagInferredCrashProfileSyncFlushSwitch True
 FFlagReportSessionTrackingWithUpwardFunctions True
-FFlagSetPackageLinkStatusFirst True
-DFIntStudioReportLuauWarningDetailsInfluxHundredthsPercentage 10000
-DFFlagEphemeralCounterInfluxReportingEnabled True
-FStringIXPTestSignupLandingLayerName PlayerApp.Signup
-FStringFlagRolloutTestStaticString6 static_str_6
-DFIntPointsServiceBatchingImplMaxDelaySeconds 30
-DFFlagFlagRolloutTestDynamicBool0 False
-FFlagTrackLastReportingOrSessionHistorySymbol True
-FFlagTurnOffNPPThrottling True
-FFlagCanvasGroupEnableBackgroundExtension False
-DFIntTelemetryProfilerHundredthsPercentage 1
-FIntLuaAppRenderTransparentPageMaxCount 1
-FFlagImmHandlerFixJapaneseAndKorean3 False
-FFlagValidateVertexLayouts False
-FFlagFixAppSuccessSyncTime True
-DFIntNetworkReportContentIdLimitRead 200
-DFIntReplicationVariantReportingLimitDepth 295
-DFFlagAddStreamingTunableGCSecondaryMetrics2 True
-FFlagProperlyHandleDelayedErrorReporting True
-DFFlagCyclicExecutiveThrottlingCancelWorldStepAccum False
-FFlagSkipRenderingEmptyGlyphOrCursor False
-FFlagAssetIdPrevalidationOnPublish False
 FFlagNewBackgroundedDesign True
-DFIntDataStoreServiceThrottleThreshold 2
-DFIntAnalyticsServiceDeveloperStringPrameterSizeMax 50
-FFlagTrackSessionHistory True
-DFIntTestThrottleThreshold 2
-FFlagBackgroundCrashSafeguard True
-FFlagDebugAnalyticsForceLotteryWin False
-DFFlagFixJoinMismatchReport False
-FFlagLuaAppGameSetTargetIdAnalytics True
-FFlagHttpRetryOn424 False
-FIntRenderReportShadowMapUpdateTimeHundredthPercent 500
-DFFlagHttpUnifyCacheCleanup True
-DFIntFRMVoxelizerBudgetWhileLoading 50
-FFlagInferredCrashProfileSyncFlushSwitchGuard True
 DFFlagMalformedAnimationUrl2 True
 FFlagEnableSessionTransitionFSM True
 FFlagFixSessionTrackingDoubleReporting True
 DFFlagEnablePerfRenderStatsCollection2 True
 DFIntReportRTLSupportThrottleHundrethsPercent2 2000
 DFFlagSessionTelemetryLayeredClothing True
-FIntConnectionIndicatorBadConnectionPacketLossPercentThreshold 1000
-FIntPluginLoaderCacheThreadPoolSize 8
-FFlagDebugAssertOnInvalidWindow False
-DFIntSavePlacePerMinute 10
-FFlagGetLowMemoryThresholdsForAndroid True
-FFlagMouseLocationUpdateSooner False
 DFFlagAVBURST12153FixNullWelds True
 DFFlagDeferInferredCrashEvaluation False
 FIntSessionTransitionFSMHundredthsPercent 10000
@@ -1279,6 +1272,7 @@ DFIntKeyRingMissingPointInfluxThresholdHundredths 0
 FFlagLCCheckDimIndexReset True
 FFlagVoiceChatV2SubOnlyRetry_Client True
 DFIntReportollectionServiceEventThrottleHundrethsPercent 100
+FIntFasterPlaySoloBetaFeatureRolloutPercent 0
 FStringPartColorTable {"materials2022":{"foil":{"avgAlbedo":[238,238,238,255],"avgMetalness":255,"avgRoughness":60},"asphalt":{"avgAlbedo":[227,227,228,234],"avgMetalness":0,"avgRoughness":223},"basalt":{"avgAlbedo":[160,160,158,238],"avgMetalness":0,"avgRoughness":207},"brick":{"avgAlbedo":[229,214,205,227],"avgMetalness":0,"avgRoughness":151},"cobblestone":{"avgAlbedo":[218,219,219,243],"avgMetalness":0,"avgRoughness":222},"concrete":{"avgAlbedo":[225,225,224,255],"avgMetalness":0,"avgRoughness":181},"crackedlava":{"avgAlbedo":[76,79,81,156],"avgMetalness":0,"avgRoughness":188},"diamondplate":{"avgAlbedo":[210,210,210,255],"avgMetalness":255,"avgRoughness":86},"fabric":{"avgAlbedo":[221,221,221,255],"avgMetalness":0,"avgRoughness":229},"glacier":{"avgAlbedo":[225,229,229,243],"avgMetalness":0,"avgRoughness":100},"glass":{"avgAlbedo":[254,254,254,7],"avgMetalness":0,"avgRoughness":29},"granite":{"avgAlbedo":[210,206,200,255],"avgMetalness":0,"avgRoughness":40},"grass":{"avgAlbedo":[196,196,189,241],"avgMetalness":0,"avgRoughness":231},"ground":{"avgAlbedo":[165,165,160,240],"avgMetalness":0,"avgRoughness":231},"ice":{"avgAlbedo":[235,239,241,248],"avgMetalness":0,"avgRoughness":100},"leafygrass":{"avgAlbedo":[182,178,175,234],"avgMetalness":0,"avgRoughness":233},"limestone":{"avgAlbedo":[250,248,243,250],"avgMetalness":0,"avgRoughness":170},"marble":{"avgAlbedo":[181,183,193,249],"avgMetalness":0,"avgRoughness":110},"metal":{"avgAlbedo":[226,226,226,255],"avgMetalness":255,"avgRoughness":46},"mud":{"avgAlbedo":[193,192,193,252],"avgMetalness":0,"avgRoughness":136},"pavement":{"avgAlbedo":[218,218,219,236],"avgMetalness":0,"avgRoughness":195},"pebble":{"avgAlbedo":[204,203,201,234],"avgMetalness":0,"avgRoughness":213},"plastic":{"avgAlbedo":[255,255,255,255],"avgMetalness":0,"avgRoughness":153},"rock":{"avgAlbedo":[211,211,210,248],"avgMetalness":0,"avgRoughness":177},"corrodedmetal":{"avgAlbedo":[206,177,163,180],"avgMetalness":40,"avgRoughness":153},"salt":{"avgAlbedo":[249,249,249,255],"avgMetalness":0,"avgRoughness":162},"sand":{"avgAlbedo":[218,216,210,240],"avgMetalness":0,"avgRoughness":190},"sandstone":{"avgAlbedo":[241,234,230,246],"avgMetalness":0,"avgRoughness":193},"slate":{"avgAlbedo":[235,234,235,254],"avgMetalness":0,"avgRoughness":148},"smoothplastic":{"avgAlbedo":[255,255,255,255],"avgMetalness":0,"avgRoughness":60},"snow":{"avgAlbedo":[239,240,240,255],"avgMetalness":0,"avgRoughness":125},"wood":{"avgAlbedo":[217,209,208,255],"avgMetalness":0,"avgRoughness":160},"woodplanks":{"avgAlbedo":[207,208,206,254],"avgMetalness":0,"avgRoughness":141}},"materialsPre2022":{"foil":{"avgAlbedo":[255,255,255,255],"avgMetalness":255,"avgRoughness":43},"asphalt":{"avgAlbedo":[227,227,228,234],"avgMetalness":0,"avgRoughness":223},"basalt":{"avgAlbedo":[160,160,158,238],"avgMetalness":0,"avgRoughness":207},"brick":{"avgAlbedo":[204,201,200,232],"avgMetalness":0,"avgRoughness":252},"cobblestone":{"avgAlbedo":[212,200,187,250],"avgMetalness":0,"avgRoughness":128},"concrete":{"avgAlbedo":[208,208,208,255],"avgMetalness":0,"avgRoughness":131},"crackedlava":{"avgAlbedo":[76,79,81,156],"avgMetalness":0,"avgRoughness":188},"diamondplate":{"avgAlbedo":[170,170,170,255],"avgMetalness":168,"avgRoughness":97},"fabric":{"avgAlbedo":[105,104,102,244],"avgMetalness":0,"avgRoughness":239},"glacier":{"avgAlbedo":[225,229,229,243],"avgMetalness":0,"avgRoughness":100},"glass":{"avgAlbedo":[254,254,254,7],"avgMetalness":0,"avgRoughness":29},"granite":{"avgAlbedo":[113,113,113,255],"avgMetalness":0,"avgRoughness":149},"grass":{"avgAlbedo":[165,165,159,255],"avgMetalness":0,"avgRoughness":205},"ground":{"avgAlbedo":[165,165,160,240],"avgMetalness":0,"avgRoughness":231},"ice":{"avgAlbedo":[255,255,255,255],"avgMetalness":0,"avgRoughness":45},"leafygrass":{"avgAlbedo":[182,178,175,234],"avgMetalness":0,"avgRoughness":233},"limestone":{"avgAlbedo":[250,248,243,250],"avgMetalness":0,"avgRoughness":170},"marble":{"avgAlbedo":[199,199,199,255],"avgMetalness":0,"avgRoughness":125},"metal":{"avgAlbedo":[199,199,199,255],"avgMetalness":202,"avgRoughness":89},"mud":{"avgAlbedo":[193,192,193,252],"avgMetalness":0,"avgRoughness":136},"pavement":{"avgAlbedo":[218,218,219,236],"avgMetalness":0,"avgRoughness":195},"pebble":{"avgAlbedo":[208,208,208,255],"avgMetalness":0,"avgRoughness":153},"plastic":{"avgAlbedo":[255,255,255,255],"avgMetalness":0,"avgRoughness":153},"rock":{"avgAlbedo":[211,211,210,248],"avgMetalness":0,"avgRoughness":177},"corrodedmetal":{"avgAlbedo":[159,119,95,200],"avgMetalness":134,"avgRoughness":186},"salt":{"avgAlbedo":[249,249,249,255],"avgMetalness":0,"avgRoughness":162},"sand":{"avgAlbedo":[220,220,220,255],"avgMetalness":0,"avgRoughness":136},"sandstone":{"avgAlbedo":[241,234,230,246],"avgMetalness":0,"avgRoughness":193},"slate":{"avgAlbedo":[193,193,193,255],"avgMetalness":0,"avgRoughness":140},"smoothplastic":{"avgAlbedo":[255,255,255,255],"avgMetalness":0,"avgRoughness":60},"snow":{"avgAlbedo":[239,240,240,255],"avgMetalness":0,"avgRoughness":125},"wood":{"avgAlbedo":[227,227,227,255],"avgMetalness":22,"avgRoughness":136},"woodplanks":{"avgAlbedo":[212,209,203,255],"avgMetalness":61,"avgRoughness":169}}}
 DFIntOcclusionShelfScalarNumerator 1
 DFFlagUseRbxForFileSystemOps True
@@ -1302,6 +1296,9 @@ FFlagDuplicateSoundCacheMetricsTrackingInAudioPlayer True
 FFlagReportCriticalLogLines False
 DFIntTattletaleMaxPendingReports 1024
 FFlagEnableWinGetManuf True
+DFIntBadgesServiceThrottleThreshold 2
+DFFlagWriteNewFlagRolloutInformationToAttributesFile False
+FIntActivatedCountTimerMSMouse 500
 DFIntDebugCrashOnShutdownProbability5 0
 DFIntReportUnsupportedVariantHundredthsPercentage 0
 DFIntTrackServerPhysicsPerfSessionNMinutes 10
@@ -1345,6 +1342,9 @@ FFlagDebugAllowOutdatedHSRDataInStudio False
 FFlagEnableADS3238_2 True
 DFIntLogLineReportingHundredthsPercent 0
 DFFlagStoreOutputDeviceSelection True
+FIntConnectionIndicatorBadConnectionPacketLossPercentThreshold 1000
+FIntPluginLoaderCacheThreadPoolSize 8
+FFlagDebugAssertOnInvalidWindow False
 FFlagBulkImportShowVideoQuota True
 DFFlagHttpServerSendMsgNoSignal2 True
 FFlagWindowsMonitorAnalytics False
@@ -1355,11 +1355,6 @@ DFIntSimArbiterOscillationDetectionCFLThresholdThou 500
 DFIntTaskSchedulerJobRetryCount 5
 FFlagDebugDisableTelemetryEventIngest False
 FIntDataModelPatcherForceLocalPercentage 0
-DFIntTaskSchedulerJobResetTime 15000
-FFlagDraggerImprovementsCallout True
-FIntUITextureMaxRenderTextureSize 2048
-FFlagDualWriteFlowDurationToV2Stats True
-FFlagEnableStylingEverywhere False
 FIntMultiview2 0
 FFlagDebugNavigationDrawPolyMesh False
 DFIntBroadPhaseIslandMaxPartLinearFactorTenth 10
@@ -1371,9 +1366,6 @@ FFlagCreateAnimationFromVideoBetaFeature True
 DFIntParallelBroadPhaseNewSerialCutoff 15
 DFFlagReportHttpServiceUsagetoEventStreamV2 True
 DFIntBadgesServiceThrottleMaxBackoffMilliseconds 10000
-FFlagRecordAutoRotateSwaps False
-DFIntMotor6DDeltaAngleThreshold 10
-DFIntTaskSchedulerBlockingShutdownTimeoutInMs 1000
 FIntTaskSchedulerThreadMin 3
 DFIntTeleportPollinInterval 1000
 FIntTaskSchedulerAutoThreadLimit 8
@@ -1394,6 +1386,11 @@ FFlagDevEnableStudioPluginOTA False
 DFIntEphemeralCounterInfluxReportingThrottleHundredthsPercent 10000
 DFStringHttpInfluxDatabase prod
 DFFlagUseNewTranslationKey False
+FFlagSetPackageLinkStatusFirst True
+DFIntStudioReportLuauWarningDetailsInfluxHundredthsPercentage 10000
+DFFlagEphemeralCounterInfluxReportingEnabled True
+FStringIXPTestSignupLandingLayerName PlayerApp.Signup
+FStringFlagRolloutTestStaticString6 static_str_6
 FIntStudioStartupLowMemoryThresholdMB 200
 DFFlagAnalyticsPointsDisallowNans False
 DFIntBacklogDetectorSamplesInWindowThreshold 5
@@ -1412,6 +1409,7 @@ DFIntHttpParallelLimit_RequestBadgeService 0
 DFIntBulletContactBreakOrthogonalThresholdPercent 200
 DFFlagReportInfluxFastLog False
 DFIntIntegrityCheckedProcessorMaxPreInitUnprocessedQueueSize 100
+FFlagGetAudioMetadataAsyncEnabled False
 FFlagEnableDeeplinkLoggingPolicy False
 DFIntRingingTimerInterval 60
 DFIntHumanoidMassScaleThresholdThou 1000
@@ -1431,6 +1429,7 @@ DFFlagQueryNearestTriangleUseScale False
 FFlagSignalRLogTotalMessageControlGroup False
 FIntMaxDeferReentrancyDepth 80
 DFIntSmoothTerrainPhysicsRayAabbSlop 1
+FFlagSimCSGV3EnableMemoryTelemetry True
 DFIntVirtualSoundVolumeThresholdNumerator -1
 DFFlagApiProposal321 True
 DFIntReportJoinDataItemCacheEfficiencyHundrethsPercentage2 1
@@ -1444,9 +1443,6 @@ FFlagEnableSecondaryMetricsLocking True
 DFFlagHttpStatsIncludeUniverseId True
 FFlagAssetImportFixImportTemplateConstructor False
 DFFlagMatrixFromEulerPerf False
-FFlagDebugIgnoreVolumeIsZeroAssert False
-DFIntHttpExponetialRetryBaseInterval 3
-DFFlagDebugForceUseProductionForAssetFetching False
 FIntAnimationLodFacsFadeDurationMs 500
 FFlagScreenGuiFixOnTopOfCoreBlurForVR True
 DFIntCheckSubscriptionStatusRetryCount 5
@@ -1458,7 +1454,7 @@ FFlagDebugLuauReadWriteProperties False
 FFlagApplyHSRAlwaysVisibleData False
 DFIntCLI61964InfluxThresholdHundredths 100
 DFIntCLI59911MaxTimeMicro 750000
-DFFlagEnableTeleportGuiRootContainerCheck False
+DFFlagEnableTeleportGuiRootContainerCheck True
 DFIntRbxGjkUseCacheThresholdMillionth 1000
 FStringGraphicsGLGpuExcludeListSuperHQShaders 
 FFlagEngagementScreenContinueEvent True
@@ -1468,7 +1464,6 @@ FFlagLuaBridgePropertyProfiling True
 FStringHttpRetryOverridesDsv2Static 503:POST:gamejoin.roblox.com:/v1/{join-endpoint}:linear:10:6|429:POST:gamejoin.roblox.com:/v1/{join-endpoint}:linear:10:6
 DFIntAnimationLodThrottlerFpsMax 50
 FIntVideoDecodedVideoQueueSize 4
-FFlagRenderCheckThreading False
 DFFlagVisualEngineTrackHeadless True
 FIntShoeAnkleWeight 100
 DFFlagHttpCacheUseVfs True
@@ -1483,13 +1478,16 @@ FFlagEnablePlayerCharacterDestroyBehavior True
 DFIntHttpParallelLimit_RequestGroupService 0
 DFIntAdjustMixedPriorityFairlyMultiplicativeConstantThousandths 50
 DFIntMaxMissedWorldStepsRemembered 16
-FFlagSimCSG3MeshTriangleCountOptimization False
+FFlagSimCSG3MeshTriangleCountOptimization True
 DFFlagDebugEnableAssetVolumeFader False
 FIntStudioPlaySoloLowMemoryThresholdMB 100
 DFIntVoiceChatFmodToWebrtcMinBufferMs 12
 DFIntTestThrottleMaxBackoffMilliseconds 10000
 DFIntDataStoreServiceThrottleMaxBackoffMilliseconds 10000
 DFIntOcclusionWidthRatio 1
+DFIntTestThrottleThreshold 2
+DFIntDataStoreServiceThrottleThreshold 2
+DFIntAnalyticsServiceDeveloperStringPrameterSizeMax 50
 DFIntExperienceSettingsLocaleIdMinimumLength 2
 DFIntHlsCdnType 0
 FIntNavigationClimbBoundingBoxOffsetTenth -5
@@ -1501,8 +1499,6 @@ DFFlagDebugReportLoudAudio False
 DFIntPointsServiceThrottleThreshold 2
 DFIntLocalizationTableAnalyticsSenderMaxToBeProcessedQueueSizeClient 100
 DFIntBadgesServiceThrottleFirstBackoffMilliseconds 100
-DFIntBadgesServiceThrottleThreshold 2
-FIntActivatedCountTimerMSMouse 500
 FFlagAddStreamingTunableIXPUtility True
 FFlagHttpRequestMsxmlAbortFix True
 FIntStudioSandboxDraftsHardeningAsyncSavePauseSec 1
@@ -1523,6 +1519,7 @@ DFFlagWebSocketSwapEvents False
 FFlagRenderDebugCheckThreading2 True
 DFFlagKeyRingVersioning True
 FFlagDebugDeleteDiscrimination True
+DFFlagQueryDNSInfo False
 DFFlagCookieStoreEnabledMac False
 FFlagCOLLAB4039RefactorDocClose True
 DFIntCSGLevelOfDetailSwitchingDistanceL12 500
@@ -1587,7 +1584,7 @@ DFStringCollideInnerBox InnerBox
 FFlagRenderTechniqueCrashOnNullProgram False
 DFIntSlowDnsPlatformRequestThresholdMs 50
 DFIntHttpSendStatsEveryXSeconds 300
-FFlagRemoveUnusedCopyrightError False
+FFlagRemoveUnusedCopyrightError True
 DFIntTreeDiffModCheckShadowReportingRate 100
 DFIntSimFluidSessionStatsHundredthsPercentage 1000
 FFlagDebugAlwaysRespectViewportShortcuts False
@@ -1605,7 +1602,6 @@ DFIntHttpParallelLimit_RequestGames 0
 DFIntClientReportRxTotalHundrethsPercentage 0
 FFlagSessionEventStringUnderscores True
 FFlagGraphicsGLFixGL3FeatureChecks False
-FFlagSimCSGV3MoreDescriptiveErrorMessages False
 DFFlagHttpDetachCacheCleanThread False
 DFFlagUpdateGlobalFeatureTrackingSchema False
 DFIntAssemblyHistorySkipSize 8
@@ -1622,6 +1618,12 @@ DFFlagHttpNetworkType False
 DFStringAnalyticsServiceProgramName PlayFab Program
 DFIntRetryBaseTimeMSec 1000
 DFIntHttpCacheCleanCheckAfterKB 1048576
+DFFlagFixJoinMismatchReport False
+FFlagLuaAppGameSetTargetIdAnalytics True
+FFlagHttpRetryOn424 False
+FIntRenderReportShadowMapUpdateTimeHundredthPercent 500
+DFFlagHttpUnifyCacheCleanup True
+DFIntFRMVoxelizerBudgetWhileLoading 50
 FFlagDebugDisableStudioQtErrorAssert False
 DFFlagHttpLogResBeforeCallback False
 DFIntDataStoreValidateHundredthsPercentage 0
@@ -1632,6 +1634,7 @@ FFlagPublishServiceAddCreatorType True
 DFFlagEnableReducePortalValidate2 True
 FIntLocalizationAnalyticsSamplesPerMillion 1000000
 DFIntHttpCacheRefreshHundredthsPercent 10000
+FFlagStudioUsePublishInProgressScreen2 True
 FStringLuauNativeCodegenBetaFeatureUrl https://devforum.roblox.com/t/luau-native-code-generation-preview-studio-beta/2572587
 FIntAssetLatestSavedVersionRequestStepSize 1
 DFIntHttpCacheCheckVersion 3
@@ -1646,10 +1649,6 @@ DFFlagHttpTrackResponseProcessTime True
 FFlagVoiceChatStreamingGrpcEnablePotentialRaceConditionFix2 True
 FStringSimAutoUpgradeCSGv1LearnMoreUrl https://devforum.roblox.com/t/sunsetting-the-legacy-computational-solid-geometry-csg-engine/2531375
 DFIntCLI55145PopDcOverrideRttMs 0
-DFIntPercentApiRequestsRecordGoogleAnalytics 5
-FFlagVector2Idiv True
-FFlagPerformanceControlRecordTunableChangeEvent False
-DFFlagVideoCaptureServiceEnabled True
 FFlagConversationalAI3BetaFeature True
 FFlagScreenGuiDontInsetClipRectByPadding True
 DFIntCLI55145CliPopOverrideRttMs 0
@@ -1694,6 +1693,7 @@ DFFlagEquippedEmotesAddIdClientData False
 FFlagReportJoinTelemetry False
 FFlagLCQualityValidation False
 FFlagVideoSoundVolumeMetrics True
+FFlagDebugStudioDisableWithUiContextShortCircuit False
 DFIntHttpParallelLimit_RequestAvatar 0
 FIntTimeSinceLastPongBucketSizeInSec 10
 FIntMaxTimestepMultiplierIntegrationError 4
@@ -1723,6 +1723,12 @@ DFIntHttpParallelLimit_RequestGamePassService 0
 FIntStudioSandboxDraftsHardeningAsyncSaveWaitSec 10
 DFIntHttpParallelLimit_RequestContentProvider 0
 DFStringUnfilteredChatEnrollmentTextUrl chat-permissions-service/safe-free-chat-enrollment
+FFlagBuildKDTreeFromCSGMesh False
+FFlagDebugSkyGray False
+DFIntHttpParallelLimit_RequestHttpService 3
+DFIntServerMaxJoinsInBatch 2
+FFlagRestartFmodRecordingOnError True
+DFIntPerformanceControlEventBasedTelemetryEffectPredictionEventNumReportsPerSecond 0
 DFIntHttpParallelLimit_RequestDataStore 0
 DFIntHttpParallelLimit_RequestDefault 0
 FFlagEnableTerrainEditor2 False
@@ -1762,6 +1768,8 @@ FFlagLoadStreamAnimationForSelfieViewApiEnabled True
 DFIntHttpResponseDefaultTimeoutMillis 120000
 FStringGraphicsVulkanAdrenoFutureDriverBlacklist 
 DFIntExternalHttpRequestSizeLimitKB 1024
+DFFlagSimSolverAerodynamicNewNewton False
+DFFlagDebugGameServerHeaderBypass False
 FFlagEnableADS2531 False
 DFFlagKibanaReportCachePolicy True
 FStringDebugRobloxTelemetryFieldsLoggingEventFilter <set me to comma separated event names you want to log or empty string to log everything, remember to set FLogRobloxTelemetry to verbose as well>
@@ -1772,6 +1780,14 @@ FFlagCSGSetRenderFidelityAutomaic True
 DFFlagTeleportPerUniverseErrorRateEnabled True
 DFStringAnalyticsEventStreamUrlEndpoint ecsv2
 FFlagSimCSGV3RemoveCoplanarTriangles True
+DFIntStreamingMaxPrefetchInfoSaved 10
+FFlagSimCSGV3TriangulationNormalFix2 True
+FFlagSimAdornRendererAfterPhysicsSettingsChange True
+FFlagLuaAppGamesPagePreloadingDisabled False
+FFlagVoiceChatV2UseControlPlaneIsolationTag False
+DFFlagHttpCurlOSErrno False
+DFFlagSimDebrisServicePartRemovalCrashDebug True
+DFFlagHttpSocketIps False
 DFFlagRCCIgnoreTCAutoSaveWithNoJoins True
 FFlagVoiceChatLockFreeEchoCancellation2 False
 DFFlagHttpDynamicSuccessStatusCode True
@@ -1808,7 +1824,6 @@ FFlagCollectionServiceTagTracking True
 FFlagTrackerStreamAnimationFacsLodCheck True
 DFFlagFixRobloxTelemetryEphemeralCountersAndStatsCategory True
 FFlagCapsScriptGlobals True
-DFFlagPerformanceControlEnableUtilityCurveCallback True
 FIntexampleTelemetryThrottleHundredthPercent 0
 DFFlagUseNewTextWrappedPropertyChangedSignal True
 DFIntTerrainPhysicsDataDeferredSquaredBudgetMinPercent 25
@@ -1819,9 +1834,9 @@ FFlagDebugDisableTelemetryV2Counter False
 FFlagDebugDisableTelemetryV2Stat False
 FFlagDebugDisableTelemetryPoint False
 FFlagSimCSGV3IsReleased True
-FFlagDebugDisableTelemetryEphemeralCounter False
-FFlagSimCSGV3HandleSameObjectAlongSeam False
 FFlagDisableHSRForDynamicHead True
+FFlagDebugDisableTelemetryEphemeralCounter False
+FFlagSimCSGV3HandleSameObjectAlongSeam True
 DFFlagFixHumanoidStateTypeNameNullTelemetryCrash False
 DFIntDeveloperEventIngestMaxEventsBatchInQueue 10000
 DFFlagDebugSimulateExceptionAtShutdown False
@@ -1829,7 +1844,6 @@ FIntUIOcclusionMetricsReportingPeriodSeconds 60
 FFlagFacialAnimationStreamingServiceUseServerThrottling False
 DFFlagAddRomarkPhasenameToEventIngest True
 DFIntSimPrimalVelocityNewtonToleranceInvAng 100000
-DFFlagDualWriteEphemeralCounterToV2 False
 DFFlagMd5FlagHashMethodExperiment2 True
 DFIntDynamicReloaderFailureInfluxHundrethsPercentage 10000
 FFlagDebugCodegenSkipNumbering False
@@ -1846,6 +1860,7 @@ DFFlagKeyRingUsingDynamicConfigTelemetry False
 FIntVideoMinBufferMs 5000
 FFlagPortalAdPrompt2 False
 DFFlagKeyRingMissingStopUsingOldSystem False
+FFlagStudioComponentizeRobloxIDEDoc2 True
 DFIntKeyRingFileErrorPointInfluxThresholdHundredths 0
 FFlagSmoothVoxelsBetaFeature False
 DFIntParallelBroadPhaseNewBatchCount 1
@@ -1854,6 +1869,7 @@ DFFlagSetJobIdInTc False
 DFIntKeyRingParseErrorPointInfluxThresholdHundredths 0
 DFFlagDebugKeyRingAlwaysLoad False
 DFFlagKeyRingReset False
+FFlagMSEnableThumbnailerWorkaround True
 FFlagTerrainVTEnableRelease587Fix False
 DFIntPerfDataOnHiveLocalThrottleHundredthPercent 10000
 FIntSmoothClusterTaskQueueMaxParallelTasks 3
@@ -1868,13 +1884,14 @@ DFFlagSimReportContactStats True
 FStringIXPPerformanceControlIncludedTunablesParam includedTunables
 FFlagCapsCreate True
 FFlagReduceExtraMutableLookup True
-FFlagFixGuiInputForDeferredSignals2 False
+FFlagFixGuiInputForDeferredSignals2 True
 DFIntStudioReportLuauExcessTimeMinMs 1000
 FFlagAvatarChatProtocolV2 False
 DFIntTaskLibReportBadDesynchronizeCallHundrethsPercentage 100
 FStringGraphicsGLShlangExcludeListSuperHQShaders 
 FFlagDebugVTCPUTranslationReference False
 FFlagQuaternionPoseCorrection False
+DFFlagMemoryStoreGetRangeAsyncEnableV2Endpoint False
 FFlagSimCSGV3CacheVerboseSeparateDealloc False
 DFIntSignalRCoreHubConnectionDisconnectInfoHundredthsPercent 500
 DFFlagMemoryStoreSetAsyncEnableSortKey True
@@ -1894,19 +1911,24 @@ FIntHttpServiceAggregateBandwidthMetricsIntervalSecs 60
 DFIntSignalRCoreTimerMs 1000
 FFlagGuiObjectFixDraggingOnScaledDisplays True
 FFlagHumanoidDescriptionInstanceSupport False
-FIntRealtimeReliabilityMeasurementEnableHundredthPercent 10
+FIntRealtimeReliabilityMeasurementEnableHundredthPercent 30
 FFlagStudioErrorReporterFilterJunkCallstacks True
 DFFlagSimSolverLowerPartDensityMinDensity False
 FIntRealtimeReliabilityRetryPeriodMs 100000
 DFIntRealtimeReliabilityTimeout 5000
 FFlagFixHealthBarDirtyBit True
 DFIntDefaultHeadFallbackEventThrottleHundrethsPercent 10000
+DFIntLuauTypePathMaximumTraverseSteps 100
+FFlagSimCSGV3FixPreTransform False
+FIntStudioBulkImporterMockUploadTimeInMs 0
+DFIntOpusCodecPoolNumFrames 5
 DFFlagEnableCsmReceiveCounter True
 DFIntStreamingQuotaCalculationIntervalValue 1
 FIntPartMinSizeMul1000 50
 DFIntkAssetsUploadApiFlowTelemetryEventLoggingPerMyriad 10000
 FIntToolboxGrantUniverseAudioPermissionsTimeoutInMS 3000
 DFIntSignalRCoreRpcQueueSize 64
+DFIntOpusCodecPoolNumBuffers 5
 DFIntAvatarFaceChatSDKFailedSetLodThrottleHundrethsPercent 1000
 DFIntRealtimeConnectionEventThrottlingHundredthsPercent 1
 DFIntMaxPollForCrossPublish 8
@@ -1935,10 +1957,23 @@ DFFlagDebugHlsSetDefaultVariantByDevice True
 FFlagCAPTimeoutMessaging True
 DFIntMaxWaitTimeBeforeForcePacketProcessMS 0
 FIntFMODSoundChannels 600
-FFlagDebugShowMinMaxSize False
 DFIntTextScraperServerDataNBytes 1000
 FFlagVideoAddVisibilityIntoImgui True
 FIntHlsAdaptionLogic 0
+FFlagDisablePostFx False
+DFIntDevProductsDetailsRollout 100
+DFFlagDebugIosUseSoftwareEchoCancellation True
+DFIntVoiceChatAudibilityReportingHundredthsPercent 100
+DFIntImmersiveAdVideoCompletionEventPointsThrottleHundrethsPercent 10000
+DFIntOpusCodecPoolNumPackets 5
+FStringPartTexturePackTablePre2022 {"foil":{"ids":["rbxassetid://7546645012","rbxassetid://7546645118"],"color":[255,255,255,255]},"brick":{"ids":["rbxassetid://7546650097","rbxassetid://7546645118"],"color":[204,201,200,232]},"cobblestone":{"ids":["rbxassetid://7546652947","rbxassetid://7546645118"],"color":[212,200,187,250]},"concrete":{"ids":["rbxassetid://7546653951","rbxassetid://7546654144"],"color":[208,208,208,255]},"diamondplate":{"ids":["rbxassetid://7547162198","rbxassetid://7546645118"],"color":[170,170,170,255]},"fabric":{"ids":["rbxassetid://7547101130","rbxassetid://7546645118"],"color":[105,104,102,244]},"glass":{"ids":["rbxassetid://7547304948","rbxassetid://7546645118"],"color":[254,254,254,7]},"granite":{"ids":["rbxassetid://7547164710","rbxassetid://7546645118"],"color":[113,113,113,255]},"grass":{"ids":["rbxassetid://7547169285","rbxassetid://7546645118"],"color":[165,165,159,255]},"ice":{"ids":["rbxassetid://7547171356","rbxassetid://7546645118"],"color":[255,255,255,255]},"marble":{"ids":["rbxassetid://7547177270","rbxassetid://7546645118"],"color":[199,199,199,255]},"metal":{"ids":["rbxassetid://7547288171","rbxassetid://7546645118"],"color":[199,199,199,255]},"pebble":{"ids":["rbxassetid://7547291361","rbxassetid://7546645118"],"color":[208,208,208,255]},"corrodedmetal":{"ids":["rbxassetid://7547184629","rbxassetid://7546645118"],"color":[159,119,95,200]},"sand":{"ids":["rbxassetid://7547295153","rbxassetid://7546645118"],"color":[220,220,220,255]},"slate":{"ids":["rbxassetid://7547298114","rbxassetid://7547298323"],"color":[193,193,193,255]},"wood":{"ids":["rbxassetid://7547303225","rbxassetid://7547298786"],"color":[227,227,227,255]},"woodplanks":{"ids":["rbxassetid://7547332968","rbxassetid://7546645118"],"color":[212,209,203,255]},"asphalt":{"ids":["rbxassetid://9873267379","rbxassetid://9438410548"],"color":[123,123,123,234]},"basalt":{"ids":["rbxassetid://9873270487","rbxassetid://9438413638"],"color":[154,154,153,238]},"crackedlava":{"ids":["rbxassetid://9438582231","rbxassetid://9438453972"],"color":[74,78,80,156]},"glacier":{"ids":["rbxassetid://9438851661","rbxassetid://9438453972"],"color":[226,229,229,243]},"ground":{"ids":["rbxassetid://9439044431","rbxassetid://9438453972"],"color":[114,114,112,240]},"leafygrass":{"ids":["rbxassetid://9873288083","rbxassetid://9438453972"],"color":[121,117,113,234]},"limestone":{"ids":["rbxassetid://9873289812","rbxassetid://9438453972"],"color":[235,234,230,250]},"mud":{"ids":["rbxassetid://9873319819","rbxassetid://9438453972"],"color":[130,130,130,252]},"pavement":{"ids":["rbxassetid://9873322398","rbxassetid://9438453972"],"color":[142,142,144,236]},"rock":{"ids":["rbxassetid://9873515198","rbxassetid://9438453972"],"color":[154,154,154,248]},"salt":{"ids":["rbxassetid://9439566986","rbxassetid://9438453972"],"color":[220,220,221,255]},"sandstone":{"ids":["rbxassetid://9873521380","rbxassetid://9438453972"],"color":[174,171,169,246]},"snow":{"ids":["rbxassetid://9439632387","rbxassetid://9438453972"],"color":[218,218,218,255]}}
+DFFlagVIPTeleportGameJoin2 True
+DFStringDynamicFastVariableReloaderTest5 DEF
+DFIntInitialAccelerationLatencyMultTenths 20
+FFlagDebugCSGExportFailure False
+DFFlagTaskLibErrorBadDesynchronizeCall False
+FFlagOpusCodecUsePool False
+DFIntVideoStatsInfluxReportHundredthsPercent 10
 FFlagVideoEnableSeekInLive True
 DFIntLoadAssetDelayDiagHundredthsPercentage 100
 FFlagVideoTrackWastedBytes True
@@ -1955,31 +1990,24 @@ FFlagStudioIgnoreQtAnglePlatform False
 FFlagIXPServerTimeForExposure True
 DFFlagDebugRVideoFindMemoryLeaks False
 DFIntPerformanceControlSoundReloadThrashingExponentTenThousandths 100
+DFIntVideoCMCDMaxHeaderBytes 500
+FFlagSoundEffectRefactoring False
 FIntSelectionOutlineTCThickness 1
 DFIntCountOldChatAPIUsageHundrethsPercent 10000
-FFlagStudioDeviceEmulatorLostPlatformFieldFix2 True
-FFlagVideoCMCDAddVisibility False
 DFIntGetProductInfoGamepassCacheSecs 60
 FFlagVideoHttpCacheMetrics True
-FFlagMSRefactor3 False
 FFlagVideoThreadPoolUseWaitForRunningTasksShutdownPolicy True
 FFlagSmoothClusterMeshTaskHeuristic False
 FIntVideoSchedulerMaxTaskSize 300
 FStringClbAvatarBundleIds []
-FFlagFixPromptsNotEndingWhileMenuOpen True
-FFlagVideoCodecUseSPSCQueue False
 DFFlagRIDE_9602 True
 DFIntVideoEncoderBitrate 40000000
 DFIntCodecMaxOutgoingFrames 2
 DFIntDynamicLocalizationTablesDataTimeout 5
-FFlagDebugBuiltInPluginModalsNotBlocking False
-DFIntSimReportAveWorldstepTimePercent 750
-DFIntCodecMaxOutgoingPackets 2
-FFlagDebugUseByteCountLimitForPhysicsReplication False
-DFIntCodecMaxIncomingFrames 2
 FFlagSimCSGV3CacheVerbosePropagation False
 DFIntReportJoinInstaceStatsToEventIngestHundredthsPercent 100
 DFIntCodecMaxIncomingPackets 2
+FFlagPath2DControlPointAtomicClass2 False
 DFIntDebugFRMQualityLevelOverride 0
 DFIntCullFactorPixelThresholdShadowMapLowQuality 8
 DFIntCSGv2LodLevel4Percentage 5
@@ -2006,7 +2034,6 @@ FIntConvAIContextSize 5
 DFIntv1UniversesUniverseIdPermissionsGetTelemetryHundredthsPercent 0
 FFlagDebugVideoCaptureMockCameraDeviceEnabled False
 DFStringLightstepHTTPTransportUrlPath /api/v2/reports
-FFlagStudioMoveOgreWidgetDragHandling True
 DFFlagAudioDeviceTelemetry True
 DFStringLightstepToken S3EXjCZQQr6OixnmKu+hoa3OSfpvPP5qgU0esiWgwreFUUMBnPhEaoS5yIIrf9bdYlSgW0XKCb1So9Rhtj1eMzt/MJWcyKZ4TwIckHVj
 DFIntFmodStealingBehavior 1
@@ -2022,9 +2049,9 @@ DFIntUniqueIdCollisionDetectionHundredthsPercentage 10000
 DFIntPpjEtrThreshold 6
 FFlagRenderOptimizeDecalTransparencyInvalidation False
 DFIntBackupCacheToKeep 2
+FFlagDontLeaveCaptureModeOnTP False
 FFlagAllOrNoneExtra True
 DFIntClientLightingEnvmapPlacementTelemetryHundredthsPercent 100
-FFlagDisablePostFx False
 DFIntCullFactorPixelThresholdMainViewLowQuality 4
 FFlagGrassLengthCustomization False
 FFlagStudioActionConversionGroup5a True
@@ -2032,8 +2059,8 @@ FFlagVideoFixRbxTempCrash True
 DFIntCullFactorPixelThresholdMainViewHighQuality 1
 DFFlagSimCollectPhysicsSteppingMethod True
 FStringGraphicsGLDeviceExcludeListHQShaders 
-FIntMaquettesHighMSAALevel 17
 DFIntProbesReportThrottleMS 30000
+FIntMaquettesHighMSAALevel 17
 DFIntStudioConnectionIndicatorConditionalTelemetryThrottleHundrethsPercent 100
 FFlagUIOcclusionMetricsDontComputeMetricsIfThrottled False
 FFlagSupportSmoothScaleRichText False
@@ -2070,17 +2097,22 @@ DFFlagGenerateMeshLOD_Fix1 True
 DFIntInterpolationFrameVelocityThresholdMillionth 100
 FFlagImmediatelyCleanupSoundFilesOnRcc False
 FIntMaxGlyphsPerTextLayout 16384
+DFIntNetworkReportContentIdLimitRead 200
+DFIntReplicationVariantReportingLimitDepth 295
+DFFlagCyclicExecutiveThrottlingCancelWorldStepAccum False
+FFlagSkipRenderingEmptyGlyphOrCursor False
+FFlagAssetIdPrevalidationOnPublish False
 FFlagFixParamsScaleNotApplied True
 FFlagChangeTextSizeLimitToGlyphs True
 DFStringFlagRolloutTestDynamicString0 Apri12
 DFIntRccMaxChSnd 96000000
 FStringNewUserOnboardingIxpLayer Studio.Platform.NewUserOnboarding
-FFlagAsyncUIEditorVisibleUpdate True
 FFlagDebugShowTextBounds False
 FFlagSimCSGV3IncrementalTriangulationPhase3 False
 FFlagMemoryBufferForHarmony2 True
 DFIntReportTriangleMeshPartMigrationThreshold1 100
 DFFlagExtraLoggingForCLI36936_2 False
+DFIntSimSolverAeroForceModelType 0
 FIntFontSizePadding 1
 DFIntSimLevitationOrthogonalVelocityReductionFactor 4000
 FFlagFontProviderAlwaysReturns True
@@ -2109,7 +2141,9 @@ DFFlagMicroprofilerOutput2 False
 FFlagAvatarChatServiceEnabled3 True
 FIntNavigationClimbBoundingBoxWidthByTenthOfAgentWidth 20
 DFIntDataStoreListFixedRequestLimit 5
+FFlagVideoCameraAsyncEnabled2 False
 DFFlagVoiceChatPublishStartWithPause True
+FFlagDebugGraphicsVulkanRobustBufferAccess False
 DFFlagTPoserBlockyAdjustment2 True
 DFIntCSGv2LodLevel2Percentage 25
 FIntRenderShadowMapDepthCacheRecycleFrames 300
@@ -2131,7 +2165,7 @@ DFFlagContentProviderFailureNewLogGroup False
 FFlagMacClientSupportIME9 False
 DFIntPerformanceControlReportingPeriodInMs 60000
 FIntCacheableContentProviderResetCounter 300
-DFFlagSimCSG3CommitTaskPatch False
+DFFlagSimCSG3CommitTaskPatch True
 FFlagDebugStudioCreateGameWindowReturnsNull False
 FFlagSimCSGV3CacheVerboseBSPMemory False
 DFIntRCCMergeSameTouchesTimeoutInMS 1500
@@ -2171,6 +2205,7 @@ FIntStudioWaitUntilLiveDMPluginWidgetsLoadedMs 2000
 FFlagSimCSG3KernelManagerPerDM True
 FFlagBetterNameTagContrast False
 FIntSimCSGV3CacheVerboseTreeLogLength 100
+FFlagCAPAddSchemaFieldToRequests False
 DFIntSimBroadPhasePairCountMax 1000000
 FIntDecreaseAppLaunchFlowHiveThrottlingRate 10000
 FFlagSimCSGV3CacheVerboseTree False
@@ -2183,10 +2218,6 @@ FFlagHandleAltEnterFullscreenManually True
 FFlagSimCSGV3EnableNodeStatTelemetry False
 FFlagSimCSGV3MeshUpdateVectorOpt False
 FFlagUIFlexItemHideGrowShrinkRatio False
-DFIntStreamingMaxPrefetchInfoSaved 10
-FFlagSimCSGV3TriangulationNormalFix2 True
-FFlagSimAdornRendererAfterPhysicsSettingsChange True
-FFlagLuaAppGamesPagePreloadingDisabled False
 FFlagSimCSGV3TriangulationNormalFix False
 DFIntRCCReceiveEventVariantCountLimit 5000000
 FIntMaxTimestepMultiplierBuoyancy 4
@@ -2203,6 +2234,7 @@ FFlagTranslateAddTagPopup False
 FIntDlcVersion 0
 DFIntDataSenderRate 60
 FIntSimCSG3DCDRecomputeStrategy 0
+FFlagRemoveServerAudioBehavior False
 DFIntSimCSG3DCDMaxNumConvexHulls 1000
 FFlagSimDefaultPGSSolver True
 DFFlagPublishServiceReturnForErrorCase True
@@ -2222,21 +2254,12 @@ FFlagSimDumpCSGV3DCD False
 FFlagUserVRRotationUpdate True
 FFlagDisableUnfilteredChat False
 FFlagSimCSG3TelemetryConstraints True
-FStringPartTexturePackTablePre2022 {"foil":{"ids":["rbxassetid://7546645012","rbxassetid://7546645118"],"color":[255,255,255,255]},"brick":{"ids":["rbxassetid://7546650097","rbxassetid://7546645118"],"color":[204,201,200,232]},"cobblestone":{"ids":["rbxassetid://7546652947","rbxassetid://7546645118"],"color":[212,200,187,250]},"concrete":{"ids":["rbxassetid://7546653951","rbxassetid://7546654144"],"color":[208,208,208,255]},"diamondplate":{"ids":["rbxassetid://7547162198","rbxassetid://7546645118"],"color":[170,170,170,255]},"fabric":{"ids":["rbxassetid://7547101130","rbxassetid://7546645118"],"color":[105,104,102,244]},"glass":{"ids":["rbxassetid://7547304948","rbxassetid://7546645118"],"color":[254,254,254,7]},"granite":{"ids":["rbxassetid://7547164710","rbxassetid://7546645118"],"color":[113,113,113,255]},"grass":{"ids":["rbxassetid://7547169285","rbxassetid://7546645118"],"color":[165,165,159,255]},"ice":{"ids":["rbxassetid://7547171356","rbxassetid://7546645118"],"color":[255,255,255,255]},"marble":{"ids":["rbxassetid://7547177270","rbxassetid://7546645118"],"color":[199,199,199,255]},"metal":{"ids":["rbxassetid://7547288171","rbxassetid://7546645118"],"color":[199,199,199,255]},"pebble":{"ids":["rbxassetid://7547291361","rbxassetid://7546645118"],"color":[208,208,208,255]},"corrodedmetal":{"ids":["rbxassetid://7547184629","rbxassetid://7546645118"],"color":[159,119,95,200]},"sand":{"ids":["rbxassetid://7547295153","rbxassetid://7546645118"],"color":[220,220,220,255]},"slate":{"ids":["rbxassetid://7547298114","rbxassetid://7547298323"],"color":[193,193,193,255]},"wood":{"ids":["rbxassetid://7547303225","rbxassetid://7547298786"],"color":[227,227,227,255]},"woodplanks":{"ids":["rbxassetid://7547332968","rbxassetid://7546645118"],"color":[212,209,203,255]},"asphalt":{"ids":["rbxassetid://9873267379","rbxassetid://9438410548"],"color":[123,123,123,234]},"basalt":{"ids":["rbxassetid://9873270487","rbxassetid://9438413638"],"color":[154,154,153,238]},"crackedlava":{"ids":["rbxassetid://9438582231","rbxassetid://9438453972"],"color":[74,78,80,156]},"glacier":{"ids":["rbxassetid://9438851661","rbxassetid://9438453972"],"color":[226,229,229,243]},"ground":{"ids":["rbxassetid://9439044431","rbxassetid://9438453972"],"color":[114,114,112,240]},"leafygrass":{"ids":["rbxassetid://9873288083","rbxassetid://9438453972"],"color":[121,117,113,234]},"limestone":{"ids":["rbxassetid://9873289812","rbxassetid://9438453972"],"color":[235,234,230,250]},"mud":{"ids":["rbxassetid://9873319819","rbxassetid://9438453972"],"color":[130,130,130,252]},"pavement":{"ids":["rbxassetid://9873322398","rbxassetid://9438453972"],"color":[142,142,144,236]},"rock":{"ids":["rbxassetid://9873515198","rbxassetid://9438453972"],"color":[154,154,154,248]},"salt":{"ids":["rbxassetid://9439566986","rbxassetid://9438453972"],"color":[220,220,221,255]},"sandstone":{"ids":["rbxassetid://9873521380","rbxassetid://9438453972"],"color":[174,171,169,246]},"snow":{"ids":["rbxassetid://9439632387","rbxassetid://9438453972"],"color":[218,218,218,255]}}
-DFFlagVIPTeleportGameJoin2 True
-DFStringDynamicFastVariableReloaderTest5 DEF
-DFIntInitialAccelerationLatencyMultTenths 20
-FFlagDebugCSGExportFailure False
 FIntMLCodeCompleteRequestTokens 1000
 FFlagSimAdaptivePreContactReorder3 True
 DFIntPerformanceControlSoundReloadLatencyMaxValue 0
 FFlagUserFixSlowTouchCameraInputOverwrite True
 FFlagSimCSG3RejectNonArchivable False
 DFFlagDebugEnableHttpProxy False
-DFIntRemoteAbandonReportingThreshold 1
-DFIntCsFilterMessageSignalRateLimitDuration 0
-FFlagGltfDontAlterTranslationOnZeroRotation True
-FFlagSimCSG3RefactorAddCSGMeshToOperation True
 FFlagSimCSG3FixNoSplitApart True
 FFlagSimCSG3EnableNewAPI False
 DFIntHACDQuantizationDistanceMillionth 100000
@@ -2254,9 +2277,6 @@ DFIntHttpInfluxReportsPerMillion 100
 FFlagSimCSGV3CacheVerbosePropagation2 False
 DFFlagSimCSG3UseQuadBallInExperience False
 FStringApolloServerUrl http://127.0.0.1:8001
-FIntStudioDeviceEmulatorNotchedScreenSupportBetaFeatureRolloutPercent 100
-FFlagDragDetectorIsEnabledForPlayerChecksIsEnabled True
-DFFlagSerializeAssetsForPublishPrompt2 True
 FIntRenderTextureManagerBudget 0
 FFlagSimCSG3AsyncWarmv2LegacyAPI False
 FFlagScriptEditorSwigglyLines True
@@ -2276,6 +2296,8 @@ FFlagGraphicsGLWindowsShutdownFix False
 FIntCursorTimeToLiveMs 5000
 FFlagVRRemoveCameraRollAndTilt True
 DFIntCSGv2OperationInfluxHundredthsPercentage 100
+DFIntReportPhysicsFPSStatsForInfluxHundredthsPercentage 100
+FFlagBrickColorRandomThreadSafety False
 FFlagHandleInfiniteSizeWhenMultiply True
 FIntActivatedCountTimerMSGamepad 500
 FFlagPerformanceControlUseShutdownFunction True
@@ -2311,11 +2333,10 @@ DFIntAECRingBufferSizeTenthsMs 520
 DFFlagShouldOverrideSoundTunableUtilityRealTime False
 DFIntSimConstraintTorqueVisSpiralRadiusTimes10 4
 FFlagSignalRHubConnectionKeepAliveTimeout2 True
-DFFlagSharedTableDisallowPath2DControlPoint False
 FFlagDebugRenderIGMarkRecycledHandles False
 DFFlagReportControllerManagerUse2 True
 DFIntSignalRHubConnectionMaxRetryTimeMs 5000
-FFlagAudioAssetsInResizableCacheFix False
+FFlagAudioAssetsInResizableCacheFix True
 FIntEnableRealtimeProtocolRolloutV601HundredthPercent 0
 DFIntSendAvatarLoadTimeStats_HundredthsPercentage 0
 FFlagDebugLuaHeapDump False
@@ -2343,11 +2364,10 @@ DFIntProbesReportMinUpdate 1000
 DFIntStudioLexMapChangeDocAnalyticsThrottleHundredthsPercent2 1000
 FFlagImprovePluginSpeed_ManageCollaborators False
 FStringIXPPerformanceControlSoundTunableUtilityParam soundTunableUtility
-FFlagDebugLogHSRDataType False
-FIntScriptProfilerFrequency 1000
-FFlagEnableEventBasedLoggerInit2 True
-FFlagDebugSecretAgentMan False
-FFlagShowConnectionErrorCode False
+DFIntPercentApiRequestsRecordGoogleAnalytics 5
+FFlagVector2Idiv True
+FFlagPerformanceControlRecordTunableChangeEvent True
+DFFlagVideoCaptureServiceEnabled True
 DFFlagPerformanceControlEnableInference False
 FFlagDebugGraphicsDisableOpenGL False
 DFIntAnimationLodFacsDistanceMin 30
@@ -2357,6 +2377,8 @@ DFIntDownloadBandwidthNetworkIdFailInfluxHundredthsPercentage 500
 DFIntHumanoidNetworkOwnershipChangePointsThrottleHundrethsPercent 1
 DFFlagEnableHumanoidStateChangeTelemtryOldStateDuration True
 FIntSkinMorphResolution 100
+DFIntPerformanceControlIXPQueueSizeUtilityExponentTenThousandths 30000
+DFFlagSecondaryMetricsShouldOverwriteByDefault2 True
 DFStringMemoryBufferForHarmonyData {"memCurve":[{"maxsize":1024,"reserve":0.5},{"maxsize":2048,"reserve":0.25},{"maxsize":4096,"reserve":0.125},{"maxsize":8192,"reserve":0.0625}]}
 FStringLuaErrorsInfluxSeries LuaShellErrors
 DFFlagAnimationLodDisableAnchoredThrottling True
@@ -2370,22 +2392,19 @@ FIntModelClusterExtent 512
 DFFlagTaskLibReportBadDeferDelayWaitCall2 True
 DFIntMeasurementsMaxPendingReports 100
 FIntGraphicsVulkanARMVaryingBufferMb 160
-FFlagNoHardcodedStringInLuaKickMessage True
 DFIntDebugForceCallbackMode 0
 DFIntDebugPerformanceControlUsedMemoryMB 1024
 DFFlagDebugPerformanceControlEnableMemoryOverrideImGui False
 FIntStudioThumbnailImageRetryInterval 6000
 DFIntPerformanceControlEventBasedTelemetryTunableChangeEventNumReportsPerSecond 0
 FFlagFixInterpolationMovementCallbacks True
-DFFlagGroundControllerTurnPD False
+DFFlagGroundControllerTurnPD True
 DFIntPerformanceControlEventBasedTelemetryTunableChangeEventRateEventIngest 0
 DFFlagFastLoadTriangleVerts True
 FFlagExposeOpenXrAPI1 True
 DFFlagVoiceChatAutoTest False
 DFIntSimPhysicsSteppingMethodStatsHundredthsPercentage 0
 DFIntPerformanceControlEventBasedTelemetryTunableChangeEventRatePoints 0
-FFlagIntegerDivisionTypesForVectors True
-DFIntPerformanceControlEventBasedTelemetryEffectPredictionEventRateEventIngest 0
 DFIntPerformanceControlEventBasedTelemetryRateLimiterDefaultRegen 0
 DFIntPerformanceControlEventBasedTelemetryDefaultSamplingRateEventIngest 0
 DFIntAnalyticsServiceEventLocationSizeMax 5
@@ -2424,7 +2443,7 @@ DFIntUpdateDeviceMemoryDeltaMB 10
 FStringMultilayerWrapFixBetaFeatureUrl 
 DFIntAdaptiveEffectPredictorWeightPercent 0
 FIntPromptShareCaptureMaxLaunchDataLength 200
-DFFlagPerformanceControlPlannerBailIfNoProgress False
+DFFlagPerformanceControlPlannerBailIfNoProgress True
 FFlagDebugFmodEnableInputProcessingPatch False
 DFIntDebugPlannerProjectedValueSnapThresholdHundredsPercent 100
 DFIntDefaultCPercentTenths 50
@@ -2444,13 +2463,13 @@ FFlagAddStreamingMemoryThresholdsToIXP True
 DFIntRCCJoinTransmissionStatsHundredthsPercentage 0
 FStringIXPPerformanceControlExperimentName experimentName
 DFIntLocalizationServiceSystemLocaleIdParseErrorThrottleHundrethsPercentage 1
+FFlagUGCValidationCallbackResultStrings False
 DFFlagDebugVideoEnableAudioOnlyFiles False
 DFIntPhysicsImprovedCyclicExecutivePredictiveThrottlingStepsAhead 20
 FStringIXPPerformanceControlMemoryBufferDataParam memoryBufferData
 DFIntPluginPermissionsApiGetPluginPermissionsByUserWithCursorV2TelemetryHundredthsPercent 0
 FFlagFixUIRayGoingThruExistingVerts False
 FStringIXPPerformanceControlCallbackModeParam callbackMode
-DFFlagFixSoundTunableCurveIssues True
 DFIntLogServiceSignalRateLimitDuration 0
 FIntSelectionOutlineMaxSelectionIds 60000
 DFIntPerformanceControlSoundReloadLatencyTargetUtility -1000
@@ -2481,8 +2500,6 @@ FFlagEnableViewportFrameBackgroundExtension False
 FFlagStudioPreventCentralVerticalSplit True
 FFlagSilenceWarningMissingDeformer True
 DFIntPerformanceControlAudioReloadsHardcodeWeight -10
-DFFlagGenericOversizedUnreliableItems True
-DFIntPerformanceControlTextureQualityHardcodeWeight 100
 DFIntMPServiceGamepassUrlRolloutV3 0
 DFIntLDLPGSStatsRatePercent 2
 DFFlagCliUseEngineContext True
@@ -2507,6 +2524,7 @@ FFlagDataModelPatcherForceLocal False
 FFlagStudioUpdateLoginDialogForMultiAccountSupport True
 FFlagUseDataModelPatchCategory True
 DFIntDataModelPatchPollingIntervalMilliSeconds 0
+FIntTextureGenerationServiceCancelHttpTimeoutMs 25000
 FFlagDataModelPatchEnableOTAPolling False
 DFFlagVBInUsersServiceResponse True
 DFIntStudioSyntaxHighlightingOnChangeAnalyticsThrottleHundredthsPercent2 1000
@@ -2527,10 +2545,6 @@ FFlagImprovePluginSpeed_AssetManager True
 DFIntPointsMods 100
 FFlagPatchConfigOverrideIsForcedUpdate False
 FFlagDataModelCompareEngineVersion True
-FFlagEnableDataModelVerifyMetric True
-DFFlagSafetyServiceScreenshotReason True
-DFFlagReportTooManyChannelErrorsSeparately True
-FFlagEnableDataModelDeserializeMetric True
 FFlagDebugShowModifiedPackageChangeInfo False
 DFIntDataModelPatcherLoadRetrySleep 1
 FFlagLoadCoreScriptsFromPatchOnly False
@@ -2538,7 +2552,7 @@ FFlagDebugHotloadShaderPack False
 FFlagChangeEndIndexArgInSetKeys True
 FIntStudioRobloxAnalyticsEventStreamLoadHundredth 0
 DFIntDataModelPatcherLoadRetry 10
-FFlagGpuGeometryManagerAndroidBufferPerAllocation False
+FFlagGpuGeometryManagerAndroidBufferPerAllocation True
 FFlagStudioOptimizeDockingTabUpdates True
 DFIntReportPacketQueueSizeHundredthsPercentage 10
 DFIntDataModelPatchRequiredSpaceMB 10
@@ -2553,12 +2567,14 @@ DFIntClonedNonArchivableAnalyticsThrottleHundredthsPercent 0
 DFFlagDebugVideoStreamDisableVideo False
 DFIntTerrain_UnpackOnDemand_MinCachedChunks 100
 DFFlagDataStoreEnforceV2LocalThrottles False
-DFIntGroupTeleportLogHundredthsPercentage 0
-DFFlagPlayerLocationsEnricher False
-DFIntAudioOcclusionMaxProcessingTimeTenthsUsec 1000
-FFlagAlwaysCloneEnabled True
 DFFlagBulkImportCopyrightMessageUpdate True
 DFFlagImprovedGetFullName True
+FIntHSRHideFaceBasedOnVerticesCount 1
+DFIntAccelerationTimeThreshold 2
+FFlagPropertiesPanelResetModifiedProperty False
+FFlagRelatedScriptsChatBot False
+DFIntLocalizationTableAnalyticsSenderClientToHttpMinHundrethsPercent 10
+FFlagSplitDescendantDirtyBit False
 FFlagDebugFailAllPluginInstallationAttempts False
 DFFlagDebugSensorVisualizer False
 FFlagModifiedPropertiesFixEventOrdering False
@@ -2571,7 +2587,6 @@ FFlagTerrainFixBogusDataLodData False
 FFlagEnableChildrenLockFromLua2 True
 FFlagEnableFindFirstDescendant2 False
 FFlagFmodIosGetDeviceBusType True
-DFFlagReportValidateThreadAccessError True
 DFFlagLockViolationInstanceCrashStudio False
 DFStringCLI50798S NTE3LDYwNSwxMDI5LDEyMzg=
 FFlagCoreGuiEnabledSpamFilter True
@@ -2589,6 +2604,7 @@ DFIntFmodRecordingLatencyMs 50
 FFlagFixOutdatedParticles2 True
 FIntScriptContextReadLuaValueAsStringItemLimit 30
 FIntFmodMediumPoolSize 1024
+FFlagRemoteSaveValidatorNonTeamCreateUserSaveRollout False
 FFlagDebugDoNotLoadHumanoidSounds False
 FIntFmodSmallPoolSize 4096
 DFFlagDebugMuteVoiceOutputThroughFmod False
@@ -2614,29 +2630,31 @@ FFlagFixInfiniteOctreeAllocations False
 DFIntReportSoundAssetsRate 0
 DFIntNetworkFilterReportSizingRemovalCharacterHundrethsPercentage 1
 DFFlagSkipAudioAssetTags False
+DFFlagSafetyServiceScreenshotReason True
+DFFlagReportTooManyChannelErrorsSeparately True
 DFIntMaxLoadableAudioChannelCount 8
 DFIntBadLogInfluxHundredthsPercentage 0
 FFlagEnableAudioChannelCountProperty False
 FFlagSimAutoUpgradeCSGV1UsersToV3 True
 DFIntMinSoundCompressedStreamSizeBytes 128000
 FFlagUserVRVehicleCamera2 False
+FFlagSanitizeDevicePii True
 FIntDebugVersionHistoryWiremockApi_StartingStage_5 5
 DFFlagDisableAudioFileMetadata False
 DFIntFmodSpeakerModeOption 0
 DFIntAnimationFromVideoCreatorStudioServiceSecondsPerRequest 2
 FFlagSimReorderMidPhaseSleepStageCalls False
-FFlagFixEnvMapAsyncAsanIssue False
+FFlagFixEnvMapAsyncAsanIssue True
 DFFlagReportOutputDeviceWithRobloxTelemetry False
 DFFlagLogTotalPlayersOnJoinFix True
 DFIntReportRecordingDeviceInfoEventRateHundredthsPercentage 0
 FFlagTextChatServiceInsertedByDefault True
 DFFlagSimArbiterFeatureVectorUpdate True
 DFIntReportOutputDeviceInfoEventRateHundredthsPercentage 0
-DFFlagOptimizeComputeIsCollide True
 DFIntReportOutputDeviceInfoRateHundredthsPercentage 1000
 FIntLuaAppNonFinalThumbnailMaxRetries 1
 DFIntAssetPublishMaxRetry 0
-FFlagEnableUGCBodyUploadFlow8 False
+FFlagEnableUGCBodyUploadFlow8 True
 FFlagFmodMacGetDeviceBusType True
 DFIntAnimationParallelFpsLossFactor100th 10
 FFlagFmodWasapiGetDeviceBusType True
@@ -2660,6 +2678,8 @@ FFlagGuiLayerCollectorRectQueryDeduplicateResults True
 FFlagCollectAnalyticsForSystemMenu True
 FFlagVoiceChatLockFreeBuffering4 False
 DFIntSpatialVoiceTransferBufferSizeTenthsMs 930
+FIntVersionHistoryCommitInstanceChangesPerRequest 25
+FFlagAllSoundServicesShareOneFmod False
 DFIntOAuthExpiresInBufferSeconds 30
 FFlagGraphicsGLEnableSuperHQShadersExclusion False
 FStringFlagRolloutTestStaticString1 TestMar31_bin_strategy
@@ -2688,7 +2708,6 @@ FFlagDebugRomarkMockingAudioDevices False
 FFlagVideoFixSoundVolumeRange False
 FIntMaxTimestepMultiplierContstraint 2
 DFFlagDebugBreakOnExcessivelyLoudAudio False
-DFFlagVolumeSettingsUsePower2 False
 FIntCreateAnimationFromVideoBetaFeatureRoleSet 4
 DFFlagDebugDisable180DegreeFlip False
 DFIntMultiPartUploadS3RequestTimeout 20000
@@ -2730,7 +2749,6 @@ FFlagFacialAnimationStreamingServiceUniverseSettingsMock False
 FFlagDevVoiceChatControlPlaneEnableRMEIntegrationMVP_RCC False
 DFIntVoiceChatControlPlaneOperationRetryLimit 3
 FFlagUserVRVehicleCamera False
-DFFlagSimFlushDenormalsToZeroDuringJoin True
 FFlagVoiceChatGrpcSubscribeToRoomEvent True
 FFlagUserRoactBubbleChatBeta False
 DFFlagReportLegacySolverRccJoinAllUnthrottled False
@@ -2747,7 +2765,9 @@ DFIntDefaultPPercentTenths 50
 DFIntReplicatorJoinDataItemStatsInfluxHundrethsPercentage 1000
 FFlagGraphicsRenderComputeBarrierFix True
 DFFlagLogUnusedMessages False
+FFlagDoNotConnectDebuggerSignalsToCoreScripts False
 DFIntReportControllerManagerPercent 1000
+FFlagDragDetectorUpdatesPhysicsPropertiesDuringDrag True
 FFlagGlobalWindRendering True
 FFlagPromptSaveCapturesEnabled2 False
 FFlagOpenXrFixHandPoseValid True
@@ -2765,6 +2785,8 @@ FFlagRuntimeEnabled3 False
 FFlagDebugDontDisableWhenLuauIced False
 FFlagBaseScriptEnabledProperty True
 FIntTargetRefreshRate 90
+DFIntReplicatorJoinDiagnosticLargeInstancesToKeep 20
+FFlagGraphicsVulkanDeviceLostCrash False
 DFIntCloudLocalizationTableRetryDelayScaleSeconds 1
 DFIntTattletaleRecordUnfilteredTextThrottleHundredthsPercent 10000
 DFIntMegaReplicatorWorldExtentsRefreshTime 2
@@ -2791,7 +2813,6 @@ FFlagDebugGraphicsDisableVulkan False
 DFFlagDebugEnableInstanceUniqueIdCrashOnCollision True
 FFlagAvatarEditorServiceCreateOutfitSupportsGears True
 FIntLmsClientRollout2 0
-DFFlagUnrelSharedStringEvent True
 FFlagDebugGraphicsBufferD3D11Crash False
 FFlagGraphicsD3D11UnbindOnBeginCompute True
 FFlagDebugGraphicsPreferD3D11FL10 False
@@ -2801,6 +2822,7 @@ FFlagDebugGraphicsGLDisableDiscard False
 FStringGraphicsDeviceEventsExclusion 
 DFStringFlagRolloutTestDynamicString7 dynamic_str_7
 FStringGpuGeometryManagerDeviceExclusionList 
+FFlagRenderCrashOnOutOfMemory True
 DFIntMaxThrottleCount 5
 FFlagGpuGeometryManagerDisableOSFilter False
 FFlagUIOcclusionMetricsModifyReportingBasedOnExperiment True
@@ -2816,7 +2838,7 @@ FIntUIOcclusionMetricsTransparencyThresholdHundreths 95
 DFIntTattletaleReportToRCCCooldownSeconds 30
 DFIntCSGLevelOfDetailSwitchingDistanceL23 2000
 DFFlagRemoveStreamedRegionSetCheck True
-FFlagGpuGeometryManager13 False
+FFlagGpuGeometryManager13 True
 FFlagRenderFrameBufferSupportDepthMip True
 DFIntSendJoinTimesToDiag_HundredthsPercentage 0
 DFIntNumTrackerDataToReplicatePerFrame 6
@@ -2885,19 +2907,15 @@ DFIntAirControllerBalancingResponsiveness 40
 DFIntAssemblyHistoryDeviationTolerance 1
 DFIntAssemblyHistoryBufferSize 15
 FFlagSessionManagerErrorRateCounter True
+FFlagStudioCloseStartPageAtPlaceOpen2 False
 DFIntSimModelLodVoxelNumPerAxis 16
 FFlagPlayerCharacterLoaderReplaceModelWithActor False
 DFFlagDataStoreReEntrantFix False
-DFFlagDecelerationTimeThreshold False
+DFFlagDecelerationTimeThreshold True
 FStringClbCatalogBundleIds []
 FIntStudioWaitTimeMs_ForAsyncRequestsBeforeQuit 100
 DFIntCLI73599A 1536
 DFIntSimLevitationOrthogonalVelocityReductionFactor2 5
-FIntHSRHideFaceBasedOnVerticesCount 1
-DFIntAccelerationTimeThreshold 2
-FFlagRelatedScriptsChatBot False
-DFIntLocalizationTableAnalyticsSenderClientToHttpMinHundrethsPercent 10
-FFlagSplitDescendantDirtyBit False
 DFIntGroundControllerTurningResponsiveness 100
 DFIntVideoMetricsAggregationMinSamples 30
 DFIntHttpBatchApi_MaxBatchesSentPerCyle 5
@@ -2908,15 +2926,11 @@ FFlagToolboxAssetPreviewProtectAgainstNilAssetData True
 FFlagDoNotRoundRotatedRects True
 FFlagDevFrameworkToggleAllowEyeIcon True
 DFIntSimLevitationStopVelCutoffThou 100
-DFFlagSimDebrisServicePartRemovalCrashDebug True
 FIntConnectionIndicatorPingPollIntervalMS 10000
+DFFlagSimAeroDiscardAnchoredPartsInVisualization False
 DFFlagMovingAssemblyStageAssemblyMovedOverride False
 DFFlagPolicyServiceReportIsNotSubjectToChinaPolicies False
 DFIntJointStepParallelBatchSize 4
-DFFlagFixJoinMismatchSkip True
-DFIntCaptureSavedToExternalStorageEventThrottleHundrethsPercent 0
-FFlagDoNotCacheRayCastBuffers True
-FFlagPackageUpdateNestedPackageUnmodified False
 DFFlagSensorUsePrimWorld False
 DFIntLanguageFeaturesEventThrottleHundredthPercent 0
 FFlagAnimationTrackStepFix False
@@ -2956,6 +2970,7 @@ DFIntHeightControllerHipHeightRelativeDeltaThresholdThou 100
 FFlagFixEnvMapRaycastUpdateFlickering True
 DFIntTimesteparbiterHumanoidRotationRateThresholdThou 30000
 FIntCollisionFidelityDeduplicationMaxMapSize 1000
+FFlagScriptContextBufferTelemetry True
 DFFlagSimValidateCollisionGroupDeserialization True
 FStringLuaAppDefaultPageOverride 
 DFIntTimestepArbiterDebounceFrames 20
@@ -2969,12 +2984,8 @@ DFIntInterpolationDtLimitForLod 15
 DFIntDebugVoiceVolumeDb 0
 DFStringFlagRolloutTestDynamicString6 dynamic_str_6
 DFIntVoiceChatMaxAvgBitrate 26000
-DFFlagUnifyGCNeededChecksForStreamingTunable False
 DFIntUserHttpRequestsPerMinuteLimit 500
 FFlagDraggerImprovements False
-DFFlagCheckAllForAnimation True
-DFIntSubscriptionsPerPlayer 8
-DFIntPhysicsNOUCountHundredth 5
 DFFlagReportNetworkFilterPlayerParentFilterException2 True
 DFIntReplicatorLegacyChatRateLimitMilliseconds 15000
 DFIntEventMetaDataReportingTotalMemoryThreshold 0
@@ -3003,16 +3014,17 @@ DFIntAssemblyExtentsExpansionStudHundredth 30
 DFFlagDebugVideoDoNotDropFrame False
 DFFlagUseImprovedGCDeletionRate True
 DFFlagControllerManagerCanThrottle True
-DFIntRemoteEventSoundRateLimitMilliseconds 10000
-DFFlagControllerManagerVisualizeNetForceAndTorque False
+FStringCAPPrivacyPolicyUrl https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy
+FFlagSimRemovedAssemblyCheckBeforeOverlapReport False
+DFFlagSimClimbingControllerUpdate2 False
 DFFlagSimAdaptiveHumanoidsWithConstraintsDefaultTo1Dt True
 FFlagBreakAccoutrementCycles True
 DFFlagPurchasePromptMigrationEnabled False
 DFIntInterpolationFramePositionThresholdMillionth 100
+FFlagRefactorRemoveIndex2 False
 DFIntHumanoidNetworkOwnershipChangeEventIngestThrottleHundrethsPercent 1
 DFIntInterpolationFrameRotVelocityThresholdMillionth 100
 FIntPGSAlign2AxesVStageFrictionConstant 2
-DFFlagDropRateLimitedUREs True
 DFFlagDestroyedModuleRequireError False
 DFIntCheckPVCachedRotVelThresholdPercent 250
 FIntVideoStepTimeLimitMs 10
@@ -3024,9 +3036,8 @@ DFFlagUpdateBroadphaseForClearTerrainWelds True
 DFIntExponentialAverageTrackingFactor 30
 DFIntAudioOcclusionUpdateRateMs 16
 DFIntPreiumUpsellMembershipCheckDelay 1
-FFlagPluginCalloutCustom2 True
 DFIntCheckPVDifferencesForInterpolationMinRotVelThresholdRadsPerSecHundredth 300
-DFFlagAudioAnalyzerSimdFix False
+DFFlagAudioAnalyzerSimdFix True
 DFIntGetPlayerGroupRolesSizeCap 200
 DFIntVideoAnalyticsFlushIntervalMilliseconds 3000
 FFlagDetectGltfScaleAndWeightAnimations True
@@ -3091,6 +3102,8 @@ FFlagUseOptimizedGetPartsObscuringTarget True
 FFlagSimAdaptiveTimesteppingDefault2 True
 DFIntAudioDriftLowerThresholdMs 40
 DFIntSimReportAveWorldstepTimeEventIngestPercent 100
+FFlagDebugBuiltInPluginModalsNotBlocking False
+DFIntSimReportAveWorldstepTimePercent 750
 FFlagSimAdaptiveCheckPendingWakeAssemblies True
 DFFlagSimAdaptiveEnableEightDt False
 DFIntApiRateLimit 200
@@ -3138,6 +3151,7 @@ FFlagNoTagsLabelPassesMouseInput True
 FIntNavigationAgentMaxDrop 100
 DFIntSimSolverAerodynamicsMeshProcessingBatchSize 500
 DFFlagDebugSimSolverAerodynamicsLog False
+FIntSubscriptionPaymentHistoryCacheSize 100
 DFIntBatchThumbnailExponentialInitialWaitMs 250
 DFFlagAllowOversizedLogToUser True
 FFlagRemoveBruteForceContainer True
@@ -3150,6 +3164,7 @@ DFIntStreamingSolverWeakLockHundredthsPercentage 100
 DFFlagDisableCheckGenerateBroadphasePairs False
 DFIntSimContactFilteringNumBins 3
 DFIntReportAUMPAnalyticsPercentageHundredths 100
+FIntRemoteSaveValidatorTeamCreateUserSaveRolloutHundredthPercent 0
 DFIntSimContactFilteringProportionCutoff 50
 DFIntSimContactFilteringCutoff 100
 DFFlagSimContactFiltering False
@@ -3168,22 +3183,19 @@ DFIntAutocompleteDocMaxWidthMult 50
 DFIntBroadPhaseIslandAlwaysSimulateDepth 1
 FIntUITextureMediumSingleTextureMemoryMB 8
 DFStringLocalizationTableAnalyticsSenderImplementationAnalyticsSuffix 2
-FFlagMaterialGeneratorRemoveAccounting True
 DFIntNetworkFilterDeleteUnderPlayerHundrethsPercentage 0
 DFIntBroadPhaseIslandMaxSortDepth 2
 DFIntReportLodOscillationHundredthsPercentage 0
 DFIntStreamingObserverGrowthRatePercentage 120
 FFlagViewportFrameSnapshot True
-DFFlagCLI46794SendToEventStream False
+FIntAudioMetadataCacheSizeKB 0
+DFFlagCLI46794SendToEventStream True
 DFIntPhysicsSolverExplosionsHundrethsPercentage 1000
 FIntDebugStudioMeshSplitProcessInterval 0
 DFFlagSimSolverOptimizedNanInfDetection True
 DFFlagDebugNeverReplicateQueueingCrash False
 DFIntSimFluidSaveOrPublishStatsHundredthsPercentage 10000
-FStringCAPPrivacyPolicyUrl https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy
-FFlagSimRemovedAssemblyCheckBeforeOverlapReport False
 FFlagDisableScriptsSetWaypoint False
-FFlagCaptureScreenshotApiEnabled False
 DFFlagSimIfNoInterp2 False
 DFIntLocalizationTableAnalyticsSenderMaxClientQueueSize 500
 DFFlagPlayerGuiOverlayCustomStatus True
@@ -3203,7 +3215,6 @@ DFIntUniverseSearchMaxRetries 1
 FFlagCheckPhase02WhenCheckingSupported True
 FFlagExperienceLaunchTelemetry True
 DFStringAnalyticsNS1BeaconConfig https://c0hw.rbxcdn.com/test-50kb.png|g2iyic|https://c0cfly.rbxcdn.com/test-50kb.png|g2hjxw|https://c0ak.rbxcdn.com/test-50kb.png|g2g5dg
-FFlagPath2DEnabled False
 DFIntDataStoreOrderedSetInitialBudget 50
 FFlagMarkCanvasGroupDirtyOnVisibleChange True
 DFIntAudioOcclusionMaxPiercedPrimitives 5
@@ -3251,6 +3262,9 @@ DFFlagSimPrimalImplicitSprings True
 DFIntTattletaleCheckWordCount 0
 DFIntVideoToAnimationStatusPollingMaxRetry 300
 DFFlagTattletaleReportWordCount False
+DFFlagFixJoinMismatchSkip True
+DFIntCaptureSavedToExternalStorageEventThrottleHundrethsPercent 0
+FFlagPackageUpdateNestedPackageUnmodified True
 DFIntScreenshotCaptureSavedEventThrottleHundrethsPercent 0
 DFIntScreenshotCaptureRequestedEventThrottleHundrethsPercent 0
 FFlagReportUIOcclusionMetrics6 True
@@ -3262,8 +3276,7 @@ FFlagUserCaptureSavedSignalApiEnabled False
 DFFlagMPServiceDevProductUrlV2 False
 FIntEmotesAnimationsPerPlayerCacheSize 20
 FFlagGetStringForKeyCodeSupportsGamepad2 True
-FFlagPromptShareCaptureEnabled2 False
-FFlagUserVRPlayerScriptsMisc True
+FFlagPromptShareCaptureEnabled3 False
 FFlagAlwaysRenderPlaceholderText True
 DFIntEditableMeshInitTrackingHundredthsPercentage 10000
 FFlagFixCaptureFocusReleasePrevFocus True
@@ -3274,6 +3287,7 @@ FFlagClearSelectionOnCompose True
 DFFlagMouseMoveOncePerFrame True
 DFIntStreamingTerrainLodRadiusPercent2 400
 FFlagUIListLayoutUseHorizontalVerticalPaddingAsSourceOfTruth True
+DFFlagSimAdaptiveCofmCleanupFix True
 FFlagGuiObjectExtendedObjectsDontClipDescendants False
 DFFlagSimPrimalDivideByMass False
 FFlagGuiObjectBackgroundExtensionIncludeBorders True
@@ -3292,9 +3306,8 @@ FIntStudioFeatureActivityTrackerInactivityTimerIntervalSeconds 60
 FFlagPreloadAllFonts False
 FFlagAUMIncludeMood False
 FFlagTextMeasureTemporaryPatch True
-FFlagEnableSocialServiceIrisInitCallPlacedUpdate True
 DFIntReportCharacterLoadTimeMetricsInverseProbability 1000
-FFlagDontProcessInputForScreenGuisUnderBlur False
+FFlagDontProcessInputForScreenGuisUnderBlur True
 FFlagEnableCallFinishedPolling True
 FFlagDisplayTopbarSafeInsetsInStudio True
 DFIntTextBoxServiceHistorySize 10
@@ -3327,6 +3340,7 @@ FIntStudioTeamCreateGamejoinRequestTimeoutMs 10000
 FFlagReduceSelectionUpdateLayout True
 DFIntSimPrimalStiffnessMinAngular 1000
 FFlagInsetTouchGesturePositionWithSafeAreaInset True
+FFlagVoiceChatAuditLocksForFlagCleanUp True
 FFlagInset3DViewportAPIsByHardwareSafeAreaInsets2 True
 DFFlagAnimatorIsThrottledPropertyEnabled False
 FFlagGamepadScrollingPlaysNiceWithMouse True
@@ -3376,6 +3390,8 @@ FFlagDiffWindowCloseWhenDmClose True
 DFFlagDisplayAdMajorityCriteriaEnabled2 False
 DFFlagVideoAddAbrMetrics False
 FStringReconnectDisabledReason We're sorry, Roblox is temporarily unavailable.  Please try again later.
+FFlagDebugSecretAgentMan False
+FFlagShowConnectionErrorCode False
 FFlagConnectionScriptEnabled True
 FFlagFixScreenScaleAlwaysBeingOne True
 FStringGetUserThumbnailAsyncRetryTime 4
@@ -3398,7 +3414,6 @@ DFFlagPointsWriteEnabled False
 FFlagCoreGuiSelfViewVisibilityFixed True
 DFFlagSHAnalyticsAdjustLevelId False
 FIntSendScreenOrientationToEventIngestHundredthsPercentage 100
-FFlagOffCenterOriginMarginScaling True
 DFIntReportAvatarRequestTimesPerMyriad 100
 DFFlagFixLadderSearchDepth False
 DFFlagCLI46794SendToTelemetry False
@@ -3408,7 +3423,6 @@ DFIntRakNetDetectRecvThreadOverloadCheckEvery 100000
 DFIntLuaCharacterControllerIngestThrottleHundrethsPercent 0
 FFlagHighDpiBordersBetterRounding True
 DFFlagDebugVoiceChatEnableDTX True
-DFFlagNewAppUtilSerializers True
 FIntLuauGcGoal 150
 FStringDebugRenderingTestGuid 
 FStringRobloxCharacterPackagesVersion -0.0.1
@@ -3451,6 +3465,7 @@ FStringNewCSGAPIBetaFeatureUrl
 DFIntMinClientSimulationRadius 10
 FFlagNewCameraControls_SmoothCursorDelta True
 DFFlagEnablePerfStatsCollection3 True
+FFlagLuauCodegenMathMemArgs False
 FFlagDebugUseCustomSimRadius False
 DFIntIntegrityCheckedProcessorReportHttpFailureMessageHundredthsPercentage 100
 FFlagStudioMoveStartPageLoginSignal True
@@ -3459,6 +3474,8 @@ DFIntTextScrapingClientVersionMin 0
 DFIntServerBreakJointsRateLimitDuration 10
 FIntStudioSyntaxHighlightingOnChangeAnalyticsPerKeystrokeHundredthsPercent 100
 DFIntServerBreakJointsRateLimitCapacity 100
+DFIntRemoteAbandonReportingThreshold 1
+DFIntCsFilterMessageSignalRateLimitDuration 0
 FIntStudioOpenPlaceEndSuccessThresholdMB 500
 DFFlagRemoveLegacyRedundantPlayerCheck False
 DFIntMpsRateLimitDuration 10
@@ -3471,6 +3488,8 @@ DFIntESGamePerfMonitorReportTimerInSeconds 30
 DFIntSpawnMaxSearchHeightCharacterMultiplier 10
 DFIntReportPackageModCheckAnalyticsRate 100
 DFIntRandomSpawnRetryTimes 20
+DFIntGroupTeleportLogHundredthsPercentage 0
+DFFlagPlayerLocationsEnricher False
 DFFlagCOLLAB2387PlaceUploadTeamCreateMessagingEnabled False
 FFlagClientAvatarUsesColor3sForBodyParts4 False
 DFFlagReportDeadKickCodeUsage True
@@ -3537,9 +3556,6 @@ DFIntIntegrityCheckedProcessorReportPlayerIntegrityAnalyticsHundredthsPercent 10
 DFIntIntegrityCheckedProcessorMaxPlayerIntegrityListSize 100
 FFlagToolboxAddPackageVersionDescriptions4 False
 DFFlagTextScraperAlwaysSendParameterInfoIfPresent True
-DFIntMinimumRadiusCoefficientForPauseHundredths 50
-DFFlagEnableSocketPortSharding True
-DFIntTextScraperReportMatchedExpiredSourceHundredthsPercent 100
 DFIntReportTextScraperHttpFailureMessageHundredthsPercentage 100
 DFIntReportParameterContentHundredthsPercent 8000
 FFlagRestrictSales2 False
@@ -3548,14 +3564,13 @@ FFlagFailsafeHumanoid_3 False
 DFIntTextScraperReportUserIdSize 5
 DFIntAnimationLodFacsFpsMax 50
 DFIntTextScraperServerMaxBytesPerMessage 100000
-FFlagReportNegligibleMeshAvatarImport True
-DFIntTextScraperServerDataMSecs 1000
-DFFlagSimSolverGeometricStiffnessMassFix False
 FIntCloudEditTimeoutTimeMs 180000
 FFlagDisconnectShutdownCamera2 True
 FFlagScriptProfilerJSONOptionalFields True
 DFIntTeleportV2InvocationsInfluxHundredthsPercentage 10000
 DFFlagPromptImportAnimationClipFromVideoAsyncEnabled False
+FFlagReportNegligibleMeshAvatarImport True
+DFIntTextScraperServerDataMSecs 1000
 DFFlagAnimatorNewModelSearch5 False
 DFIntTextScraperClientDataNBytes 1000
 DFIntTextScraperClientDataQSize 128
@@ -3639,6 +3654,8 @@ FFlagDebugUseAudioClustering False
 DFFlagSimWarnAboutNoOptChangeToAssemblyVelocity False
 DFStringRobloxAnalyticsSubDomain studio-ecsv2
 DFIntVolumetricSoundAdornVertexCount 200
+DFIntDynamicHeadRenderedEventThrottleHundrethsPercent 100
+DFFlagFixInteractionGroupSignaling True
 FStringDragDetectorsBetaFeatureUrl https://devforum.roblox.com/t/dragdetectors-beta/2387249
 DFFlagDisplayAdRaycastBruteForceAllSlowEnabled True
 DFIntAnimationLodThrottlerDistanceMin 180
@@ -3646,7 +3663,7 @@ FFlagFixBuggySidechains True
 DFFlagAudioAnalyzerHandleZeroSound True
 FFlagUseGeneralizedPeakRMS True
 FFlagLuaAppDevSubsEnabled False
-FFlagFlagRolloutTestStaticBool1 False
+FFlagFlagRolloutTestStaticBool1 True
 DFFlagAtomicPlayerStarterGuiNoReset True
 DFIntAudioDriftSampleRateRatio 5
 DFIntAudioDriftUpperThresholdMs 100
@@ -3658,7 +3675,7 @@ FFlagFlagRolloutTestStaticBool6 False
 FIntPGSFrictionUpdatePeriod 4
 FFlagCOLLAB4014FlyToCollaborator True
 FIntAudioEmitterPannerMinDistanceNumerator 4
-FFlagFTUXDHIxpExperimentation True
+FFlagFTUXDHIxpExperimentation False
 DFIntWiringApiEventIngestHundredthsPercent 1
 FFlagVoiceCheckEligibilityBeforeOsPermissions False
 DFIntMemoryStoreUpdateAsyncRetryMaxBackoffTimeMs 10000
@@ -3681,11 +3698,14 @@ DFIntStreamingSolverMapModifyCountsHundredthsPercentage 1000
 DFIntOcclusionDensityRatio 1
 DFIntMinOccludableVolumeThousandths 1
 FIntSimMinimumMeshFacesForAeroInterpolator 40
+DFIntAudioOcclusionMaxProcessingTimeTenthsUsec 1000
 DFIntEventIngestInstrumentThrottleHundrethsPercent 10
 DFIntAudioOcclusionMaxNumQueriesPerFrame 4
 FFlagPGSConstraintAlign2AxesCompliantCacheFix True
 DFFlagDebugEnableOcclusionUpdates False
 DFFlagDebugUseOcclusionQueries False
+FFlagDebugSoundServiceCloseFmodIssue False
+DFFlagDontSubscribeIfNotVoiceEnabled True
 FFlagEnableAudioWiringStudio False
 FFlagEnableAudioWiringApi True
 FFlagAudioPlayerEndedReplicationFix True
@@ -3734,13 +3754,15 @@ FFlagEnablePlayerViewRemoteReplication2 False
 FFlagEnablePlayerViewApi2 True
 DFFlagTaskLibParallelDeferDelayWait False
 DFFlagAUMPAnalytics True
-FFlagVRLaserPointerNotOnTop False
+FFlagVRLaserPointerNotOnTop True
 FIntR15MigratorBetaFeatureRolloutPercent 0
 DFIntSubscriptionsPerServerBase 20
 DFIntSubscribePerMinuteLimit 240
 DFIntPublishPerMinuteLimitBase 600
 FFlagUnifyModelPackagePublish3 False
 DFFlagEnableCsmRateLimit True
+DFFlagEnableRetryForSubscribeOnReconnect True
+DFFlagSimCSG3DCDEnableAero False
 FFlagAssetImportGltfPivotSupport False
 DFFlagCrossServerMessagingWriteEnabled False
 FFlagAppEnableSurfaceControllerErrorReport True
@@ -3783,7 +3805,6 @@ DFStringDeveloperEventIngestEnd2EndLogUniveseIds 1149251775
 DFFlagDebugReportSoundAssetsFromList False
 DFFlagLuaFlagVersionReload True
 DFIntDeveloperEventIngestMaxEventsSizeInQueueKB 32768
-FFlagStudioInitializeTemplacePlaceIdZero2 False
 DFIntDeveloperEventIngestBatchEventsPeriodSeconds 300
 DFIntDeveloperEventIngestMaxEventsSizeKBPerBatch 250
 DFIntRobloxTelemetryRccDisconnectPointsThrottleHundredthsPercent 100
@@ -3818,15 +3839,13 @@ DFIntRemoteFunctionDelayedQueueLimit 256
 DFIntRemoteFunctionMaxQueueMemBytes 0
 DFIntRemoteFunctionSingleInvocationSizeLimit 0
 FFlagVideoReportSessionGuid True
-DFFlagFlagRolloutTestDynamicBool2 False
+DFFlagFlagRolloutTestDynamicBool2 True
 DFIntRaknetDownloadBandwidthInfluxHundredthsPercentage 500
 FFlagUserFixCameraPanAfterShiftLock True
 DFIntVideoMetricsAggregationDecodeTimePstat 95
 FFlagVideoReportVideoHlsVariant True
 FFlagIgnoreHSRForTransparentMesh False
 DFIntVideoMetricsABRReportPlaySessionHundredthsPercent 100
-DFFlagTaskLibErrorBadDesynchronizeCall False
-DFIntVideoStatsInfluxReportHundredthsPercent 10
 DFIntSendReplicatorStatsFacsOverride 0
 FIntSkinMorphExpandInfluences 1
 FFlagSkinMorphIgnoreWeights False
@@ -3844,9 +3863,9 @@ DFFlagHttpStatsRenameBytesField False
 DFIntEditableMeshAPIUsageCallTrackingHundredthsPercentage 100
 FIntLuauIndentTypeMismatchMaxTypeLength 10
 DFIntEditableMeshAPIUsageInstanceTrackingHundredthsPercentage 100
-FFlagSoundEffectRefactoring False
 FStringSimDumpOperationTreePath 
 DFFlagEnableExcludeDeletedForListKeys True
+FFlagFasterPlaySoloBetaFeature False
 DFFlagDataStore2NewVersionHeader False
 FIntStudioHttpRequestDefaultRetryMultiplierTimes1000 2000
 DFIntDataStoreScopeLengthLimit 50
@@ -3857,17 +3876,19 @@ DFIntDataStoreMaxAttributeSize 300
 FIntUITextureHighSingleTextureMemoryMB 8
 DFIntPhysicsImprovedCyclicExecutiveConsecutivePredictionRequired 2
 FFlagSimulateNewStaticFlagRolloutCheck True
-DFFlagPublishAssetPrompt2 False
+DFFlagPublishAssetPrompt2 True
 DFFlagWorldModelCrashOutsideOfDataModel True
 FIntViewportFrameMaxSize 1024
 FIntPhysicsSolverCollisionPoolBucketSizeWorldModel 1
 DFIntReportJoinStructureMismatchThrottle 1
 FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel 1
 FFlagVideoServiceFixPermissionCheck True
+DFIntRobloxTelemetryAvatarMetricsTrackSingularAssetRequestThrottleHundredthsPercent 100
+DFIntTaskLibReportBadDeferDelayWaitCallHundrethsPercentage 100
+DFIntVideoMetricsClientFlushIntervalMilliseconds 6000
 DFIntVideoMetricsClientHundredthsPercent 10
 FFlagVideoCaptureUseWeakThis True
 DFFlagTeleportClientAssetPreloadingEnabled False
-FFlagVideoCameraAsyncEnabled False
 FFlagVideoCaptureStopNotPassStream True
 FIntUITextureLowSingleTextureMemoryMB 4
 DFFlagFindingTheNextBestBodyMover2 False
@@ -3906,7 +3927,6 @@ DFIntDataStoreOrderedGetInitialBudget 10
 DFIntTrackerDataParallelSerializationBatchSize 1
 FIntPGSPStageStiffnessEasingDownToConservative 10
 DFIntDataStoreOrderedGetPerPlayerRequestLimit 2
-FFlagLuauClipExtraHasEndProps True
 DFIntFlagRolloutTestDynamicInt1 1
 DFIntDataStoreOrderedGetFixedRequestLimit 5
 DFIntDataStoreRefetchPerPlayerRequestLimit 5
@@ -3928,9 +3948,13 @@ DFFlagTeleportThirdPartyChecking True
 FFlagVideoReportErrorCode True
 DFFlagProximityPromptAnalytics False
 DFFlagPromptsFixDisabledOnServer False
+FFlagScriptDiffTool False
+FFlagNewRuntimeQuaternionToAAFix True
+DFFlagPassErrorForCallAPI False
 DFFlagPrintErrorForCallAPI True
 FFlagEnableU13SendIrisInvitePermissions True
 FFlagEnableCanSendGameInviteAsync429ErrorMarshalingFix True
+FFlagAssetImportUseUploadId False
 FFlagEnableSocialServiceIrisInviteV3 True
 FFlagEnableExperienceInviteOptions True
 FIntRbfDiagonalEps 0
@@ -3941,6 +3965,8 @@ FFlagEnableStudioServiceOpenBrowser True
 FFlagFacsCodecEnabled True
 FFlagFixPromptDestroyWhileHidden True
 FFlagSessionRemoveJYFSessionsOnGameLeave True
+DFIntPointsServiceBatchingImplMaxDelaySeconds 30
+DFFlagFlagRolloutTestDynamicBool0 True
 DFIntPointsServiceBatchingImplMinuteSeconds 60
 DFIntSecondsPerBatchAwardPointsCall 10
 DFIntMaxAwardPointsHttpCallsPerMinute 60
@@ -3960,11 +3986,10 @@ FFlagSetMeasuredValueForSoundTunableEffects False
 FFlagRecordHopperServiceStats False
 DFIntAnimationLodFacsOutOfFrustumLodPercentage 0
 FFlagScriptEditorLiveEditingEnableRollout True
-FStringLuaAppOmniSearchLayer UserConnection.UserSearch
 FFlagUnifiedRCCJobProfilingFlag False
 FStringFriendsOnlineUrl /my/friendsonline
 DFIntGetFriendsOnlineFailureExpirationInSeconds 10
-DFFlagPreventRepeatedRespSwap False
+DFFlagPreventRepeatedRespSwap True
 DFIntReportNetworkSendersLeftoverBytesThrottlePercentage 0
 DFIntFriendsListFailureExpirationInSeconds 10
 DFFlagPreciseTerrain_SharperCorners False
@@ -3995,7 +4020,6 @@ FIntVRToolLaserEquipFactorTenths 20
 FFlagUserNavigationClickToMoveSkipPassedWaypoints True
 DFIntTeleportSpawnNameLimit 100
 DFIntScopeCheckSuccessEventThrottleHundredthPercent 1000
-DFFlagSimSolverHideFluidFidelity True
 DFIntExperienceAuthTimeoutSeconds 300
 FFlagDebugToolboxEnableRoactChecks False
 DFFlagEnableBetterConsoleCheckForChat True
@@ -4086,7 +4110,6 @@ DFIntVideoStreamMinImageLongSide 1
 DFFlagEnableSendStreamingTunableTargetToServer False
 DFIntVideoStreamMaxImageShortSide 720
 DFIntVideoStreamMinImageHeight 1
-DFFlagDebugCountRccAudioDownloads False
 DFFlagTransferOwnershipToServerOnJointBreak True
 DFIntVideoStreamMinImageWidth 1
 DFIntTeleportInvocationsInfluxHundredthsPercentage 5
@@ -4187,10 +4210,10 @@ DFIntCollectibleItemInExperiencePurchaseRolloutPercentage 0
 DFIntUnpresentPurchasePermyriad 10000
 FFlagCtorCheckCloudEdit True
 DFIntMaxReceiptSize 100
+DFFlagSimSolverGeometricStiffnessMassFix2 False
 DFFlagGameLoadDataStatistics False
 DFIntPurchaseErrorReportRate 100
 FFlagAddPublishResponse True
-DFIntReportSharedStringEventItemsHundredths 10000
 DFIntPurchaseMismatchReportRate 100
 FFlagStudioResetLayoutWhenMarkedAsCorruptPreviously True
 DFIntGetProductInfoProductCacheSecs 60
@@ -4228,11 +4251,8 @@ DFIntUniverseSearchInitialDelays 3000
 DFFlagReportStreamingSetCount True
 DFIntHttpRbxApiJobFrequencyInSeconds 1
 FStringClientExternalBrowserUserAgent Roblox/WinInet
-FFlagRemoveLegacyLocksInCommands True
 FStringLuaCharacterControllerBetaFeatureUrl 
-FIntVersionHistoryCommitInstanceChangesPerRequest 25
 FIntDebugVersionHistoryWiremockApi_StartingStage_7 7
-FFlagThreadSafeIsShuttingDown True
 FFlagDebugStudioCreateGameWindowThrows False
 DFStringPermCheckForInExpPublish Model
 FFlagPivotEditorReleaseCallout True
@@ -4242,14 +4262,19 @@ DFIntHttpServiceInsightsErrorStatusCodeThrottleHundredthsPercentage 1
 FIntDebugVersionHistoryWiremockApi_StartingStage_3 3
 DFIntAutoSkinTransferUsedEventThrottleHundrethsPercent 1000
 FIntDebugVersionHistoryWiremockApi_StartingStage_2 2
+FFlagRenderEnsureExplicitUploadCaps False
 DFIntVersionHistoryCommitCoordinatorHundredthsPercentage 0
 FIntDebugVersionHistoryWiremockApi 0
 FIntVersionHistoryCommitMessageSizeLimit 250
+FFlagVoiceChatWaitForSignalRJoinStageMetrics True
+FFlagFixHighlightGfxDependency False
 FFlagGamepadCursorDotDisappearsCorrectly2 True
+DFIntSavePlacePerMinute 10
+FFlagMouseLocationUpdateSooner True
 FFlagGltfBeginAnimationsFromFirstFrame False
 FFlagFallbackToSWCursorWhenRecording False
-FIntCursorMaxRetries 10
 DFFlagAnimatorLodModelInstanceOwnershipFix True
+FIntCursorMaxRetries 10
 FIntCursorRetryDelayMs 1000
 FIntCursorEvictionCycleMs 2000
 DFStringTeleportUniverseWhitelist 
@@ -4272,7 +4297,6 @@ FFlagUserClickToMoveSupportAgentCanClimb2 True
 DFIntTeleportInGameMenuOpenEventThrottleHundredthPercent 10000
 FStringCAPIxpGroupParam 
 DFFlagAddProfilerTelemetryScopeForRakNet False
-FFlagFixDiscardHSRWithTempCageIdBug True
 DFFlagTeleportMenuOpenTelemetry2 True
 FIntPercentLuaGameDetailsPageOnAndroidPhone 100
 DFIntTeleportServiceTookTooLongThresholdMilliseconds 10000
@@ -4294,9 +4318,7 @@ FFlagAssetImportFreeOrderFix True
 DFIntLogTeleportOutOfRetryFailurePerTenThousand 10000
 FFlagClientUseMixedPriority True
 DFIntTeleportPartyExpirationMillisecond 180000
-FFlagLogReloadLatencyMsPerTotalPlays True
-DFStringHttpServiceUserAgent RobloxGameCloud/1.0 (+http://www.roblox.com)
-FIntAnimationLodBoneMediumPriorityDisabledThreshold 30
+FFlagSoundServiceCloseFmodIssueFix False
 FFlagTextChatServicePropertyTextBox True
 FFlagFixSoundTunableLoggingRace True
 FFlagDebugConversationalAIPrint True
@@ -4346,6 +4368,10 @@ FFlagCameraFireViewportSizeChangedSignalFromScreenMetricsChange True
 FFlagFreeCameraForAdmins True
 FFlagUserPoppercamLooseOpacityThreshold True
 DFIntHttpBatchApi_minWaitMs 5
+FFlagRequestNoButtonPromptFallback False
+DFIntLDLProgramOpsReportingRate 1000
+DFIntMuteTimerReportRate 0
+FFlagSmoothClusterFixDanglingMaterialTable False
 FIntRenderStudioOccludedOutlineOpacity 20
 FFlagGrantPermissionsOnPaste2 True
 FFlagTerrainVoxelChannel True
@@ -4357,7 +4383,7 @@ FFlagBetterBetaFeaturesDialog True
 DFIntServerRakNetStartupFailureInfluxHundrethsPercentage 0
 FFlagStudioReportChangeAnalytics True
 FFlagRenderUseFutureCap True
-DFFlagThrowErrorForShapecastTerrain False
+DFFlagThrowErrorForShapecastTerrain True
 FFlagIKMoveToPivotFix True
 FFlagVideoSoundSync2AncestorChange False
 FFlagVideoDataJob2Service True
@@ -4375,7 +4401,6 @@ DFIntVideoFrameErrorMetricsReportHundredthsPercent 1000
 FIntLuaCharacterControllerBetaFeatureRolloutPercent 0
 FFlagCacheVREnabled True
 DFFlagUseDefaultDynamicHead2 True
-FFlagCinInternalErrors False
 FFlagEnablePermissionCheckOnCreatingEditableAsset False
 FFlagUserAtomicCharacterSounds2 True
 DFFlagFlagRolloutTestDynamicBool5 False
@@ -4395,8 +4420,8 @@ FFlagImprovePluginSpeed_R15Migrator True
 DFIntCreatePlacePerMinute 5
 FFlagFixFontStyleThemeSwitch True
 DFIntServerReportStatIntervalSec 600
-FFlagFlagRolloutTestStaticBool2 False
-FFlagEnableUGCUploadSupport3 False
+FFlagFlagRolloutTestStaticBool2 True
+FFlagEnableUGCUploadSupport3 True
 FFlagDebugAssetConfigNetworkError False
 DFFlagStreamingSolverServerSkipCountStuff True
 DFIntOperationStatusPollingMaxRetry 300
@@ -4444,9 +4469,6 @@ DFFlagSimEnableAngularAccelerationConversionMethods False
 DFIntHttpServiceRequestTimeoutMs 120000
 DFIntUITextureGCFrameCount 30
 DFFlagHttpServiceRequestTimeout False
-FStringGameLocaleIdName GameLocale
-DFIntHttpServiceAggregateBandwidthReportThrottleHundredthsPercentage 1
-FFlagDebugAssertOnServiceProviderLockViolation False
 DFIntMotionDiscontinuityThreshold 1
 DFIntHttpServiceBandwidthReportThrottleHundredthsPercentage 1
 DFIntHttpServiceRequestTimeReportThrottleHundredthsPercentage 1
@@ -4458,12 +4480,14 @@ DFIntTrackerLowCameraFPSDetectedThrottleHundrethsPercent 0
 DFStringFlagRolloutTestDynamicString1 Mar10Test
 DFFlagReportHttpServiceUsagetoEventStream False
 DFIntHttpServiceTlsProbeInfluxHundrethsPercentage 1000
+DFStringHttpServiceUserAgent RobloxGameCloud/1.0 (+http://www.roblox.com)
+FIntAnimationLodBoneMediumPriorityDisabledThreshold 30
 DFIntHttpServiceReportUniverseBlacklistedHundredthsPercentage 0
 DFIntHttpServiceReportUrlHundredthsPercentage 0
 DFStringHttpUniverseBlacklist 
 DFFlagRetargetingSeparateFromFacsWeight True
 DFIntUserHttpRequestsPerMinuteLimitZ 2000
-FFlagFixViewportVisualizationVerbs False
+FFlagFixViewportVisualizationVerbs True
 DFFlagSimWorkspaceBreakJointsFix True
 DFFlagPlayerCharacterDestroyBehaviorDefaultEnabled False
 DFFlagPlayerCharacterDestroyBehaviorProperty True
@@ -4528,7 +4552,6 @@ FIntStudioPluginOTAAllUserRolloutPercent 100
 DFStringGamePerfMonitorPercentageCountryOverride CN,50,AU,50,NZ,50
 DFIntSessionHeartbeatPeriod 20
 FFlagReportMeshIdChangeForLCItem True
-FFlagSimRefactorTriangleMeshPartGenerateAndSetCollisionGeometryData True
 DFFlagSimCSG3FreeKernelOnDestroy True
 DFFlagCleanOldCSGData False
 FStringLuaShareGameModalPromptEntryCounter ShareGameModalPromptEntryPoint
@@ -4557,6 +4580,7 @@ DFFlagDcidMismatchRccReload False
 DFFlagDebugSimShowStabilityDebuggingData False
 FFlagDisableSkinningWorkspaceAnalytics True
 FFlagAdGuiRefactorViewability3 True
+FFlagVoiceChatCheckRecordingPermission False
 FStringStudioQSGRhiBackend 
 DFFlagCLI56775 False
 FFlagTrackerLodControllerThermalState True
@@ -4567,18 +4591,14 @@ DFIntEagerTrackingReportStopOnMissingMRDPerMyriad 100
 FFlagEnableMaterialPicker False
 DFIntEngineStabilityMaxValidCumulativeDuration 864000
 FFlagStudioMoveCreatePluginServices False
-FFlagThreadSafeDataModelIsDirty True
 DFFlagAutoReconnectTeleport False
 FFlagLinkingProtocolDurationLogging True
 DFIntEventMetaDataReportingDepthThreshold 295
 DFIntOnCloseMiddleTimeoutInSeconds 30
 FFlagDebugSquishLuaFlags False
-FFlagEnableLoadPatchMetric True
 FIntRenderMaxShadowAtlasUsageBeforeDownscale 650
 FFlagNewCameraControls_SpeedAdjustEnum True
 DFFlagAsyncHttpQueuePriority True
-DFIntFlagRolloutTestDynamicInt5 44
-FFlagEnableDMInitMeasurement True
 FIntMVTerrainRotationParam 0
 DFFlagAddPlaceStats True
 FIntCLI62253PerMyriad 100
@@ -4611,6 +4631,7 @@ DFIntAdGuiVideoInteractivityControlTransparencyThousandths 800
 FFlagLuobuModerationStatusAvailable False
 FFlagFixAudioPermissionsOutputWorkflow True
 FFlagAssetImporterCustomPresets False
+FFlagFixPromptsNotEndingWhileMenuOpen True
 DFFlagDebugSimulateExceptionAtStartup False
 DFIntLoginFailureStudioInfluxDbHundredthsPercentage 10000
 DFStringDefaultCustomAnimationType True
@@ -4620,14 +4641,13 @@ DFStringCustomAnimationField allowCustomAnimations
 DFIntServerConfigCloudEditSavePeriodSeconds 240
 DFIntOnCloseTimeoutInSeconds 30
 FIntInGameGlobalGuiInset 36
-DFFlagSimSolverCollectAverageForceOverWorldSteps False
+DFFlagSimSolverCollectAverageForceOverWorldSteps True
 FFlagShowPlaySessionIdForHelpTab False
 FFlagMaquettesBuildFlags True
 FIntLuaAppLoginMethod 0
-FFlagUserAddBetterConsoleCheckForLegacyChat True
-DFIntAnimationLodFacsDistanceMax 70
 FFlagUserFixOverlappingRtlChatMessages False
 FFlagUserFixGamepadMaxZoom True
+FFlagUserVRPlayerScriptsMisc True
 FIntDebugForceMSAASamples 0
 FFlagUserFixVRSwimming True
 FStringAerodynamicsBetaFeatureUrl https://devforum.roblox.com/t/introducing-aerodynamic-forces-beta/2569269
@@ -4694,6 +4714,7 @@ FFlagStudioDebuggerDropdownMenuSelectionRerender True
 FFlagDebugEnableBootcampPlugin False
 FFlagEnableGuiDevEnv False
 FFlagDebugToolboxGetRolesRequest False
+FFlagImprovePluginSpeed_TagEditor False
 FFlagCodeSnippet_Alpha4 True
 FFlagImprovePluginSpeed_RobloxClassic True
 FFlagImprovePluginSpeed_LayeredClothingEditor True
@@ -4763,7 +4784,6 @@ DFIntCrashReportingHundredthsPercentage 10000
 DFIntReportStreamingRegionRemovalStatsHundredths 100
 DFFlagReportTokenWithTelemetry False
 DFStringLmsRecipeEndpoint /recipe
-FFlagUpdateSourceAsyncNullParentFix True
 DFFlagDebugFallbackThumbnailUtilNoCache False
 DFFlagDebugFallbackThumbnailUseCheckers False
 DFIntWinLinkingProtocolInfluxPriorityHundredthsPercentage 10000
@@ -4779,12 +4799,14 @@ DFIntSessionReportSnapshotEventIngestThrottleHundredthsPercent 0
 DFFlagAnalyticsNewHttp2 False
 DFIntStudioCookieManagerStorageErrorHundredthsPercent 10000
 FFlagContentProviderReportBlockedRequests True
+FIntRemoteSaveValidatorNonTeamCreateUserSaveRolloutHundredthPercent 0
 DFFlagNonTeamCreateRemoteSaveValidatorMasterSwitchOptIn False
 FFlagReportClientFastLogTelemetry False
 DFIntRemoteSaveValidatorPlaceIdRolloutPercentage 0
 FFlagRenderGpuTextureCompressor False
 DFIntRemoteSaveValidatorFailureTelemetryThrottleHundredthsPercent 0
 FIntPGSPenetrationVelocityForMinMargin 20
+FFlagCaptureScreenshotApiEnabled2 False
 FIntStudioValidateSaveMaxSizeKb 1024
 DFFlagPerformRetargetingPostProcess True
 DFIntLmsClientAppReportPeriodSeconds 10
@@ -4829,7 +4851,6 @@ DFIntRxRlReport 15
 DFIntFlagRolloutTestDynamicInt7 7
 FStringAppConfigurationOverrideAppPolicy 
 FFlagMoonbeamGuacBatching True
-DFIntDevProductsDetailsRollout 100
 FFlagAdTeleportPromptExperimentation2 False
 DFIntInitialClusterCacheNumberChunksPerStep 2
 FFlagMoodDampingIxpExperimentation True
@@ -4846,8 +4867,7 @@ FStringIXPTestConsoleSignupLayerName Consoles.Signup
 FStringIXPTestLoginLandingLayerName PlayerApp.Login
 FStringIXPTestBrowserTrackerLayerName 
 FStringSessionEventDebugVersion FFlagStudioFlushDeferredEventsBlock, FFlagFixMissingStudioStartupSummaryEvent, FFlagFixWinStudioMissingStartEvent
-FFlagPlaceVersionHistoryTitleFix True
-FFlagSessionLoggingForAirTest False
+FFlagSessionLoggingForAirTest2 False
 FFlagStudioOpenPlaceReportRetryableFailure True
 FFlagSessionL2ContextFocus False
 FFlagLuauPreallocateTarjanVectors False
@@ -4861,7 +4881,6 @@ FFlagDebugPackageInplaceUpdate False
 DFFlagCreateAnimationThrottlingInertializer False
 FFlagDebugPackageHistoryIdCollisions False
 DFIntInfluxReportingPackageAnalyticsHundrethsPercent 10000
-FFlagStudioOutputDeprecatePropertyLinks True
 FFlagStudioOutputClickableWebLink True
 FFlagStudioBetterStartPageQmlGlobals True
 DFFlagMPServiceGamepassUrlV3 False
@@ -4882,11 +4901,11 @@ DFFlagEnableAssetFailedEvent False
 DFFlagDebugRequireRbxSig4 False
 DFIntRemoteEventAbuseReportRateLimitMax 10
 DFFlagFFlagRolloutDuplicateTelemetryCountersEnabled True
-FFlagFasterEventFilterScriptEditor True
 DFIntSessionCountIntervalSeconds 60
 DFIntAnalyticsCDNProbePerHostChancePercent 50
 DFIntAnalyticsDeferredEventIngestReportTooLargeErrorHundredthsPercentage 1000
 FFlagRootMotionSupportedInternal False
+FFlagDebugAnalyticsForceLotteryWin False
 FStringLuaAppsDiagLoadTimeAvatarModel LuaAppsLoadTimeAvatarModel
 FStringLuaAppsPageLoadTimeItemDetails LuaAppsPageLoadTimeItemDetails
 FStringLuaAppsDiagPageLoadTimeCatalog LuaAppsPageLoadTimeCatalog
@@ -4908,8 +4927,9 @@ FFlagFlagRolloutTestStaticBool5 False
 FFlagRuppTokEn4 True
 DFFlagDebugLogAvatarLoadTimeStatsByPlace False
 FFlagFlagRolloutTestStaticBool3 True
-FFlagFlagRolloutTestStaticBool0 False
+FFlagFlagRolloutTestStaticBool0 True
 FIntStudioLongCacheRecoveryTime 3600
+FIntTerrainEditorBetaFeatureRoleSet 4
 DFStringFlagRolloutTestDynamicString9 dynamic_str_9
 FFlagCOLLAB3465DeprecatedDisconnectDialogTelemetry True
 DFIntVoiceChatNonCriticalPathSignalingPriority 2
@@ -4917,6 +4937,7 @@ DFStringFlagRolloutTestDynamicString4 dynamic_str_4
 DFIntReportNumSyncMapEntriesModifiedSerialEveryNSeconds 60
 DFStringFlagRolloutTestDynamicString3 dynamic_str_3
 DFIntFlagRolloutTestDynamicInt6 6
+DFIntFlagRolloutTestDynamicInt5 44
 DFIntFlagRolloutTestDynamicInt4 42
 DFIntFlagRolloutTestDynamicInt2 223
 DFFlagFlagRolloutTestDynamicBool8 False
@@ -4925,7 +4946,7 @@ DFFlagFlagRolloutTestDynamicBool6 True
 FIntNavigationAgentWalkableClimb 1
 DFFlagFlagRolloutTestDynamicBool3 True
 FFlagDebugGraphicsPreferVulkan False
-DFFlagFlagRolloutTestDynamicBool1 False
+DFFlagFlagRolloutTestDynamicBool1 True
 FStringGoogleAnalyticsAccountPropertyIDLuaShell UA-43420590-18
 FFlagEnableRuntimeThreadVisQueries False
 DFFlagDebugAnalyticsSendUserId True
@@ -4937,10 +4958,6 @@ DFFlagSimSolverLogLDLCrashes3 False
 FFlagDebugStudioEnableQSGInfo False
 DFFlagDebugSimLDLProgramPrintExecStats False
 DFFlagDebugSimLDLProgramPrintBuildStats False
-FIntStudioAutoReconnectCountdownMinDurationSeconds 5
-DFIntLDLProgramOpsReportingMinOpCount 1000
-FFlagRequestNoButtonPromptFallback False
-DFIntLDLProgramOpsReportingRate 1000
 DFIntTimestepArbiterAccelerationModelFactorThou 100000
 DFIntTimestepArbiterConditionNumberThresholdThou 50000
 DFIntTimestepArbiterOmegaThou 10000
@@ -4957,7 +4974,6 @@ DFIntSimPrimalToleranceInv 100000
 DFIntSimPrimalStiffnessMax 100000
 DFIntIkControlTelemetryEventsThrottleHundrethsPercent 10000
 DFIntSimPrimalStiffness 1000
-DFFlagSimSolverPassMinimumToPhysicalProperties True
 DFFlagFixDispatcherInefficiency False
 DFIntSimPrimalPositionLinearIts 100
 DFIntSimPrimalVelocityLinearIts 100
@@ -4967,7 +4983,6 @@ FIntPGSMinConstraintCountForSolveBatchTask 50
 FIntPGSConeLimitMaxCorrectiveAngle 15
 FIntPGSAlignmentConstraintsMaxCorrectiveAngle 3
 DFFlagSimulateNewDynamicFlagRolloutCheck True
-FFlagSaveTempCageMeshDataLocally True
 FIntPGSAlign2AxesPStageFrictionConstant 1
 FIntPGSPStageStiffnessConservativeValue 90000
 FIntStudioReportWindowsAudioServiceStatusesHundredthsPercent 1000
@@ -4979,7 +4994,10 @@ FIntPGSVStageStiffnessAggressiveValue 99995
 FIntPGSVStageStiffnessBestFitnessThreshold 1
 FIntPGSInsideOfSpherePenetrationResolutionDamping 7
 FIntPGSPenetrationMarginMaxBump 5
+DFIntAnimationLodThrottlerVisibilityMax 20
+FFlagDebugSimPrimalCRConvergenceHistory False
 DFIntRemoteEventMonitorSampleRateNumUnits 0
+FFlagLuauCodegenVector False
 FFlagDebugSimPrimalGSLump False
 FFlagDebugSimPrimalUseDualStiffness True
 FFlagChangeAttachmentNames True
@@ -4994,6 +5012,7 @@ DFFlagReportPhysicsSolverStatsPlaceSpecific False
 FIntRobloxClassicBetaFeatureRoleSet 4
 DFIntLDLPGSStatsDelay 30
 FFlagPGSSolverFileDump False
+DFFlagSimAlign2AxesMaxVelocityFix False
 DFFlagSimAdaptiveStablePDControl2 True
 FIntSimPrimalStiffnessScaling 20000
 FFlagSimSolverLimitMaxMotorAcceleration True
@@ -5006,6 +5025,8 @@ DFFlagSimAdaptiveResetPastPvBugFix2 False
 DFFlagSimAdaptiveRestPastPvBugFix True
 FFlagDebugCountSimBodyAllocations False
 DFFlagDebugReportAnchoredSimBodyUpdatedFromSolver False
+FFlagLuauCompileRevK True
+DFIntSimSolverAerodynamicForceMaxNewton 5
 FIntRenderNodeEnterSleepingFrames 300
 FFlagSimConsolidateBVHMidphase False
 DFIntSimMidPhaseContactPipelineBatchSize 6
@@ -5033,14 +5054,13 @@ DFIntAnimationLodFacsVisibilityDenominator 10000
 DFIntAssetPermissionsApiPostUniversesPermissionscopyIntoTelemetryHundredthsPercent 0
 DFIntAnimationLodFacsVisibilityMin 20
 DFIntAnimationLodFacsFpsMin 30
-DFIntAnimationLodThrottlerVisibilityMax 20
+FFlagStudioInitializeTemplacePlaceIdZero3 False
 DFIntClientInstanceQuotaInitial 2000
 DFIntAnimationLodThrottlerDistanceMax 380
 DFIntAnimationLodThrottlerFpsMin 30
 DFFlagVoiceChatAckWithPrevSdpWhenNoSubChanges True
 FIntAnimationLodIkFadeDurationMs 1000
 FFlagAnimationLodIkEnabled False
-DFFlagNewAppCoreSerializers True
 FIntAnimationLodFacsFadeTimeoutMs 500
 FIntAnimationLodFacsEnabledThreshold 60
 FIntAnimationLodFacsDisabledThreshold 50
@@ -5077,8 +5097,6 @@ DFFlagAnimatorEnableNewAdornments False
 DFIntSystemInfoProtocolInfluxPriorityHundredthsPercentage 10000
 FFlagUserFixLoadAnimationError True
 DFFlagUpdateOverriddenTracksFix True
-FFlagScriptDiffTool False
-FFlagNewRuntimeQuaternionToAAFix True
 FFlagRestoreAnimationHipHeightScaling True
 DFFlagDebugSimEnableNewAlignTypeInitialization True
 DFIntMaxActiveAnimationTracks 256
@@ -5098,8 +5116,6 @@ FFlagBlockADFDeserializion2 False
 DFIntDistanceWeightTuneInNewAlgosHundredths 10
 DFFlagAnimationRigThrowAssertionErrors2 True
 FFlagNewRuntimeReserveFixes1 True
-FFlagEnableResolveAdUnitName True
-DFFlagEnableAdUnitName True
 FFlagCAPResponsiveImageLayout True
 FFlagAdServiceEnabled True
 FStringAdTeleportPromptIxpVariable promptGroup
@@ -5127,7 +5143,6 @@ DFIntDisplayAdImpressionContinuityDurationMS 1000
 DFIntVisibilityCheckMinIntervalMS 100
 FFlagIXPPerformanceControlMemoryBufferExp2 True
 DFIntVisibilityCheckRayCastLimitPerFrame 2
-DFFlagEnableAdUnitNameWhitelist True
 FStringAdUnitDefaultNames BasePortal;AdGui;AdPortal;Fairy Portal Template;Forest Portal Template;Future Portal Template;Image Ad Unit 1;Image Ad Unit 2;Image Ad Unit 3;Main Portal Template;Stone Portal Template;Storefront Portal Template;City Portal Template
 DFFlagEnablePlacementInformation True
 DFIntVoiceChatClientLogSizeLimit 1000
@@ -5168,7 +5183,6 @@ DFIntImmersiveAdSetImageFailureEventThrottleHundrethsPercent 0
 DFIntImmersiveAdDataMismatchEventThrottleHundrethsPercent 10000
 DFIntImmersiveAdAspectRatioMismatchEventThrottleHundrethsPercent 0
 DFIntSoftHangTimeoutMs 3000
-FFlagOnlyMarkScriptDirtyForSourceChanges True
 FFlagEnableAdLabelVisualChanges True
 FFlagEnableAdGuiTimerService True
 FFlagDebugPrintTreeAfterLoad False
@@ -5184,13 +5198,10 @@ DFIntReportNetworkSyncMemoryUsage2HundredthsPercentage 100
 DFIntImmersiveAdBackendRequestRateLimitEventThrottleHundrethsPercent 0
 FIntGrantVideoAssetPermToUnivReqTimeoutInMS 3000
 DFIntImmersiveAdTeleportEventPointsThrottleHundrethsPercent 5000
-DFFlagDebugIosUseSoftwareEchoCancellation True
-DFIntVoiceChatAudibilityReportingHundredthsPercent 100
-DFIntImmersiveAdVideoCompletionEventPointsThrottleHundrethsPercent 10000
 DFIntImmersiveAdImpressionEventPointsThrottleHundrethsPercent 5000
 DFIntImmersiveAdVideoVolumeToggledEventThrottleHundrethsPercent 10000
 DFIntImmersiveAdVideoCompletionEventThrottleHundrethsPercent 10000
-FFlagGetReportAdInfo True
+FFlagGetReportAdInfo False
 DFFlagReportTeleportEarlyReturn True
 FFlagAdServiceAdditionalDataModelChecksEnabled True
 FIntExportPathStringLimit 2000000
@@ -5224,9 +5235,6 @@ FFlagFaceAnimatorIncludeDisableToastEventPrompt True
 FFlagFaceAnimatorIncludeFPSAndV2CInCamToastEvent True
 FFlagFaceAnimatorEnableAudioToCurves True
 DFFlagInvalidBary2DCoordinates True
-DFIntStudioReportLuauPerformanceStatsInfluxHundredthsPercentage 10
-FFlagPathfindingUseTerrainOffset False
-FFlagPathfindingOffMeshLinkCodeCleanup False
 FFlagUnlockMouseIfKicked True
 FFlagPathfindingLabelsDrawWithFrustum True
 FIntDebugNavigationMaxMemoryUsageInBytes 52428800
@@ -5240,7 +5248,6 @@ FFlagDebugNavigationDrawCompactHeightfield False
 FIntUITextureFrameJobCount -1
 DFIntDisconnectReasonDiagThrottlePercent 100
 FFlagDebugNavigationDrawHeightfield False
-FFlagCrashReporterNew False
 FFlagShoeSkipRight True
 FFlagDebugNavigationDrawTileBounds False
 FFlagFixMisplacedHipMotionR15 True
@@ -5250,15 +5257,20 @@ DFIntGAThrottlingEventThresholdHundredthCat1 90
 FIntWrapDispatcherTickLimitUs 100000
 FIntWrapDispatcherMaxStateChangesPerHB 128
 FFlagDebugGridForceFractalUpsample False
+FFlagAESGetOutfitsPaginationToken False
 FFlagRemoveHardwareTelemetry True
 FFlagCofmChildInParentCodeRefactor False
 FFlagDebugIgnoreCOFMSanitizationAssert True
 FFlagHSRVisualization True
-FFlagDragDetectorsUseInternalConstraints3 True
+FFlagPathfindingTerrainGenerateMesh False
+DFIntStudioReportLuauPerformanceStatsInfluxHundredthsPercentage 10
+FFlagPathfindingUseTerrainOffset True
+FFlagPathfindingOffMeshLinkCodeCleanup False
 FFlagPathfindingFixLabelsMemoryLeak True
 FIntNavigationMaxMemoryBytes 524288000
 FFlagNavigationAgentCanJump True
 FIntNavigationAgentJumpHeight 6
+FFlagStudioCleanOgreEvents3 True
 FIntNavigationAgentJumpDistance 7
 FIntNavigationAgentHeight 5
 FIntNavigationAgentRadius 1
@@ -5273,7 +5285,6 @@ DFIntPathfindingStatsPerRequestThrottleHundrethsPercentEIPerRequest 1
 FIntEditableImageMeshBetaFeatureRoleSet 4
 DFIntRemoteEventMonitorSampleRateModulo 2147483647
 DFIntPathfindingStatsPerRequestThrottleHundrethsPercentEIPerSession 10000
-FFlagStudioRemoveIRobloxDocIsEnabled True
 FFlagAddRomarkAnalyticsForPathfinding False
 FIntNavigationServicePercentStatsReported 10
 DFIntNavigationServiceAnalyticsIntervalMillisec 60000
@@ -5289,7 +5300,6 @@ FFlagHumanoidParallelSafeUnseat True
 FFlagCommonExperienceLaunch True
 DFIntPGSJumpForceAdjustment 520
 DFIntUnstickForceEpsilonInHundredths 1
-DFIntMaximumUnstickForceInGs 4
 DFIntUnstickForceAttackInTenths 1
 DFIntMaximumFreefallMoveTimeInTenths 1
 DFIntMinimumFreefallMoveDistanceInTenths 5
@@ -5332,7 +5342,7 @@ FFlagDisableCorescriptLoadstring False
 DFIntTextChatServiceMessageRateLimitExpiryTime 60
 FFlagDebugCollectGarbage False
 DFIntScriptProfilerTelemetryThrottle 10000
-FFlagScriptProfilerPluginFiltering False
+FFlagScriptProfilerPluginFiltering True
 DFFlagWarnLongRunningScripts False
 DFFlagTaskLibWarnBadDeferDelayWaitCall2 True
 FIntWaitingHybridScriptsJobSkipProbabilityHundredthsPercentage 0
@@ -5351,6 +5361,7 @@ DFFlagAdjustMaxSimRadiusClamp True
 DFIntDestroyedModuleRequireReportHundredthsPercentage 1000
 DFFlagDestroyedModuleRequireWarning True
 DFFlagDestroyedModuleRequireReport True
+FFlagHeapProfilerSplitServerReq False
 FFlagSafetyServiceRecordPlaceRuntime True
 FFlagHeapProfilerDenseStorage True
 DFFlagEnableNonTeamCreateRemoteSaveValidator True
@@ -5371,7 +5382,6 @@ DFFlagTaskLibNoSoftNonSuspended2 True
 DFIntLuaGcBoost 1
 DFIntPluginPermissionsApiGetPluginPermissionsByUserTelemetryHundredthsPercent 0
 FIntLuauGcGoalCore 125
-FFlagRenderFullTransparentUniqueEntityFix3 False
 DFIntScriptErrorThrottleHundredthsPercent 10000
 FFlagDebugScriptCoverageEnabled False
 DFIntTaskLibExclusiveReportHundredthsPercentage 1000
@@ -5391,15 +5401,14 @@ DFIntTaskLibReportNonSuspendedHundrethsPercentage 1000
 DFIntTCSTranslateSecondServerPartitionId -1
 DFFlagTaskLibReportNonSuspended True
 FIntScriptContextExtractCallStackDetailedMaxLevel 12
-DFIntDebugOctreeInvalidAddrHi 1459617792
-DFStringBouncingScriptHashes 0cafba4c7f78f0d3ba21eecad014d577,52a56973785c92e2cf53c23d3727bc56,b7234aeb653563acdf5e00d02fb8da6d,66b5762641ed134a4bee3a4cc855a76e,02ee97967c358708cf1184c44c2b6923,56ad00a5ce2136cdfe263cb89c74e184,7209da36bdc79db4be4bfc91e8640a64,456876eb24ccc1b2d4d37eae67c1f657,7848a5a4d823bb1b8e4c94ea147ad313,d52fb823ed804783bbd59c8562524092,524c4bd9bc08e110d89b9300ce613624
-DFIntHungScriptPermyriad 10000
 DFIntParallelLuaStatsEventHundredthsPercent 10000
 FStringNewBaseMaterialsBetaFeatureUrl 
 DFIntParallelLuaStatsInfluxCooldownSec 300
 DFIntParallelLuaStatsInfluxHundrethsPercentage 100
 FFlagRefactorCommonForceVisualization True
 FFlagEnableTorqueAxisVisualization False
+DFIntSignatureHelpDocDisplayLine 3
+FFlagAESUseModerationStatusEnum False
 DFIntDebugMockSaveATCFailureStatusCode 0
 DFIntStudioLocalPlacePublishOutcomeLoggingPerMyriad 10000
 FFlagAvatarEditorServiceRecommendationsV2API2 True
@@ -5425,15 +5434,15 @@ DFIntEnableReflectionCrashFixLoggingPercent 0
 DFIntCloudEditControllerOnDidWakeThrottleHundredthsPercent 10000
 FFlagDebugDisplayUnthemedInstances False
 FFlagLuaBridgeMethodProfiling True
-DFIntMaxLuauHeapDataPayloadSize 32000000
+DFIntMaxLuauHeapDataPayloadSize 64000000
 DFIntDragDetectorDragAnalyticsThrottleHundredthsPercent 10000
 FIntConversationalAI3BetaFeatureRoleSet 4
 DFFlagDragDetectorDragAnalyticsEnabled True
 FFlagDragDetectorFixDragEndCallsOnDisable True
+FIntStudioDeviceEmulatorNotchedScreenSupportBetaFeatureRolloutPercent 100
+FFlagDragDetectorIsEnabledForPlayerChecksIsEnabled True
 FFlagDragDetectorMinMaxTranslationUsesCurrentReferenceFrame True
 FFlagDragDetectorProperlySavesStartFrameOnDragFrameChange True
-DFIntRakNetMtuValue3InBytes 576
-FFlagRotateConstraintsCreatedForScriptableAnd6DOF True
 DFFlagVoiceChatAckWithEmptySdpWhenSubUpdateFails False
 FFlagDragDetectorLocalDragProperlyFiresDragStart True
 FFlagRenderLightGridEfficientTextureAtlasUpdate False
@@ -5441,6 +5450,8 @@ FFlagDragDetectorStartCallsContinue2 True
 FFlagDragDetectorsPermitMutiplePlayersToDrag False
 FFlagEnablePath2DControlPointSerializer False
 FIntTelemetryProfilerFrequency 100
+FFlagDebugLogHSRDataType False
+FIntScriptProfilerFrequency 1000
 FFlagUseRadixSortMem True
 FFlagScriptProfilerSessionTimeStampsResetEndTimeOnProfilerStart True
 DFIntClientSendEventVariantCountLimit 5000000
@@ -5485,7 +5496,6 @@ DFFlagAvatarChatServiceUserPermissionsVideoOptIn False
 DFFlagAvatarChatServiceUserPermissionsAudioOptIn False
 DFFlagAvatarChatServiceUniverseSettingsEnableVideo False
 DFFlagAvatarChatServiceUniverseSettingsEnableAudio False
-FFlagLSPServiceScriptOpenTelemetry True
 DFIntAvatarChatServiceFeaturesReplicationTimeoutMs 10000
 DFIntAvatarChatServiceClientFeaturesCacheSize 100
 FFlagAvatarChatServiceExposeClientFeaturesForVoiceChat True
@@ -5493,7 +5503,7 @@ FFlagAvatarChatProtocolDebugV1 False
 FFlagAvatarChatProtocolV1WithTrackerMode True
 DFFlagNoRunningNoPhysics False
 FFlagAvatarChatProtocolV1 True
-FFlagFixOptimizeSkeletonGetBoneIndexByPart False
+FFlagFixOptimizeSkeletonGetBoneIndexByPart True
 FIntPreRetinaBlitDiv100 150
 FFlagDebugTerrainCustomDeformationParameters False
 FIntTerrainEditorScalingPrecision 1000
@@ -5501,6 +5511,7 @@ FFlagShoeSkipRenderMesh False
 FFlagFailsafeHumanoidLOD False
 DFIntEngineStabilityReportThrottleHundredthsPercent 10000
 FFlagDebugVoxelGridNew False
+DFFlagCLI92377 False
 FFlagVoxelizerDataFixInvalidRemoval False
 DFIntCLI64234Max 100000000
 FIntDisconnectInfluxHundredthsPercentage 0
@@ -5520,6 +5531,11 @@ FFlagDebugGraphicsPreferD3D11 False
 DFIntEngineStabilityRandomDeferReportingPercentage 50
 DFIntEngineStabilityTrackingWindowInSeconds 86400
 FFlagSerializeModifiedPropertiesXml False
+DFIntDebugOctreeInvalidAddrHi 1459617792
+DFStringBouncingScriptHashes 0cafba4c7f78f0d3ba21eecad014d577,52a56973785c92e2cf53c23d3727bc56,b7234aeb653563acdf5e00d02fb8da6d,66b5762641ed134a4bee3a4cc855a76e,02ee97967c358708cf1184c44c2b6923,56ad00a5ce2136cdfe263cb89c74e184,7209da36bdc79db4be4bfc91e8640a64,456876eb24ccc1b2d4d37eae67c1f657,7848a5a4d823bb1b8e4c94ea147ad313,d52fb823ed804783bbd59c8562524092,524c4bd9bc08e110d89b9300ce613624
+DFIntBouncingScriptPermyriad 10000
+DFIntHungScriptPermyriad 10000
+DFIntBufferLibReportCreateCallHundrethsPercentage 1000
 DFFlagScriptContextGetGlobalStateForActor False
 FIntParallelLuaStaticallyPoolVMStatesPerCoreMax 4
 FIntMaterialGeneratorBetaFeatureRolloutPercent 0
@@ -5552,8 +5568,13 @@ FFlagDebugApplyHSRForTransparentMesh False
 FFlagDebugDisableCodegen False
 FFlagDebugDisableOptimizedBytecode False
 FFlagLuauSciNumberSkipTrailDot False
+DFFlagLuauInterruptablePatternMatch True
+FFlagCinInternalErrors2 True
 FFlagLuauReuseBufferChecks True
 FFlagDebugLuauAbortingChecks False
+FFlagLuauCache32BitAsmConsts False
+FFlagDebugSimExperimentalAppliedForceAPI False
+FFlagDisableNativeCodegenIfBreakpointIsSet False
 FFlagDebugCodegenOptSize False
 FFlagDebugCodegenNoOpt False
 FFlagLuauReadWritePropertySyntax False
@@ -5565,6 +5586,8 @@ FFlagDebugLuauSubtypingCheckPathValidity False
 FFlagLuauStacklessTypeClone3 False
 FFlagDebugLuauLogSolver False
 FFlagLuauSetMetatableOnUnionsOfTables False
+DFIntBufferCompressionThreshold 16
+FFlagLuauOkWithIteratingOverTableProperties False
 FFlagLuauForbidAliasNamedTypeof False
 FFlagDevVoiceChatControlPlaneEnableRMEIntegrationMVP_Client False
 FFlagLuauTinyControlFlowAnalysis True
@@ -5576,6 +5599,7 @@ FFlagLuauFixIndexerSubtypingOrdering True
 FFlagStudioDebuggerNoLazyTableDebugger True
 FFlagLuauTransitiveSubtyping True
 FFlagLuauInstantiateInSubtyping True
+FFlagFasterPlaySoloExtras False
 FFlagDebugLuauCheckNormalizeInvariant False
 DFFlagUseNetworkStreamInterface False
 FFlagDebugLuauFreezeArena False
@@ -5587,7 +5611,6 @@ DFFlagRemoteEventMetricCollection False
 FFlagDebugLuauLogSolverToJson False
 FFlagCinPreviewInstances True
 FFlagLuauCompilerMinorFix True
-FFlagLuauCompileRevK True
 FIntLuauCodeGenMaxTotalSize 268435456
 FIntLuauCodeGenBlockSize 4194304
 FIntLuauCodeGenReuseSlotLimit 64
@@ -5595,11 +5618,10 @@ FIntPathfindingLinks2BetaFeatureRolloutPercent 0
 DFIntNumFocusChangesBeforeResettingTargetRegionCount 10
 FIntLuauCodeGenMinLinearBlockPath 3
 FIntCodegenHeuristicsInstructionLimit 1048576
-DFIntLuauTypePathMaximumTraverseSteps 100
 DFIntLuauTypeFamilyGraphReductionMaximumSteps 1000000
 FFlagRenderNoUnroll True
 FIntLuauTarjanPreallocationSize 256
-FFlagStudioNewDockingExtraLogging False
+FFlagStudioNewDockingExtraLogging True
 FIntLuauSuggestionDistance 4
 FIntLuauTypeCloneIterationLimit 100000
 FIntLuauTypeCloneRecursionLimit 300
@@ -5626,12 +5648,10 @@ FFlagSimLinearVelocitySpanningTreeFix2 True
 DFFlagSimFixDefaultAlignTypeWithPrimaryAxisOnly True
 FFlagCanSeeAlignOrientationCFrame True
 FFlagStudioDebuggerExtendedFunctionInfoPOC False
-DFFlagSimDebugVisualizeAveragedForce False
-FFlagShowRigSettingsNoJoints True
+DFFlagSimDebugVisualizeAveragedForce True
 FFlagConstraintUseColor3 False
 FFlagStudioComponentizeRoblox2 True
 DFFlagSimActiveConstraintReportingFix False
-FFlagDebugSimExperimentalAppliedForceAPI False
 DFFlagSimRefactorConstraintForces False
 FFlagTrackDeeplinkLaunchFlow False
 DFIntSimConstraintTorqueVisSpiralMaxWindings 16
@@ -5662,7 +5682,6 @@ FFlagScriptContextThreadFootprint True
 FFlagNewScriptContextStrictFacetAccessChecks True
 FFlagNewScriptContext3 True
 FFlagVectorIntegerFunctions True
-FFlagPath2DControlPointAtomicClass False
 FFlagSecretTransformationEnabled False
 DFFlagFastRaycastParamsDescendantCopy False
 FFlagAICOFixReadOnlyScript True
@@ -5678,8 +5697,6 @@ DFIntBufferWebCompressionLevel 1
 DFFlagBufferWebSerialize False
 FFlagScriptEditorLiveEditingSVH2 True
 FFlagScriptEditorLiveEditingInfra2 True
-DFFlagSessionTrackingRecordHasLocation True
-FFlagRemoveRedundantLegacyLockInPlugin True
 FFlagStudioFixPluginUnloadingDeferred True
 FFlagExportPathCheckEnabled False
 FFlagCreatePluginHasUniquePluginId False
@@ -5696,7 +5713,7 @@ FFlagLuaSMTelemtry2 False
 DFIntLuaSMThrottleHundrethsPercent 0
 FFlagCreateHumanoidBillboardGuiIfDoesNotExist True
 FFlagCOLLAB4069TCJoinLoadingAnimation False
-FFlagScriptEditorLiveEditingPropertySwitch True
+FFlagScriptEditorLiveEditingPropertySwitch False
 FFlagShowVerifiedBadgeOnDisplayNameBillboard False
 FFlagTurnOffVoiceChatRccService False
 FFlagEnableGetMoveVelocity2 False
@@ -5723,7 +5740,6 @@ FIntDebugWrapLayerTransparent -1
 FIntStudioThumbnailImageRetryMaximum 3
 DFIntDynamicHeadRenderedPlayerEventThrottleHundrethsPercent 10000
 DFIntDynamicHeadRenderedNpcEventThrottleHundrethsPercent 100
-DFIntDynamicHeadRenderedEventThrottleHundrethsPercent 100
 FFlagMemoryPrioritizationEnabledForTextures True
 FFlagFCIgnoreDeformersNotReady4 False
 FFlagStudioPlayModeExcludeSomeBuiltins False
@@ -5754,8 +5770,9 @@ FFlagSkipJoinedSessionLog False
 FFlagSkipOpenScriptLog True
 FFlagStudioUpdate3DViewOnLiveDMPluginWidgetsLoadedLogging True
 DFIntLiveScriptingSessionRolloutPercent 100
-FFlagScriptEditorDetectUserNotInSession True
 FFlagScriptEditorLiveEditingDefaultEnable True
+DFFlagEngineAPICloudProcessingServiceSupportAttributesAndTags False
+DFFlagEngineAPICloudProcessingServiceUseUpdatedRPF False
 DFIntEngineAPICloudProcessingPollingFrequencyInSeconds 5
 DFFlagEngineAPICloudProcessingServiceCollectRequestData False
 DFFlagEngineAPICloudProcessingServiceMasterSwitch False
@@ -5776,7 +5793,6 @@ FFlagPackageIgnoreStylingChanges False
 FFlagStreamingStopReasonsEnumMap True
 FFlagPublicDiffIncludePackageVersion True
 FFlagDebugHistoryIdPathUseFullName False
-FFlagRemoveLogsScriptChangeService True
 FFlagDebugStudioMockTranslation False
 FFlagPropertiesWidgetFixShortcutHandling False
 FStringStudioForceLocale 
@@ -5789,6 +5805,7 @@ FFlagEnableStudioPluginOTA3 True
 FFlagCodeAssistFeature False
 FIntStudioHttpRequestDefaultRetryMinDelayCapInMs 100
 FIntStudioHttpRequestDefaultRetryInitialDelayInMs 1000
+FFlagRemoveOverkillAssertInMultiUserKvStore False
 FFlagEnableStudioMultiAccountSupportFeature True
 FFlagStudioFixMultiAccountSupportLogout True
 DFIntRakNetResendMinThresholdTimeInUs 100000
@@ -5796,6 +5813,7 @@ DFIntRakNetConnectionStartWindow_HundredthsPercentage 1000
 DFIntRakNetResendMaxThresholdTimeInUs 2000000
 DFIntTangentialVelocityCoefficientHundredths 100
 DFFlagCLI57133DFix True
+FFlagDisablePlaySoloUIUpdates False
 DFFlagReportSharedStringBreakdown True
 DFFlagCLI57133D False
 DFIntCLI57133B 1000000000
@@ -5829,6 +5847,9 @@ DFIntNetLimiterReportingIntervalSec 600
 DFIntModelStreamingModeCountsHundredths 100
 DFIntRakNetUseSlidingWindow2_rangeCount 10
 DFIntRakNetUseSlidingWindow2_trackLengthMs 2500
+DFFlagReplicatorJDIv2NoOrderInfoCloudEdit False
+DFFlagDebugForceStreamingEnabled False
+DFFlagServerCopiesPlayerGui3 True
 DFFlagNewCustomSerializers True
 FFlagClientTokenFromHeader3 False
 DFFlagUpdateRuppTokenOptions True
@@ -5850,6 +5871,7 @@ DFIntCLI52064ReportIntervalMS 60000
 DFStringRaknetDownloadBandwidthCacheFileName raknetBandwidthRecords
 DFFlagUseNetworkIxpLog True
 DFIntNetworkCapBitReportPerMyriad 30
+DFIntReportDropPktStatsToInflux_HundredthsPercentage 1000
 DFIntCookieProtocolAnalyticsPriorityHundredthsPercentage 10000
 FFlagDebugShowRccLoadErrors False
 DFFlagReportPktDropStats2 False
@@ -5857,22 +5879,19 @@ DFIntPktDropStatsReportThreshold 1000
 DFIntPktDropStatsRecordWindowInMillisecond 1000
 DFFlagLogUnknownMessages False
 DFFlagLogFailureMessages False
-DFFlagReplicatorJDIv2NoOrderInfoCloudEdit False
+DFIntRakNetMtuValue3InBytes 576
 DFFlagRuppTokenLineageRollback False
 DFFlagRuppTokEnAnyOpt True
 FIntRenderShadowIntensity 75
 DFIntFirstValidPort 1024
 FFlagRefactorPublishAllDescendantsDeduplication2 False
 DFFlagProcessTokenInRakPeer True
-DFFlagDebugForceStreamingEnabled False
 DFIntReportCommandsPerCycleIntervalMS 1000
 DFFlagTheDoublePat False
-DFFlagServerCopiesPlayerGui3 True
 FStringUpgradeShorelinesBetaFeatureUrl 
 DFIntConnectionMTUSize 1200
 DFIntTerrainReplicationMaxMasks 15
 DFIntReportStreamingObserverStatsHundredthsPercentage 0
-FFlagReportStreamingObserverStats False
 DFIntStreamingObserverGrowthThresholdPercentage 90
 DFIntStreamingObserverInitialReplicatorCapacity 4
 DFFlagDontUseCacheIfCapBitUnset True
@@ -5883,8 +5902,11 @@ DFIntDebugTunableSlowCheckAvailableMemoryMB 0
 DFIntStreamingDistanceEmergencyGcUtility -100000000
 DFIntStreamingDistanceUtilityCurveNumSteps 0
 DFIntNumChangesBeforeResettingPerRegionStats 2000000
+DFIntDisableSignalrHundredthsPercentageWindows 0
+DFIntRegionDeltaBeforeCalculatingPerRegionStats 50
 DFIntGameNetPVHeaderLinearVelocityZeroCutoffExponent -2
 DFIntGameNetPVHeaderRotationOrientIdToleranceExponent -6
+FFlagDebugUseByteCountLimitForPhysicsReplication False
 DFIntDistanceWeightTuneInMixedPriorityHundredths 100
 DFIntDebugSendDistInSteps 5
 DFIntMaxFramesToSend 2
@@ -5895,6 +5917,7 @@ DFIntFairMixedPriorityAsymptoteMultSizeDistance 5
 DFIntAdjustMixedPriorityFairlyMultiplicativeStepLowerBound 5
 FFlagChangeStaticEnabledCheckForStreamingToNonStatic False
 DFFlagShowTunableStreamingDebug True
+DFFlagSessionTrackingRecordHasLocation True
 FIntStudioOomMemoryAllocIncrementMB 50
 DFFlagMoreVerboseStreamingInfo False
 DFIntRobloxTelemetryRccDisconnectEventsThrottleHundredthsPercent 10000
@@ -5903,7 +5926,7 @@ DFIntPerPauseStatsInfluxHundredthsPercentage 100
 DFIntSessionPauseStatsInfluxHundredthsPercentage 100
 DFIntReportStreamingSolverMissingSetHundrethsPercentage 0
 FIntStreamOutOpportunisticMaxTargetPercentage 150
-FFlagRefactorPartData3 False
+FFlagRefactorPartData3 True
 FIntStreamingMaxStreamAreasMaintained 5
 DFIntStreamingMaxProtectGCAfterPrefetchMS 60000
 FIntAutoReconnectGameJoinFailureMaxRetryCount 2
@@ -5923,6 +5946,8 @@ DFFlagDebugDisableProjectileOwnershipLock False
 DFIntTouchQueueMetricsInfluxHundredthsPercentage2 100
 FFlagUseRobloxCustomSDLAllocate True
 DFIntMaxProflingDataPayloadSize 32000000
+DFIntESGamePerfMonitorDelayBeforeFirstReportInSeconds 60
+DFFlagPlayerGuiNullCheck False
 DFFlagReportPostJoinSetsStats True
 DFIntReportStreamingIteratorForceExitHundredthsPercentage 0
 DFFlagProfileGetNextRegionFunction False
@@ -5988,6 +6013,7 @@ DFIntMegaReplicatorDisconnectTaskBatchSize 4096
 FFlagDenseRequiringSets True
 DFIntClientSendEventStringDataLimitBytes 100000000
 DFFlagSSReportLSCount True
+DFFlagDebugVoiceChatRequestRecordingPermissionOnUnmute False
 DFFlagStreamingSolverMapModifyCounts True
 DFFlagSolverAllocStats True
 DFIntReportSSThresholdThrottle 300
@@ -6010,8 +6036,8 @@ DFFlagRemoveDeferredGCPartsWhenGCing True
 FFlagPropertiesWidgetToggleCheckboxOnSpace False
 DFFlagTeleportErrorWaitingCount False
 DFFlagStreamingSolverWeakPtrCheck True
-FFlagEnableIrisDua True
 DFFlagStreamingSolverChangeCategoryProfiler True
+FIntTextureGenerationServiceGenerateHttpTimeoutMs 25000
 DFIntNetworkInProcessLimitGameplayMsClient 0
 DFIntNetworkProcessPacketThresholdMs 0
 DFStringNetworkInProcessLimitGameplayPerDCRcc 
@@ -6039,9 +6065,6 @@ DFFlagSkipSomePropertiesSkip True
 DFIntReportJoinInstanceCountStreamingDataHundredthPercentage 10
 DFIntReportJoinDataItemV2CacheEfficiencyHundrethsPercentage2 1
 DFIntMaxJoinDataSendPerBurstKB 200
-DFIntUnrelReportSharedStringEventItemsHundredths 10000
-FStringNewCameraControlsBetaFeatureUrl 
-DFFlagReportSharedStringEvent True
 DFIntEventMetaDataReportingTotalStreamSizeThreshold 20000000
 DFIntEventMetaDataReportingStringSizeThreshold 20000000
 DFIntRCCReceiveEventVariantReportingCount 0
@@ -6123,11 +6146,9 @@ DFFlagDebugEnableRemoteProfiling2 True
 DFIntChatCap 100
 DFIntUniverseSearchRequestTimeoutMilliseconds 2000
 DFIntDebugProfilerCaptureTime 4
-FIntAntiSpamSpamLimit 1000
 DFFlagDebugFilterAllPlayerPropChanges False
 FFlagDebugForceRegenerateSchemaBitStream False
 DFIntJoinBlobInvalidateThresholdPercent 80
-DFIntESGamePerfMonitorDelayBeforeFirstReportInSeconds 60
 FFlagRemoveRbxCrashForMissingGlyphRenderer True
 DFFlagESGamePerfMonitorUseRandomSelection True
 FIntStudioPluginCacheLowMemoryThresholdMB 50
@@ -6147,7 +6168,6 @@ DFIntServerStatsReportingPerHundPercent 50
 DFIntReplicatorDataPingReportThresholdMs 10000
 DFIntRCCPhysicsSimulationLoadStatsReportingThresholdPercentHundredths 5000
 DFIntReplicationRootCycleElasticThrottleHundredthsPercent 0
-DFIntReportPhysicsFPSStatsForInfluxHundredthsPercentage 100
 DFIntRccTcMaxPayloadSnd 96000000
 DFIntRccTcMaxPayloadRcv 96000000
 FIntAppBridgePlaceLaunchRetryWaitInSec 1
@@ -6200,7 +6220,6 @@ DFIntOnDisconnectHTTPTimeout 500
 DFIntJoinInfluxHundredthsPercentage 10
 DFFlagReportLuauConnIssue False
 DFFlagDebugRakPeerReceive True
-FFlagCOLLAB5162TrackUserIdle False
 DFFlagNetworkStringViewIntegerConversion True
 DFIntDebugCLI52064ReceiveUS 0
 DFIntCliTcMaxPayloadRcv 96000000
@@ -6223,8 +6242,7 @@ DFFlagEnableV2POCStat False
 FFlagFixNullGameIdReportingAtDisco True
 DFFlagModelStreamingBehaviorField True
 DFFlagDisconnectCodeUseEnum False
-DFFlagNewMathSerializers True
-FFlagAddUDataPingViz False
+FFlagAddUDataPingViz True
 FIntEnvMapPercentHitThreshold 85
 FFlagEditableImageBasicReplicationEnabled False
 FFlagUIListLayoutDontReplicateOldPadding False
@@ -6267,7 +6285,6 @@ DFIntDetailedBandwidthStatsReportIntervalSeconds 120
 DFFlagDetailedBandwidthStatsInflux2 False
 DFIntDebuggerTooltipExpressionEvaluationLimit 1024
 DFIntReplicationVariantLimitHundredthPercent 10000
-DFIntReplicatorJoinDiagnosticLargeInstancesToKeep 20
 FFlagDebugDisableAllTeachingCallouts False
 FFlagAvoidCreatingLanguageServiceInPlaySoloStartup False
 FFlagVoiceChatCullingEnabledV3 False
@@ -6291,12 +6308,13 @@ FFlagStudioImproveRenderPerf True
 DFIntDiqLimitMilliseconds 60000
 DFIntRemoteEventAbuseReportRateLimitMilliseconds 10000
 DFIntRemoteEventSpecialRateLimitMilliseconds 10000
+DFIntRemoteEventSoundRateLimitMilliseconds 10000
 DFIntUnreliableRemoteEventRateLimitMax 6000
 DFIntRemoteEventGlobalRateLimitMax 6000
+FFlagTerrainEditorBetaFeature False
 DFIntRemoteEventSoundRateLimitMax 1200
 FIntRateLimiterGlobalDefaultSeconds 60
 DFIntRatePermyriad 0
-DFIntBufferCompressionThreshold 16
 DFIntBufferCompressionLevel 1
 DFFlagBufferReplicationUc True
 DFIntClusterCompressionLevel 1
@@ -6318,7 +6336,7 @@ DFIntReplicationVariantReportingLimitBytes 0
 DFFlagReplicatorDisKickSize False
 DFFlagReplicatorKickBigV False
 DFFlagDebugSendReplicatorJoinTimeStatPlaceSpecific False
-FFlagAvatarAutosetupFixCreatedStatus False
+FFlagAvatarAutosetupFixCreatedStatus True
 FIntVisBugTimeLimit 10
 DFIntSendRakNetStatsThrottleStreamingOverride 1
 FStringDefaultFontsToShow rbxasset://fonts/families/AccanthisADFStd.json,rbxasset://fonts/families/AmaticSC.json,rbxasset://fonts/families/Arial.json,rbxasset://fonts/families/Balthazar.json,rbxasset://fonts/families/Bangers.json,rbxasset://fonts/families/ComicNeueAngular.json,rbxasset://fonts/families/Creepster.json,rbxasset://fonts/families/DenkOne.json,rbxasset://fonts/families/Fondamento.json,rbxasset://fonts/families/FredokaOne.json,rbxasset://fonts/families/GothamSSm.json,rbxasset://fonts/families/GrenzeGotisch.json,rbxasset://fonts/families/Guru.json,rbxasset://fonts/families/HighwayGothic.json,rbxasset://fonts/families/Inconsolata.json,rbxasset://fonts/families/IndieFlower.json,rbxasset://fonts/families/JosefinSans.json,rbxasset://fonts/families/Jura.json,rbxasset://fonts/families/Kalam.json,rbxasset://fonts/families/LuckiestGuy.json,rbxasset://fonts/families/Merriweather.json,rbxasset://fonts/families/Michroma.json,rbxasset://fonts/families/Nunito.json,rbxasset://fonts/families/Oswald.json,rbxasset://fonts/families/PatrickHand.json,rbxasset://fonts/families/PermanentMarker.json,rbxasset://fonts/families/PressStart2P.json,rbxasset://fonts/families/Roboto.json,rbxasset://fonts/families/RobotoCondensed.json,rbxasset://fonts/families/RobotoMono.json,rbxasset://fonts/families/RomanAntique.json,rbxasset://fonts/families/Sarpanch.json,rbxasset://fonts/families/SpecialElite.json,rbxasset://fonts/families/SourceSansPro.json,rbxasset://fonts/families/TitilliumWeb.json,rbxasset://fonts/families/Ubuntu.json,rbxasset://fonts/families/Zekton.json
@@ -6333,7 +6351,6 @@ FIntLuauNonStrictByDefaultBetaFeatureRolloutPercent 0
 FFlagSmoothClusterTasksFix True
 DFIntMaxDataPacketPerSend 1
 DFIntMaxClusterKBPerSecond 400
-DFStringNetworkInDeserializeLimitGameplayMsRccPer100 
 DFStringNetworkInDeserializeLimitGameplayMsClientPer100 
 DFStringNetworkInDeserializeLimitGameplayMsRccPerDc 
 FFlagCOLLAB4384CacheHitMetrics2 False
@@ -6342,13 +6359,11 @@ DFIntRenderTextureOrphanBudgetMB 64
 DFIntNetworkInDeserializeLimitGameplayMsRcc 0
 DFIntNetworkReportContentIdLimitIntervalSeconds 10
 DFIntNetworkReportContentIdLimitMax 100
-DFIntNetworkReportContentIdLimitPerMyriad 1000
 DFFlagNetworkReportContentIdLimit True
 DFFlagEnableContentIdLengthCheck True
 DFFlagDebugPrintDataPingBreakDown False
 DFFlagEnableModerationDisconnectReason True
 FIntVoiceChatV2ControlPlaneIsolationTag -1
-FFlagVoiceChatV2UseControlPlaneIsolationTag False
 FFlagLivePackageUpdating False
 DFFlagRccSavePartitionId False
 DFFlagServerConfigurerRunLMSTest True
@@ -6367,9 +6382,9 @@ FFlagToastNotificationsUpdateEventParams True
 FFlagDebugStudioTriggerCrashOnCorruption False
 FFlagToastNotificationsProtocolEnabled2 True
 FFlagEnableCallStateAnalytics True
-FFlagEnableDuaMissedCalls True
 FStringClientLightingTechnologyExperimentQualityLevelParam qualityLevel
 DFIntFinishedPollingInterval 30
+FFlagEnableCallToastRefactor False
 FFlagDebugRomarkUseToneSignal False
 DFStringDebugRomarkSpeechAssetId 157518993
 DFIntVoiceChatMaxRecordedDataDeliveryIntervalMs 40
@@ -6383,20 +6398,18 @@ DFIntVoiceChatMicActivitySmoothWindowLength 10
 DFIntVoiceChatRollOffMinDistance 7
 DFIntVoiceChatRenderMode 1
 DFFlagDebugVoiceChatCustomLogFile False
-DFIntMuteTimerReportRate 0
 FFlagDeinitRecordingWhenMuted False
 DFFlagVoiceChatAckWithEmptySdpWhenNoSubChanges False
 DFFlagVoiceChatSendUserKickingMetric False
 FFlagSynchronizeCallStateWithDatamodel True
 FFlagUpdateVoiceJoinTimeoutTimerIncludeSubscribe2 True
-FFlagVoiceChatEnableIrisMuteStateFix True
 DFIntVoiceChatCullingBatchSize 150
 FFlagAdjustPathLabelWidth True
 DFIntVoiceChatCriticalPathSignalingPriority 0
-FFlagVoiceChatWaitForSignalRJoinStageMetrics True
 DFFlagDebugVoiceChatDisableSubscribePauseRequest False
 FFlagVoiceChatMultistreamSubscriptionsV3 True
 DFIntVoiceChatLogStatsMs 0
+FFlagStudioRibbonXMLViewOnly False
 FFlagGraphicsParticlesFlipbookInvalidateEntity True
 DFIntDebugWebRTCLoggingSeverity 2
 DFIntWebRtcStackMaximumSizeKB 128
@@ -6424,6 +6437,7 @@ FIntTtlThresholdToResubscribeInSeconds 3600
 DFFlagDebugTexturePerformanceOverlayContentHash False
 DFFlagVoiceChatEnableApiSecurityCheck True
 DFIntVoiceChatClientCapabilityRejoinTimeoutMs 60000
+FFlagStudioWithUiContextRemoveSubsystem False
 FStringDraggerImprovements2BetaFeatureUrl https://devforum.roblox.com/t/dragger-qol-improvements-beta/2661668
 FFlagRequireUIThreadWhenAccessingPixmap True
 FFlagStudioMoveAsyncComponentWaitToLCM False
@@ -6439,6 +6453,10 @@ DFIntTeleportClientNetworkErrorInfluxHundredthsPercentage 500
 DFFlagLogReporterUseBacktraceReporter False
 DFFlagLogUploadToBacktraceSynchronousEnabled False
 DFStringLogUploadToBacktraceToken e945add587940cbe113c31569f99aeebaab5c6a05069952429d145be7823b42f
+FIntNvttAllowedCorePercentage 80
+FIntCageSuffixTypoTolerance 3
+DFIntTexturePackEtcEffortHundredth 4950
+DFIntRccTexturePackMinThreadCount 8
 FFlagDebugLightGridShowChunks False
 DFFlagDebugPauseVoxelizer False
 FFlagRenderFib3ProperConstantBufferSize False
@@ -6462,6 +6480,7 @@ FIntGeometryBufferMaxElementsParts 16384
 FIntUserActionTrackerTelemetryHundredthsPercent 10000
 FIntGeometryBufferMaxElementsFCSkinned 16384
 FIntGeometryBufferMaxElementsFCStandard 16384
+FFlagMSRefactor4 False
 FIntVSIndexBufferMaxCount 524288
 FIntVSVertexBufferMaxCount 524288
 FIntRenderShadowMapDepthCacheMemLimit 20971520
@@ -6475,6 +6494,7 @@ FIntEnableCullableScene2HundredthPercent3 0
 FStringPartMaterialInfosPre2022 
 FStringPartTexturePackTable2022 {"foil":{"ids":["rbxassetid://9873266399","rbxassetid://9438410239"],"color":[238,238,238,255]},"asphalt":{"ids":["rbxassetid://9930003180","rbxassetid://9438410548"],"color":[227,227,228,234]},"basalt":{"ids":["rbxassetid://9920482224","rbxassetid://9438413638"],"color":[160,160,158,238]},"brick":{"ids":["rbxassetid://9920482992","rbxassetid://9438453972"],"color":[229,214,205,227]},"cobblestone":{"ids":["rbxassetid://9919719550","rbxassetid://9438453972"],"color":[218,219,219,243]},"concrete":{"ids":["rbxassetid://9920484334","rbxassetid://9438453972"],"color":[225,225,224,255]},"crackedlava":{"ids":["rbxassetid://9920485426","rbxassetid://9438453972"],"color":[76,79,81,156]},"diamondplate":{"ids":["rbxassetid://10237721036","rbxassetid://9438453972"],"color":[210,210,210,255]},"fabric":{"ids":["rbxassetid://9920517963","rbxassetid://9438453972"],"color":[221,221,221,255]},"glacier":{"ids":["rbxassetid://9920518995","rbxassetid://9438453972"],"color":[225,229,229,243]},"glass":{"ids":["rbxassetid://9873284556","rbxassetid://9438453972"],"color":[254,254,254,7]},"granite":{"ids":["rbxassetid://9920550720","rbxassetid://9438453972"],"color":[210,206,200,255]},"grass":{"ids":["rbxassetid://9920552044","rbxassetid://9438453972"],"color":[196,196,189,241]},"ground":{"ids":["rbxassetid://9920554695","rbxassetid://9438453972"],"color":[165,165,160,240]},"ice":{"ids":["rbxassetid://9920556429","rbxassetid://9438453972"],"color":[235,239,241,248]},"leafygrass":{"ids":["rbxassetid://9920558145","rbxassetid://9438453972"],"color":[182,178,175,234]},"limestone":{"ids":["rbxassetid://9920561624","rbxassetid://9438453972"],"color":[250,248,243,250]},"marble":{"ids":["rbxassetid://9873292869","rbxassetid://9438453972"],"color":[181,183,193,249]},"metal":{"ids":["rbxassetid://9920574966","rbxassetid://9438453972"],"color":[226,226,226,255]},"mud":{"ids":["rbxassetid://9920578676","rbxassetid://9438453972"],"color":[193,192,193,252]},"pavement":{"ids":["rbxassetid://9920580094","rbxassetid://9438453972"],"color":[218,218,219,236]},"pebble":{"ids":["rbxassetid://9920581197","rbxassetid://9438453972"],"color":[204,203,201,234]},"plastic":{"ids":["","rbxassetid://9475422736"],"color":[255,255,255,255]},"rock":{"ids":["rbxassetid://10129366149","rbxassetid://9438453972"],"color":[211,211,210,248]},"corrodedmetal":{"ids":["rbxassetid://9920589512","rbxassetid://9439557520"],"color":[206,177,163,180]},"salt":{"ids":["rbxassetid://9920590478","rbxassetid://9438453972"],"color":[249,249,249,255]},"sand":{"ids":["rbxassetid://9920591862","rbxassetid://9438453972"],"color":[218,216,210,240]},"sandstone":{"ids":["rbxassetid://9920596353","rbxassetid://9438453972"],"color":[241,234,230,246]},"slate":{"ids":["rbxassetid://9920600052","rbxassetid://9439613006"],"color":[235,234,235,254]},"snow":{"ids":["rbxassetid://9920620451","rbxassetid://9438453972"],"color":[239,240,240,255]},"wood":{"ids":["rbxassetid://9920625499","rbxassetid://9439649548"],"color":[217,209,208,255]},"woodplanks":{"ids":["rbxassetid://9920626896","rbxassetid://9438453972"],"color":[207,208,206,254]}}
 FFlagLCCheckCageDimRevert True
+FFlagGraphicsFixBBoxPropagation False
 FFlagGraphicsFixEmptyMeshResource False
 FIntMotionBufferMagnitudeCuttoffCenti 50
 FFlagDebugLoadRenderDoc False
@@ -6496,6 +6516,7 @@ DFFlagSceneUpdaterELTDurations False
 FIntUpdateInvalidatedEntityDelayThreshold 5
 FIntRenderMinClusterUpdatePerFrame 1
 FIntParallelDynamicPartsFastClusterBatchSize 1
+FIntVignetteSize 10
 DFFlagEnableNewJoinCounter True
 FFlagDisableCloudsForMultiview True
 FFlagMotionBuffersDebug False
@@ -6509,9 +6530,8 @@ DFIntUITextureMemoryLimitExceedHundredthsPercent 100
 FFlagUITextureRendererUseFIntMaxMemorySettings True
 FFlagAssetProxyTextureManager False
 DFIntRCCThumbnailReportHundredthsPercent 1
-FFlagUpdateSnapControlsInMultipleTabsFix True
 FStringTextureFormatFilterString 
-FFlagTextureManagerPreloadFallback False
+FFlagTextureManagerPreloadFallback True
 FFlagUndoTextureManagerStudioCursorHack True
 DFIntPreloadTextureTimeBuget 1000
 DFIntTextureCompositorActiveJobs 8
@@ -6538,10 +6558,9 @@ FFlagFutureIsBrightPhase3Vulkan False
 FFlagDisableStudioSelectionFilterOnClient False
 FFlagFixLaunchExperienceFromSource True
 FIntNewCSGAPIRenderingFlag 0
+FFlagTransparentsGetUniqueEntities False
 FFlagRenderDeferClearInstanceBindingDirtyBit False
 FFlagDecalsAliasCulling False
-FFlagCOLLAB3769FixStudioHang True
-FFlagInstancedClusterUseExtentsCFrameWorld2 True
 DFFlagMeshLODZoom False
 DFFlagReduceFacialAnimationsWhenFacsStreaming2 True
 FIntStudioClientPresenceUpdateInterval 120
@@ -6591,7 +6610,6 @@ FStringClientLightingTechnologyExperimentModeParam mode
 FStringCLI55145IxpPopDcParam httpPopDcLatencyRtt
 FStringCLI55145IxpCliPopParam httpCliPopLatencyRtt
 DFIntSessionReportSuccessEventIngestThrottleHundredthsPercent 10000
-DFFlagGameJoinStringViews True
 DFFlagEnableRandomStatVerification True
 DFIntReportInfluxFastLogSendHundredthsPercentage 0
 DFIntRobloxTelemetryStatV2POCRandomRange 1000
@@ -6614,6 +6632,7 @@ FIntAppBridgePlaceLaunchMaxTotalSleepTime 0
 FFlagMassUpdateEarlyReturn False
 FIntAppBridgePlaceLaunchExponentialBaseFraction 3
 FFlagAppEnableSurfaceControllerNullReport True
+FFlagDynamicDpiUpdateAndroidMacOS False
 FFlagDoNotPauseSurfaceControllerIfNotRunning False
 FFlagEnableRunRenderJobCheck True
 DFFlagEnablePerfDataMainThread False
@@ -6623,6 +6642,7 @@ FFlagDebugGraphicsPreferOpenGL False
 FFlagDataModelServicesRemovedSharedDM False
 FFlagSendScreenOrientationToGuiService False
 FFlagCookieStorageUpdatable False
+FFlagMacCheckDataModelClosingBeforeGettingService True
 FFlagVirtualInputManagerRecordWindowFocusEvents True
 FFlagEnableTouchHandlingFixV2 True
 FFlagLuobuLuaAuthEnabled False
@@ -6630,7 +6650,7 @@ FFlagFixShiftScrolling False
 FFlagMovePaymentsProtocolToInstanceHolder True
 FFlagNFDN2644ExplicitlyConstructCrashReporterInStartup True
 DFIntSignatureHelpSizeXMult 50
-FFlagFixIsInitialized False
+FFlagFixIsInitialized True
 FFlagEnablePocoTesting False
 FStringFeature_LuobuLuaAuthEnabled 
 FIntPercentReportingByCountryCode 100
@@ -6644,9 +6664,9 @@ FStringFeature_CookieProtocolEnabled 524;100
 FFlagEnableAdPortalInsert False
 FFlagStudioFixProtocolStringPassing False
 FFlagDebugSaveConfigsResolutionReportArray False
-FFlagMoveFlushOutOfSubmitTaskSDM True
 DFIntStudioReportLuauIceInfluxPriorityHundredthsPercentage 500
 FFlagStudioReportLuauIce True
+FFlagUpdateUDim2 True
 DFFlagVectorStaticFunctions False
 FFlagUpdatedVecMinMaxApi True
 FFlagSupportDeprecatingEnumsInAutocomplete True
@@ -6687,6 +6707,7 @@ FIntStudioNoANRCheckIntervals 5
 FFlagSTUDIOPLAT_32304_HangReportedOnShutdown True
 DFIntTeamCreateJoinSuccessLoggingPerMyriad 10000
 FFlagPlacePublishManagementStudioPublishService False
+FFlagTrackSpinBoxCorrectly False
 FFlagEnableTagEditorPluginRibbonButton True
 FFlagDebugR15MigratorPlugin False
 FFlagCOLLAB3591PlaceNameInDocs True
@@ -6696,8 +6717,10 @@ FFlagGltfBeginAnimationsFromZero True
 FFlagViewBaseNullCheck True
 FStringStudioDevforumUrl https://devforum.roblox.com/c/platform-feedback/studio-bugs
 FIntStudioNotifyAliveAnalyticsTimerMs 1000
-FFlagAvatarPreviewerToolbarButton False
+FFlagAvatarPreviewerToolbarButton True
 DFIntStudioReportStartupInfoInfluxHundredthsPercentage 10000
+FStringTerrainEditorBetaFeatureUrl 
+FIntTerrainEditorBetaFeatureRolloutPercent 0
 FStringUIListLayoutFlexFeaturesBetaFeatureUrl 
 FIntUIListLayoutFlexFeaturesBetaFeatureRolloutPercent 0
 FFlagUIListLayoutFlexFeaturesBetaFeature True
@@ -6713,6 +6736,7 @@ FFlagAudioWiringApiBetaFeature False
 FStringGrassLengthCustomizationBetaFeatureUrl 
 FStringEditableImageMeshBetaFeatureUrl 
 FFlagEditableImageMeshBetaFeature True
+FStringNewCameraControlsBetaFeatureUrl 
 FIntNewCameraControlsBetaFeatureRoleSet 4
 FFlagNewCameraControlsBetaFeature True
 FFlagFacialAnimationRecordingBetaFeature True
@@ -6726,13 +6750,12 @@ FFlagChromeBetaFeature True
 FStringCustomVideoUploadBetaFeatureUrl https://devforum.roblox.com/t/video-uploads-beta-add-short-form-video-to-your-experience/2630621
 FIntCustomVideoUploadBetaFeatureRolloutPercent 0
 FIntCustomVideoUploadBetaFeatureRoleSet 4
-FFlagEnableAvatarCompatibilityPreviewer3 False
+FFlagEnableAvatarCompatibilityPreviewer3 True
 FStringUGCBodiesAndHeadsBetaFeatureUrl https://devforum.roblox.com/t/ugc-program-expanding-creation-and-monetization-with-avatar-bodies-and-heads/2531046
 FIntUGCBodiesAndHeadsBetaFeatureRolloutPercent 100
 FIntUGCBodiesAndHeadsBetaFeatureRoleSet 4
-FFlagUGCBodiesAndHeadsBetaFeature True
+FFlagUGCBodiesAndHeadsBetaFeature False
 FIntDraggerImprovements2BetaFeatureRolloutPercent 0
-FFlagDraggerImprovements2BetaFeature True
 FIntMultilayerWrapFixBetaFeatureRolloutPercent 0
 FIntLuauDCRBetaFeatureRolloutPercent 0
 FIntDragDetectorsBetaFeatureRoleSet 4
@@ -6750,7 +6773,7 @@ FIntMaterialGeneratorBetaFeatureRoleSet 4
 FFlagMaterialGeneratorBetaFeature True
 FIntNewCSGAPIBetaFeatureRoleSet 4
 FIntAerodynamicsBetaFeatureRolloutPercent 0
-FFlagImporterOpensAvatarPreviewerBetaCheck False
+FFlagImporterOpensAvatarPreviewerBetaCheck True
 FIntAerodynamicsBetaFeatureRoleSet 4
 FFlagAerodynamicsBetaFeature True
 FStringPathfindingLinks2BetaFeatureUrl 
@@ -6772,7 +6795,6 @@ FStringLuauNonStrictByDefaultBetaFeatureUrl
 FIntLuauNonStrictByDefaultBetaFeatureRoleSet 4
 FStringCreateAnimationFromVideoBetaFeatureUrl 
 FIntCreateAnimationFromVideoBetaFeatureRolloutPercent 0
-FFlagStudioComponentizePluginWidgetsView True
 FStringFacialAnimationRecordingBetaFeatureUrl 
 FIntFacialAnimationRecordingBetaFeatureRolloutPercent 0
 DFIntIconPackOverrideThrottle 10000
@@ -6781,7 +6803,6 @@ FFlagStudioGermanLocale True
 FIntAutoReconnectRequestTimeout 10000
 FIntParallelDMOperatorReportPercentage 0
 FFlagAinSetCageTempIds False
-FFlagCinMoveSessionErrors True
 DFIntConversationsApiCreateConversationConversationsPostTelemetryHundredthsPercent 0
 DFIntConversationsApiAsyncResponseAsyncResponseGetTelemetryHundredthsPercent 0
 FFlagLiveScriptingReadOnlyIfNoRemoteEvent True
@@ -6800,6 +6821,7 @@ FIntCloudTestFetchTimeoutSeconds 30
 DFFlagStudioReportGetPlaceInfo True
 FIntStudioReportStudioOperationsV1OpenPlaceHundredthsPercentage 10000
 FIntStudioReportCanManagePlaceHundredthsPercentage 10000
+FFlagLogPlaySoloWaypoints True
 FFlagFixAeroMeshExtraWaypoints True
 FFlagCOLLAB4434FixSlicingInExceptionHandler True
 DFFlagSoundPreviewRespondToSoundGroupChange True
@@ -6820,14 +6842,14 @@ FFlagOnlyRecordRegistryResetWhenReset True
 FStringResetLayoutWhenPreviousResetPriorToDate 2042-01-10T04:37:35.11Z
 FFlagStudioAnalyticsReportDockingAtStartupSeparately False
 FFlagStudioFixDocsAddedAfterRestore True
-FFlagConvoAICleanupPt1 True
 FFlagConvoAIPrivateInventorySetting False
 FFlagConvAIMenu_ConditionalIterations True
-FFlagConvAIMenu_Attrib False
 FFlagFixContextMenuExternalLink True
 FFlagCAPOpenAssistantTelemetry False
 FFlagStudioGenAIMainWindowToActionManager False
 FFlagAICOShowDisconnectedIndicator False
+FFlagCAPRequestTypeTelemetry False
+FFlagCAPFixMissingHREndTag False
 FFlagConvAIFixLinksMisalignedDropdown True
 FFlagCAPRegenerateConversationIdOnClear True
 FStringConvAIHttpErrorCodeIgnoreList 200, 429
@@ -6846,7 +6868,6 @@ FIntAICOInputCommentDebounceTimeMs 2000
 FIntAICOInputDebounceTimeMs 1000
 DFIntScriptEditorMultiCursorEventThrottleHundredthPercent 10000
 DFIntScriptEditorDocumentationViewEventThrottleHundredthPercent 2000
-DFIntSignatureHelpDocDisplayLine 3
 DFIntAutocompleteDetailViewLineCount 2
 DFIntAutocompleteDocDisplayLine 8
 DFIntAutocompleteDocMinWidthMult 20
@@ -6858,15 +6879,12 @@ FFlagScrollRightColumnSelect True
 DFIntAutocompleteMenuSizeXMult 20
 FIntPluginOTAErrorAnalyticsHundredthsPercentage 10000
 FIntAICOMLCompletionAcceptanceTelemetryWatchTimeMinutes 30
-FFlagScriptEditorAddBreakpointsToScrollBar True
 FIntAICOCompletionContentsEventThrottleHunredthsPercent 10000
 FFlagAICOManualTriggerSetting True
 FFlagRemoveExtraneousXCollabLoadingTeamCreate True
 FFlagDebugAICOPrint False
 FFlagReceivingOpAfterLiveEditingStateDestroyed True
 FFlagCrashInShouldWaitRemoteEvent True
-FFlagDebugCollectQtDiagnostics False
-FFlagScriptEditorResizeSideWidgets True
 FFlagDiffToolEditorRework False
 FFlagTrackRecentlyOpenedScripts False
 FFlagLiveScriptingCleanupGuidConnection True
@@ -6875,21 +6893,15 @@ FIntMLChatCompleteRequestTrailingTokens 1000
 FIntMLCodeCompleteRequestTrailingTokens 500
 DFIntStudioReportLuauWarningDetailsInfluxPriorityHundredthsPercentage 10
 FFlagStudioReportLuauWarningDetails False
-FFlagUpdateSourceAsyncCRLF True
 FFlagEnableScriptAnalysisCallbacks2 True
 FFlagFixCtrlShiftFCrash True
 FFlagFindReplaceUpdateSourceAsync True
 FIntLSCReplacerReportPercentage 0
-FIntNvttAllowedCorePercentage 80
-FIntCageSuffixTypoTolerance 3
-DFIntTexturePackEtcEffortHundredth 4950
-DFIntRccTexturePackMinThreadCount 8
 FFlagRealtimeProtocolStudioEnabled True
 FIntSubscriptionPageSize 50
 FIntStudioRPCMessageResponseTimeOut 30000
 FIntStudioRPCMessageWriteTimeOut 3000
 FFlagVideoRecordConditionalCoUninitialize True
-FFlagStudioFixGuiDragCheck True
 DFIntLogNonuniformSeparateHundredthsPercentage 10000
 FFlagDebugForceSaveSelection False
 FIntStudioTimeoutTimeMs_ForAsyncRequestsBeforeQuit 10000
@@ -6907,7 +6919,6 @@ FFlagDebugStudioLogSessionsOnTimer False
 FFlagEnableQuickOpenActionsAction True
 FStringDebugStudioPluginOTAEmulatedStudioVersion 
 FFlagFixPluginDebugGuiServiceContextMenu True
-FFlagStudioComponentizeRobloxIDEDoc False
 FFlagPlacesServiceStopPlaySolo True
 FFlagDebugShowStartPageCTA False
 FFlagPackageDiffUI True
@@ -6919,7 +6930,7 @@ DFIntStudioReportActionsAsToolHundredths 10000
 FStringStudioReportOpenPlaceTimeFilter 95206881
 FFlagStudioHandleDebuggerHittingBreakpointDuringResume False
 DFIntReportTeamTestFailurePermyriad 100
-FFlagStudioCleanOgreShowClose False
+FFlagStudioCleanOgreShowClose True
 FFlagSupportAuxiliaryGuiRender True
 FFlagStudioSuppressRenderJob False
 FFlagStudioRendererInterface False
@@ -6950,22 +6961,21 @@ FStringStudioReinstallLink https://create.roblox.com/dashboard/creations
 FStringStudioEmergencyMessageV4 ew0KICAgICJ2ZXJzaW9uU3RhcnQiOiIwLjMwMC4wLjEiLA0KICAgICJ2ZXJzaW9uRW5kIjoiMC42MDEuMC4xIiwNCiAgICAicGxhdGZvcm1zIjogWyJXaW5kb3dzIiwgIk1hYyJdLA0KICAgICJtZXNzYWdlIjp7fSwNCiAgICAic2h1dGRvd24iOnRydWUNCn0=
 FFlagForceEnableLiveScriptingInternal False
 FFlagStudioUseSafeFormatStandardOutQString True
-FFlagNoReloadEditorFromSourceCorrectDraftMode True
 FIntStudioAnalyticsForScriptSizeThrottlePercent 100
 FIntMLCodeCompletionTimeRateLimitTimeMs 3000
 FStringDebugMLCodeCompletionAPIKey 
 DFIntExpandNumLines 10
+FFlagDiffToolTelemetryMergeResolution True
 FIntLockedScriptsMaxNumberBatchExtensions 10
 FFlagDebugStudioAllowMetalCapture False
 FStringStudioPlaceVersionHistoryHelpLink https://devforum.roblox.com/t/beta-place-version-history-in-studio/607597
+FFlagPlaceVersionHistoryTitleFix True
 FStringStudioSteamingTemplateGameIds 3681567139 3681569552 3681572633
 FIntSelectionOutlineMaxPlayerOutlines 128
 FStringDebugRobloxCreationsClientId 
 FIntMaterialGenerationServiceGenerateHttpTimeoutMs 30000
 DFStringStudioVideoUploadInsufficientFundsKeyword InsufficientFunds
 FIntMaterialGenerationServiceUploadHttpTimeoutMs 15000
-FIntAccountingDefaultIfSkipped 25
-FFlagSkipAccountingFrontend False
 FFlagCOLLAB4457FixNegativeOneShotTimeInConnectionIndicator True
 FIntConnectionIndicatorBadConnectionPingThreshold 999999999
 FFlagStartPageSortOnRefresh True
@@ -6982,7 +6992,6 @@ FFlagCOLLAB3942TCJoinWhatsNew False
 FIntStudioTCConnectionDialogUpdateAttemptsIntervalMs 60000
 FFlagStudioTeamCreateCameraPositionFix False
 DFIntReportTeamCreatePostFailurePermyriad 100
-DFFlagTeamCreateStringView True
 FIntStudioTeamCreateInitialConnectRetryLimit 2
 FFlagStudioTeamCreateInitialConnectRetry True
 FFlagDebugIsTeamCreateJoinForcedFailureEnabled False
@@ -7000,10 +7009,11 @@ FIntWhatsNewNumEntries 8
 FFlagStudioCalloutName False
 FFlagStudioCalloutUnbindAttacher True
 FFlagStudioPrelaunchTeamCreateOnDocClose False
-FIntCOLLAB2264PreemptiveLoadNTCRecentGamesOnStartUp 0
+FIntCOLLAB2264PreemptiveLoadNTCRecentGamesOnStartUp 1
 FFlagCOLLAB4300CacheImageProvider2 False
 DFIntHTTPImageCacheHitHundredthPercent 0
 FFlagDebugShowStartPageOriginal False
+FFlagCOLLAB4879FixStartPageSearchRaceCondition True
 DFIntUniverseSearchMultiplierTimes1000 2000
 DFFlagCOLLAB3376AddRetryControlToUniverseSearch True
 FFlagAssetImportReadConfigsFromRegistry False
@@ -7020,7 +7030,6 @@ FFlagStudioFixStartPageFetchingNoResult False
 FFlagStudioDisableMipMapsOnMac True
 FStringNewUserOnboardingIxpVariable dataset
 FFlagAlwaysShowStudioTourTab True
-FFlagStudioCloseStartPageAtPlaceOpen False
 FFlagStudioStartPagePropagateUserContext True
 FFlagCOLLAB2391FilterArchivedFromRecentGames False
 FIntMultiGetTeamCreateStatusesBatchSize 50
@@ -7039,14 +7048,11 @@ DFIntVideoUploadRetryInitialDelayMs 100
 FFlagStudioVideoUploadUseContentPlatformAPI True
 DFIntStudioVideoImportSupportedMaxDurationSeconds 31
 FFlagReportNegligibleMeshBulkImport False
-FIntStudioBulkImporterMockUploadTimeInMs 0
 FFlagDebugStudioBulkImporterMockCycleSuccessErrorWarning False
 DFIntStudioAudioImportHundredthsPercentage 10000
 FFlagFacsRenameToAnimatedHeads True
 DFFlagBulkImportShowVideoConfirmation True
-FFlagImporterStringView True
 FFlagFixAddTagPopupClose False
-FFlagFixShorthandUDim2 True
 FFlagFixMaterialVariantNotSettingMaterial True
 FFlagLockedParentUneditable2 True
 DFIntkStudioBulkPropertyEditFromPropertiesWidgetThrottle 10000
@@ -7065,6 +7071,7 @@ FFlagPackageModificationIgnoreReadOnlyProperties True
 FFlagPackageEditPopupHide False
 FFlagNestedPackagePublisherPlugin False
 DFIntPackageDiffReportingRate 10000
+FFlagDiffToolTelemetryPackages True
 DFFlagDebugStudioPackage False
 FIntAudioDiscoveryPermCheckMaxAssetIdsPerRequest 50
 FFlagAvatarAutosetupUseSurfaceAppearance True
@@ -7072,9 +7079,8 @@ FStringAvatarAutosetupMockModelId
 FIntAvatarAutosetupPollingIntervalSeconds 20
 FIntAvatarAutosetupPollingTimeoutSeconds 600
 FFlagCOLLAB3970_FixPublishPackageCrash True
-FIntStudioTeamCreateConflictDelaySec 60
-FIntStudioTeamCreateConflictRetryCount 1
-FFlagStudioUsePublishInProgressScreen False
+FIntStudioTeamCreateConflictDelaySec 26
+FIntStudioTeamCreateConflictRetryCount 2
 FIntStudioEnableLocalSaveReportSuccessHundredthPercentage 10000
 FIntStudioEnableLocalSaveReportFailureHundredthPercentage 10000
 FFlagOutputStackMode True
@@ -7084,6 +7090,7 @@ FFlagStudioDeviceEmulatorAddNotchBetaDevices False
 FFlagStudioDeviceEmulatorFixInitialPlayerGuiCurrentScreenOrientation False
 FFlagStudioDeviceEmulatorUpdateHardwareSafeAreaInsets False
 DFIntOAuth2RefreshTokenStorageTelemetryHundredthsPercent 10000
+FFlagEmbedOAuth2ClientId False
 FIntAccessTokenExpirationGracePeriodSec 60
 DFIntOAuthAccessTokenRenewalMaxDelaySec 900
 FFlagDebugStudioAssertsAlwaysBreak False
@@ -7104,6 +7111,7 @@ FFlagRemoveOrderAssumptionInRemoveUnusedJoints True
 FFlagAssetImportUseTextureBackupChecks True
 FFlagLCQualityCheckUVMismatch False
 FIntRateLimiterGlobalDefaultRetryTime 5
+FFlagGltfDontAlterTranslationOnZeroRotation True
 FFlagGltfTransformFixes True
 FFlagNullCheckNodeName True
 FFlagAssetImportGltfReadFirstUVMapOnly True
@@ -7115,6 +7123,7 @@ FFlagGltfRefactorTopLevelNodes True
 FFlagAssetImportJointNoNameFix True
 FFlagOffCenterOriginImporterGltf True
 FFlagAssetImportglTFUnicodeFix True
+FFlagConvAIMenu_Attrib2 False
 FFlagResetRotations2 True
 FFlagEnableGltfJointImport True
 FFlagChooseAnimationForRestPose True
@@ -7123,6 +7132,7 @@ FFlagExcludeNonMeshNodesWhenFindingParentPart True
 FFlagRigScaleShouldAffectAnimations True
 FFlagUseUpdatedModelToGetHumanoid True
 FFlagDoNotIncludeGroupNodesInTheAnimation True
+FFlagCinFixCageGeoMatch True
 DFIntAinPointsThrottleValue 10000
 FFlagAssetImportFaceSurfaceAppearanceRemoval True
 FIntAssetImportMaxPresetNameLength 50
@@ -7131,22 +7141,32 @@ FFlagGraphicsSettingsOnlyShowValidModes False
 FStringStudioQtAnglePlatform d3d9
 FStringStudioQSGRenderLoop basic
 FFlagStudioIgnoreQSGRenderLoop False
+FFlagVideoCMCDReportSessionId2 False
 FFlagRefactorContentProviderFindAsset2 False
 FStringDebugCollectQtDiagnosticsPrefix QObject::connect
-FFlagStudioLoggingFixCategoryNames False
+FFlagDebugCollectQtDiagnostics False
+FFlagStudioLoggingFixCategoryNames True
 FIntStudioExternalNotificationImplMessageWriteTimeOut 3000
 DFIntReportInfluxFastLogHighPriorityHundredthsPercentage 10000
 DFFlagIncludeAndroidAdviceAPIFreeOsMemForComparisonForSessionTracking3 True
 FFlagEnableMmapForMemProfStorageFlushing3 True
+FFlagVideoCMCDAddVisibility2 False
+FFlagSimCSGV3MoreDescriptiveErrorMessages2 False
 FFlagEnableCrossSessionEffectPredictorShadow3 True
+FFlagPath2DEnabled5 False
 DFFlagConsistentLoadCharacterCallbacks2 True
 FFlagExpStateCaptureMode7 False
 FFlagVersionedFlagTestNotDebug2 True
 FFlagEnableScriptRuntime2 False
+DFFlagUnifyGCNeededChecksForStreamingTunable2 True
+DFFlagAddStreamingTunableGCSecondaryMetrics2 True
+FFlagCOLLAB5162TrackUserIdle2 False
 FFlagEnableVisBugChecks6 False
 FFlagEnableCullableSceneOctree5 True
+FFlagRenderFullTransparentUniqueEntityFix4 False
 FFlagDiffPlusMinusWidget2 False
 FFlagRunCommandsInCodeAssist2 False
+FFlagStudioDeviceEmulatorLostPlatformFieldFix2 True
 FFlagFixAvatarContextMenuVR(LUA) False
 FFlagEnableInGameMenuChrome(LUA) False
 FStringInGameMenuChromeForcedUserIds(LUA) 
@@ -7188,6 +7208,7 @@ FFlagVoiceBetaBadge(LUA) True
 FFlagBetaBadgeLearnMoreLinkFormview(LUA) True
 FFlagBubbleChatInexistantAdorneeFix(LUA) False
 FFlagBubbleVoiceIndicatorSetting(LUA) False
+FFlagChatTranslationHoldoutEnabled(LUA) False
 FFlagChatTranslationLaunchEnabled(LUA) False
 FFlagChatTranslationSettingEnabled3(LUA) False
 FFlagClearUserFromRecentVoiceDataOnLeave(LUA) False
@@ -7222,7 +7243,7 @@ FFlagEnableNewInviteMenuIXP2(LUA) False
 FFlagEnableNewInviteSendEndpoint(LUA) False
 FFlagEnableNewInviteSendEndpointIXP(LUA) False
 FFlagEnableNudgeAnalyticsV2(LUA) False
-FFlagEnableReportAbuseMenuRoactABTest(LUA) False
+FFlagEnableReportAbuseMenuRoactABTest2(LUA) False
 FFlagEnableSharedInviteStore(LUA) False
 FFlagEnableShimmeringIconLegacyChatService(LUA) False
 FFlagEnableSoundSessionTelemetry5(LUA) False
@@ -7257,7 +7278,6 @@ FFlagLuaConsumePlayerModerated(LUA) False
 FFlagLuaInExperienceCoreScriptsGameInviteUnification(LUA) False
 FFlagLuaVoiceChatAnalyticsBanMessageV3(LUA) False
 FFlagMicConnectingToast(LUA) False
-FFlagMicHandlingParity(LUA) False
 FFlagMicStatesFix(LUA) False
 FFlagMuteButtonRaceConditionFix(LUA) False
 FFlagMutedNotSendOnLeavingOrEnded(LUA) False
@@ -7351,8 +7371,9 @@ FFlagSettingsHubRaceConditionFix(LUA) False
 FFlagSettingsMenuUseHardwareSafeArea(LUA) False
 FFlagTrackerPromptNewCopyForCameraPerformanceEnabled(LUA) False
 FFlagSwitchTnSTranslationsPackage(LUA) False
-FFlagEnableReportAbuseMenuRoact(LUA) False
+FFlagEnableReportAbuseMenuRoact2(LUA) False
 FStringReportAbuseMenuRoactForcedUserIds(LUA) 
+FStringReportAbuseMenuRoactIXPTreatmentKey(LUA) ReportAbuseMenuRoactEnabled
 FIntLuaVoiceChatAnalyticsPointsThrottle(LUA) 0
 FFlagLuaVoiceChatAnalyticsUsePointsV2(LUA) False
 FFlagLuaVoiceChatAnalyticsUseCounterV2(LUA) False
@@ -7368,6 +7389,8 @@ FFlagHideVoiceUIUntilInputExists(LUA) False
 FFlagFixMissingPermissionsAnalytics(LUA) False
 FFlagVoiceChatEnableIrisMuteStateFix(LUA) False
 FFlagFFlagFixNewAudioAPIEcho(LUA) False
+FFlagUpdateDeviceInputPlayerChanged(LUA) False
+FFlagSetActiveWhenConnecting(LUA) False
 FFlagUseAudioInstanceAdded(LUA) False
 FFlagEasierUnmutingPassMuteStatus(LUA) False
 FFlagVRFixCursorJitterLua(LUA) False
